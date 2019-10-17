@@ -12,3 +12,49 @@ Követelményspecifikáció:
 4. Jelenlegi üzleti folyamatok modellje
 
 5. Igényelt üzleti folymatok modellje
+
+-Üzleti szereplő, munkatárs és entitások elemzése:
+	-Üzleti szereplő:
+		- Idős filmkedvelők
+		- Fiatal filmkedvelők
+		- Diákok
+		- Dolgozók
+		- VIP személyek
+	-Üzleti munkatárs:
+		- Takarítók
+		- Jegyárusító
+		- Menedzser
+		- Pénztáros
+		- Felügyelő
+		- Parnerek
+		- Vezető
+	-üzleti entitások:
+		- Kivetítő
+		- Hangfalak
+		- Jegyek
+		- Kényelmes székek
+		- Popcorn
+		- Üditők
+-Üzleti folyamat elemzés:
+	- Vásárlás
+	- Reklámozás
+	- Szolgáltatás
+	- Értékesítés
+	- Könyvelés
+	- Üzemeltetés
+	- Kényelmes használat
+	- Alkalmazás használata
+	- Statisztika
+-Üzleti entitás elemzés:
+	- Jegy
+	- Pénz
+	- Popcorn
+	- Üditők
+	- Reklámok
+	- Weboldal
+-Üzleti folyamatok modellezése:
+	a fáradt munkás hazamegy a munkából -> ledöl pihenni -> sok benne a stressz 
+	-> le akarja vezetni a benne lévő feszültséget -> meg akar nézni egy filmet 
+	-> megnézi az weboldalon a mozi kínálatát -> lefoglal egy jegyet a neki legmegfelelőbb időpontra 
+	-> mikor jön a moziba nem kell sorbaálljon a jegyért, hanem egyből elfoglahatj a helyét
+	
