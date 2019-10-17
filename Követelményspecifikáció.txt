@@ -56,5 +56,5 @@ Követelményspecifikáció:
 	a fáradt munkás hazamegy a munkából -> ledöl pihenni -> sok benne a stressz 
 	-> le akarja vezetni a benne lévő feszültséget -> meg akar nézni egy filmet 
 	-> megnézi az weboldalon a mozi kínálatát -> lefoglal egy jegyet a neki legmegfelelőbb időpontra 
-	-> mikor jön a moziba nem kell sorbaálljon a jegyért, hanem egyből elfoglahatj a helyét
+	-> mikor jön a moziba nem kell sorbaálljon a jegyért, hanem egyből elfoglalhatja a helyét
 	
