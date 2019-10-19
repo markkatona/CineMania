@@ -1,9 +1,39 @@
-Mozijegyfoglaló weboldal
+﻿Mozijegyfoglaló weboldal
 
 Követelményspecifikáció:
 
 
 1. Bevezetés
+
+	A cégünk története csupán pár évvel ezelőtt, egészen
+pontosan 2016-ban kezdődött. Ekkor elhatároztuk, hogy
+megpróbáljuk valamilyen szinten megváltoztatni a szokásos
+mozizás fogalmát. Szeretnénk gördülékenyebbé tenni a megnézendő
+film kiválasztásától, a film megtekintéséig tartó hosszadalmas
+folyamatot. Legfontosabb célunknak azt tekintjük, hogy a lehető
+legjobban megállapítsuk milyen kategóriájú filmekre kíváncsiak
+a filmkedvelők és ennek megfelelően kiválasztani melyik film
+vetítési jogait vásároljuk meg és a premier után mennyi ideig
+vetítsük a mozitermekben. Továbbá nagyon fontosnak tekintjük
+a vásárlóink véleményét, és minden döntés meghozatalában 
+kikérjük az Ő véleményüket is. Ennek megfelelően más moziktól
+eltérő módon, a CinaMania-ban pontrendszer alapján vetítjük a
+filmeket. Ez azt jelenti, hogy a vásárlóink a film megtekintése
+után a mozijegyen szereplő kód beírásával pontozhatják a
+megtekintett filmet. A filmeket egy 1-től 5-ig terjedő skálán
+osztályozhatják a filmkedvelők. Ha az első 2 hét vetítés után
+ez az értékelés 2.5 pont alá esik, az adott film lekerül a
+vetített filmek listájáról. A filmek értékelése számunkra kiemelkedően
+fontos, hogy tudjuk milyen művek vetítésére van igénye a filmkedvelőknek,
+ezért minden ötödik értékelés után a felhasználók, a hatodik moziba
+látogatásukkor egy ingyen popcornt + választott üdítőt kapnak.
+Szükségünk lenne egy olyan webes alkalmazásra, ahol a felhasználók
+megtekinthetik a jelenleg vetített filmeket és ezek közül kiválaszthatják
+a számukra legérdekesebb filmet valamint azt, hogy milyen vetítésen
+szeretnék ezt megtenni, illetve kiválaszthatják a számukra legmefelelőbb
+időpontot. A CineMania-ban hétköznap kedvezményes jegyekhez 
+juthatnak a felhasználók, ezt az információt szeretnénk kiemelni
+a webes alkalmazásban is.
 
 2. Jelenlegi helyzet
 
