@@ -1,0 +1,14 @@
+﻿1. Megbeszélés jegyzőkönyve - 2019.10.19
+
+Az első megbeszélés fő témája az igényelt mozijegy foglaló alkalmazás
+követelményspecifikációjának áttekítése és elemzése volt.
+A megbeszélés célja az, hogy a fejlesztő csapat megértse pontosan
+milyen igényeket kell kielégítenie az alkalmazásnak. Ezután pedig
+a funkcionális specifikáció kidolgozása következik, ami már tartalmazni
+fogja az alkalmazás prototípusát, azaz azt, hogy a fejlesztő csapat
+hogyan képzeli el az alkalmazás megjelenését a webes felületen, valamint
+azt hogy milyen funkciókat tartalmazzon. A továbbiakban pedig
+a projekt elkészítésének menetéről illetve a határidők egyetetéséről
+szólt a megbeszélés. A meeting időtartama 30 perc volt és a 4 fős
+fejlesztő csapat tagjai vettek részt rajta. A további meetingek
+már az alkalmazást igénylő partnercéggel közösen fognak zajlani.
