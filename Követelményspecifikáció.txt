@@ -37,6 +37,19 @@ a webes alkalmazásban is.
 
 2. Jelenlegi helyzet
 
+	A CineMania mozitermei 4 hónapja nyíltak meg a felhasználók
+számára. A mozi jelenleg nem rendelkezik webes platformmal, ennek
+véleményünk szerint pedig nagyon sok hátránya van. Az egyik
+hátrány az, hogy a filmkedvelők csak a közösségi oldalunkon
+tudják megtekinteni az aktuálisan vetített filmek listáját.
+A másik és egyben legnagyobb hátrány az, hogy webes alkalmazás
+hiányában, a felhasználók nem tudnak online mozijegyet vásárolni,
+csak ha személyesen befáradnak a moziba, és a recepciónál
+jegyet vásárolnak, erre pedig nagyon sok moziba látogatónak
+nincs ideje és ez teljesen érthető, ezért szeretnénk a mozinak
+egy mindenki számára elérhető, webes alkalmazást készíttetni, az
+Ön szoftver- és webfejlesztő cégük közreműködésével.
+
 3. Vágyálom rendszer
 
 4. Jelenlegi üzleti folyamatok modellje
