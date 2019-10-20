@@ -37,3 +37,71 @@ ezért a fentartásuk is körülményes, valamint költséges.
 4. Jelenlegi üzleti folyamatok modellje
 
 5. Igényelt üzleti folymatok modellje
+
+A rendszer célja, hogy a lehető leggördülékenyebbé tegye a mozifilm
+megtekintésének folyamatát. Ez a folyamat a film kíválasztásától,
+egészen addig tart, ami a felhasználó a mozifilm megtekintése
+után elhagyja a CineMania területét. Azt szeretnénk, hogy a 
+felhasználóknak ne jelentsen semmiféle gondot a webes alkalmazásunk
+használata. Ezt azzal próbáljuk elérni, hogy a lehető legegyszerűbbé
+tesszük a használatát és lépésenkénti segítséget nyújtunk a 
+felhasználóknak a mozifilm kiválasztásában és a mozijegy 
+megvásárlásában.
+->Üzleti szereplõ és munkatárs elemzés:
+	-Üzleti szereplõk elemzése:
+		- A rendszerrel kapcsolatba kerülnek a következő szereplők:
+			- Diákok
+			- Dolgozók
+			- Gyerekek
+			- Idősek
+	-Üzleti munkatárs:
+		- Vezetõ
+		- Könyvelő
+		- Jegyárusító
+		- Pénztáros
+		- HR munkatárs
+		- PR munkatárs, aki jó kommunikációs képességekkel rendelkezik és
+népszerűsíti az alkalamazást a megfelelő platformokon
+		- Fejlesztők, akik elkészítik az alkalmazást
+		- Tesztelők, akik felelnek az alkalmazás helyes működéséért
+		- Adatbáziskezelők, akik felelnek az adatok rendeltetésszerű tárolásáért
+		- Rendszergazda
+->Üzleti folyamat elemzés:
+	- Reklámozás, a csapat PR részlegének feladata
+	- Webes alkalmazás, a fejlesztők feladata
+	- Könyvelés, a cég könyvelőjének feladata 
+	- Adatelemzés, alkalmazás által végzett, automatizált folyamat
+	- Alkalmazás használata, a mozijegy foglaló feladata
+	- Fejlesztés, a cég megbízza a fejlesztésért felelős csapatot az alkalmazás
+elkészítésével, minden információt megoszt a fejlesztő csapattal a cég,
+hogy a végtermék a lehető legjobban megfeleljen az igényeiknek.
+->Üzleti entitás elemzés:
+	- Mozitermek, ahol a vendégek megtekinthetik a filmeket
+a lehető legjobb minőségben és legkényelmesebb székekben.
+	- Kivetítő
+	- Hangtechnika
+	- Étel- és Ital Bár, ahol a legjobb minőségű pop-corn, nachos
+és üdítők kaphatók
+	- Weboldal, ami a mozijegyek megvásárlása érdekében jött létre
+	- Reklám, hogy minél többen értesüljenek a mozi létezéséről
+->Üzleti folyamatok modellezése és használati esetek modellje(UML diagramm
+formájában is megtekinthető):
+	A filmkedvelő szeretne lazítani és kikapcsolódni egy kicsit
+a szürke hétköznapokból -> Ellátogat a mozi weboldalára ->
+Megnézi a jelenleg vetített filmek listáját -> Talál egy számára
+érdekes filmet -> Megtekinti, hogy mikor vetítik a moziban ->
+Talált egy számára megfelelő időpontot -> Megvásárolja online
+a jegyét a mozi webes alkalmazásáról, amivel sok időt takarít meg,
+mert nem kell elmennie jegyet foglalni a moziba és nem kell
+sorbaállnia a pénztárnál a film megtekintése előtt. ->
+Elmegy a moziba megnézni a filmet -> Jól érzi magát a moziban ->
+Elégedetten folytatja a napját.
+	Az alkalmazásról készült egy prototípus, azok az információk
+alapján amelyek a követelményspecifikációban szerepeltek.
+Ezeken természetesen még lehet változtatni, mivel a kész alkalmazás
+fejlesztése még nem kezdődött el. Az alkalmazás fejlesztésének
+elkezdése előtt fontosnak találjuk, hogy a prototípust
+közösen megtekintsük, annak érdekében, hogy elkerüljük
+az egyes funkciók hibás implementálását, amely miatt
+nem tudjuk határidőn belül befejezni a CineMania webes
+alkalmazásának elkészítését.
