@@ -7,6 +7,31 @@ Funkcionális specifikáció:
 
 2. Jelenlegi helyzet
 
+	A CineMania nem olyan rég megnyilt, viszont még eddig nem 
+rendelkezett megfelelő webes platformmal, mely kellően ki tudja
+elégíteni a vendégeik igényeit. Jelenleg a jegyek eladása csak
+személyes uton történik, mely sok gondot felvett. A számos
+gond között az egyik ilyen az, hogy a mozikedvelőknek a
+jegyvásárlásra két lehetőségük van, az egyik, hogy valamikor
+eljönnek egy korábbi időpontba, és megveszik akkor a
+jegyeiket, viszont akkor ez plusz utat jelent, ami akkor
+okozhat nagy gondot, ha az illető messze lakik a mozitól. A
+másik lehetőségük az, hogy eljönnek a film kezdete előtt, és
+megveszik akkor a jegyeiket, viszont ebben az esetben
+megtörténhet, hogy már nem maradt jegy és még ha van is jegy,
+akkor is hosszú percekig is sorba állhatnak azért, hogy
+hozzájussanak a jegyeikhez. A mozinak jelen esetben nem sok
+lehetőség van arra, hogy a nézőinek a tudtára adja, hogy
+melyik időpontban melyik film megy, valamint, hogy melyik
+filmre mennyibe kerül a jegy. Jelen esetben a mozizni vágyók
+csak a CineMania közösségi oldalain tudják megnézni, hogy
+melyik időpontban melyik film megy, viszont ezek az oldalak
+nem erre lettek kitalálva, ezért nagyon körülményes ezeken az
+oldalakon utánajárni ezen információknak. Valamint ezeket a
+közösségi oldalakat a mozi nem is erre a célra hozta létre,
+valamint mivel ezek az oldalak nem erre lettek kitalálva,
+ezért a fentartásuk is körülményes, valamint költséges.
+
 3. Vágyálom rendszer
 
 4. Jelenlegi üzleti folyamatok modellje
