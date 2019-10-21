@@ -52,6 +52,34 @@ egy mindenki számára elérhető, webes alkalmazást készíttetni, az
 
 3. Vágyálom rendszer
 
+-home
+	-akciók
+	-reklámok
+	-egyéb információ
+-filmek
+	-időpont
+	-ár
+	-szinkron
+	-felirat
+	-terem
+-értékelés
+	-a film vetítését követően
+	-személyes adatok megadása
+-árak
+	-2D
+	-3D
+	-4DX
+	-hétköznapi árak
+	-hétvégi árak
+-logó
+-CineBar
+-elérhetőségek
+	-telefonszám
+	-email
+	-lakcim
+-kereső a filmekhez
+-ételek és italok
+
 4. Jelenlegi üzleti folyamatok modellje
 
 5. Igényelt üzleti folymatok modellje
