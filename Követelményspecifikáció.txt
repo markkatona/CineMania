@@ -80,23 +80,36 @@ időszakban a moziban vetíteni fognak
 -a Filmek oldalon egy kereső található
 -a keresőbe egy film címét beírva csak a beírt című filmet
 jeleníti meg az oldal
--értékelés
-	-a film vetítését követően
-	-személyes adatok megadása
--árak
-	-2D
-	-3D
-	-4DX
-	-hétköznapi árak
-	-hétvégi árak
--logó
--CineBar
--elérhetőségek
-	-telefonszám
-	-email
-	-lakcim
--kereső a filmekhez
--ételek és italok
+-az Értékelés oldalon az előzőle már vetített filmek jelennek meg
+-a felhasználó csak arra a filmre tud értékelést adni,
+aminek a jegyét megvásárolta
+-az Árak oldalon megjelennek a filmek árai:
+	-felnőtt jegy vásárlása estén a film ára az alap filmár
+	-diák jegy vásárlása esetén a film ára olcsóbb,
+mint az alap filmár
+	-2d-s jegy vásárlása esetén a film ára az alap filmár
+	-3d-s jegy vásárlása esetén a film ára drágább,
+mint az alap filmár
+	-4dx-s jegy vásárlása esetén a film ára drágább,
+mint a 3d-s filmár
+	-hétköznap a filmek árai az alap filmárak
+	-hétvégén a filmek árai olcsóbbak,
+mint a hétköznapi filmek árai
+-az Elérhetőségek oldalon megjelenik a cég facebook oldala
+-az Elérhetőségek oldalon megjelenik a cég Twitter oldala
+-az Elérhetőségek oldalon megjelenik a cég telefonszáma
+-az Elérhetőségek oldalon megjelenik a cég email címe
+-az Elérhetőségek oldalon megjelenik a cég címe
+-a CineBar oldalon megjelenne azok az ételek és italok, 
+amelyeket film közben fogyasztani lehet
+-az ételek és italok árai is megjelennek
+-a ételek és italok különböző méretben vásárolhatóak
+-a kisebb méretű ételek és italok árai olcsóbbak az alap
+étel és ital árnál
+-a nagyobb méretű ételek és italok árai drágábbak az alap
+étel és ital árnál
+-akciók jelennek meg (például x mennyiségű ital után egy
+ingyen étel jár)
 
 4. Jelenlegi üzleti folyamatok modellje
 
