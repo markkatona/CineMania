@@ -41,13 +41,39 @@
 				if (i == actday) {
 					text+="<td style=\"background-color:red;\">"+i+"</td>";
 				}else{
-					text+="<td>"+i+"</td>";
+					text+="<td onclick=\"doSomething(this)\">"+i+"</td>";
 				}
 				if (i%7 == 0) {
 					text+="</tr><tr>";
 				}
 			}
 			document.write(text);
+		}
+		
+		function doSomething(e){
+			//e.style.color = "red";
+			/*var cumulativeOffset = function(e) {
+			    var top = 0, left = 0;
+			    do {
+			        top += e.offsetTop  || 0;
+			        left += e.offsetLeft || 0;
+			        e = e.offsetParent;
+			    } while(e);
+
+			    return {
+			        top: top,
+			        left: left
+			    };
+			};*/
+			var a = document.getElementById("1");
+			a.style.display = "block";
+			/*a.style.left = e.offsetLeft+"px";
+			a.style.top = e.offsetTop+"px";*/
+			var rect = e.getBoundingClientRect();
+			console.log(document.body.scrollTop);
+			a.style.left = rect.left + e.offsetWidth + "px";
+			a.style.top = rect.top + e.offsetHeight + "px";
+			a.style.backgroundColor = "white";
 		}
 	</script>
 	<style type="text/css">
@@ -101,6 +127,15 @@
 		  	text-align: center;
 		  	padding-top: 3.5em;
 		}
+		td:hover{
+			background-color: green;
+		}
+		.popup{
+			display: none;
+			position: absolute;
+			border: 0.1em solid grey;
+
+		}
 	</style>
 </head>
 <body>
@@ -121,6 +156,13 @@
 				calendar()
 			</script>
 		</table>
+	</div>
+	<div class="popup" id="1">
+		<p>Kedd: 14:30</p>
+		<p>Kedd: 18:30</p>
+		<p>Péntek: 12:00</p>
+		<p>Péntek: 18:30</p>
+		<p>Péntek: 20:00</p>
 	</div>
 </div>
 
@@ -174,6 +216,7 @@
 		</table>
 	</div>
 </div>
+
 
 </body>
 </html>
