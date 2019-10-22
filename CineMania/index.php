@@ -42,6 +42,12 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
 </style>
 </head>
 <body>
@@ -56,7 +62,7 @@ body {
 </div>
 
 <div id="content" class="content">
-	<iframe id="myiframe" src="content/home.php" width="100%" height="100%" frameborder="0" scrolling="no" name="IFrameName"></iframe>
+	<iframe id="myiframe" src="content/home.php" frameborder="0" ></iframe>
 </div>
 
 </body>
