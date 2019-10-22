@@ -52,10 +52,21 @@ egy mindenki számára elérhető, webes alkalmazást készíttetni, az
 
 3. Vágyálom rendszer
 
--home
-	-akciók
-	-reklámok
-	-egyéb információ
+-a CineMania egy mozifilm jegyfoglaló rendszer
+-a rendszer webes felületen működik
+-a weboldal tetején egy menü található, a következő menügombokkal:
+Home, Filmek, Értékelés, Áraink, CineBar, Elérhetőségek
+-a menü a weboldal tetején látható marad ha a felhasználó
+legörgeti az oldalt
+-a Home oldal a menü logójaként jelenik meg
+-tehát a logóra rákattintva a weboldal megjeleníti a home.php-t
+-a menü gombjai külső fájlokat töltsenek be az oldalba
+-a Home oldalon megjelennek az aktuális akciók
+-a Home oldalon megjelennek reklámok (például film értékelés
+esetén nyeremény sorsolás)
+-az aktuális népszerű filmek megjelennek a Home oldalon
+-a Home oldalon egyéb információk jelennek meg (például a weboldal
+létrejöttének dátuma)
 -filmek
 	-időpont
 	-ár
