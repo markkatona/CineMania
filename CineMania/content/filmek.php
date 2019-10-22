@@ -32,7 +32,7 @@
 			}
 			makeCalendar(year,days,d.getDate());
 		}
-		
+
 
 		function makeCalendar(year,days,actday){
 			var text;
@@ -110,6 +110,57 @@
 <div class="kartyak">
 	<div class="column1">
 		<img src="filmkepek/Avengers-Endgame.jpg">
+	</div>
+	<div class="column2">
+		<p>szinkron</p>
+		<p>felirat</p>
+		<p>tipusa</p>
+		<p>terem</p>
+		<table>
+			<script>
+				calendar()
+			</script>
+		</table>
+	</div>
+</div>
+
+<div class="kartyak">
+	<div class="column1">
+		<img src="filmkepek/Pokember-Idegenben.jpg">
+	</div>
+	<div class="column2">
+		<p>szinkron</p>
+		<p>felirat</p>
+		<p>tipusa</p>
+		<p>terem</p>
+		<table>
+			<script>
+				calendar()
+			</script>
+		</table>
+	</div>
+</div>
+
+<div class="kartyak">
+	<div class="column1">
+		<img src="filmkepek/Aladin.jpg">
+	</div>
+	<div class="column2">
+		<p>szinkron</p>
+		<p>felirat</p>
+		<p>tipusa</p>
+		<p>terem</p>
+		<table>
+			<script>
+				calendar()
+			</script>
+		</table>
+	</div>
+</div>
+
+<div class="kartyak">
+	<div class="column1">
+		<img src="filmkepek/oroszlankiraly.jpg">
 	</div>
 	<div class="column2">
 		<p>szinkron</p>
