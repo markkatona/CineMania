@@ -70,9 +70,9 @@
 			/*a.style.left = e.offsetLeft+"px";
 			a.style.top = e.offsetTop+"px";*/
 			var rect = e.getBoundingClientRect();
-			console.log(document.body.scrollTop);
+			console.log(document.body.scrollTop, window.pageYOffset);
 			a.style.left = rect.left + e.offsetWidth + "px";
-			a.style.top = rect.top + e.offsetHeight + "px";
+			a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
 			a.style.backgroundColor = "white";
 		}
 	</script>
