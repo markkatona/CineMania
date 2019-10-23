@@ -2,7 +2,9 @@
 <html>
 <head>
 	<script type="text/javascript">
-	
+		var actpopup;
+		var actDate;
+		var i=0;
 		function calendar(){
 			var d = new Date();
 			var year= d.getFullYear();
@@ -39,9 +41,9 @@
 			text="<table><tr>";
 			for (var i = 1; i <= days; i++) {
 				if (i == actday) {
-					text+="<td style=\"background-color:red;\">"+i+"</td>";
+					text+="<td style=\"background-color:red;\" id=\"" + i + "\" onclick=\"doSomething(this)\">"+i+"</td>";
 				}else{
-					text+="<td onclick=\"doSomething(this)\">"+i+"</td>";
+					text+="<td onclick=\"doSomething(this)\" id=\"" + i +"\">"+i+"</td>";
 				}
 				if (i%7 == 0) {
 					text+="</tr><tr>";
@@ -65,15 +67,112 @@
 			        left: left
 			    };
 			};*/
-			var a = document.getElementById("1");
+			/*console.log(i);*/
+			i++;
+			var a;
+			/*var b = document.getElementById("avangers4");*/
+			var parent = e.parentElement.parentElement.parentElement.parentElement.parentElement.id;
+			/*console.log(parent);*/
+			/*if(parent == "avengers4"){
+				a = document.getElementById("a");
+			}*/
+			/*var p = document.getElementsByClassName("popup");*/
+			
+			
+			switch(parent){
+				case "avengers4": 
+					a = document.getElementById("a");
+					break;
+				case "pokember": 
+					a = document.getElementById("b");
+					break;
+				case "aladin": 
+					a = document.getElementById("c");
+					break;
+				case "oroszlankiraly": 
+					a = document.getElementById("d");
+					break;
+			}
+
+			/*if (acttime) {
+				console.log(actpop.id);
+				actpop.display = "none";
+			}*/
+			/*console.log(p.length);
+			for (var i = 0; i <= p.length - 1; i++) {
+				if (p[i].id !== a.id) {
+					p[i].style.display="none";
+					/*console.log(p[i].id);
+				}
+			}*/
+
+			if (actpopup) {
+				/*console.log(actpopup.id+" disabled");*/
+				actpopup.style.display = "none";
+				actpopup = "";
+			}
+			//console.log(e);
+
 			a.style.display = "block";
-			/*a.style.left = e.offsetLeft+"px";
-			a.style.top = e.offsetTop+"px";*/
 			var rect = e.getBoundingClientRect();
-			console.log(document.body.scrollTop, window.pageYOffset);
+			/*console.log(document.body.scrollTop, window.pageYOffset);*/
 			a.style.left = rect.left + e.offsetWidth + "px";
 			a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
 			a.style.backgroundColor = "white";
+
+			if ((actDate) && (actDate.id == e.id)) {
+				actpopup.style.display = "none";
+				actpopup = "";
+			}
+
+			actpopup = a;
+			actDate = e;
+			/*if ((actDate) && ((actDate.id!== e.id) || (actpopup.id !== a.id))) {
+				
+				console.log(actpopup.id);
+				a.style.display = "block";
+				actpop = a;
+				acttime = e;
+				var rect = e.getBoundingClientRect();
+				console.log(document.body.scrollTop, window.pageYOffset);
+				a.style.left = rect.left + e.offsetWidth + "px";
+				a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
+				a.style.backgroundColor = "white";
+			}else{
+				console.log("nincs értelmezve");
+				if (actpopup) {
+					console.log(actpopup.id);
+				}
+				if (a) {
+					console.log(a.id);
+				}
+				
+				actpopup = a;
+				actDate = e;
+			}*/
+
+
+
+
+			
+			
+			/*if ((!actpop) || (actpop.id !== a.id) || (acttime.id !== e.id)) {
+				a.style.display = "block";
+				actpop = a;
+				acttime = e;
+				var rect = e.getBoundingClientRect();
+				console.log(document.body.scrollTop, window.pageYOffset);
+				a.style.left = rect.left + e.offsetWidth + "px";
+				a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
+				a.style.backgroundColor = "white";
+			}else{
+				actpop = "";
+			}*/
+
+		}
+		function popupDisable(){
+			actpopup.style.display = "none";
+			actpopup = "";
 		}
 	</script>
 	<style type="text/css">
@@ -136,13 +235,23 @@
 			border: 0.1em solid grey;
 
 		}
+		td{
+			cursor:  pointer;
+		}
+		.popup > p{
+			cursor:  pointer;
+		}
+		.popup > p:hover{
+			background-color: yellow;
+		}
+
 	</style>
 </head>
 <body>
 
 
 
-<div class="kartyak">
+<div class="kartyak" id="avengers4">
 	<div class="column1">
 		<img src="filmkepek/Avengers-Endgame.jpg">
 	</div>
@@ -151,22 +260,22 @@
 		<p>felirat</p>
 		<p>tipusa</p>
 		<p>terem</p>
-		<table>
+		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
 				calendar()
 			</script>
 		</table>
 	</div>
-	<div class="popup" id="1">
-		<p>Kedd: 14:30</p>
-		<p>Kedd: 18:30</p>
-		<p>Péntek: 12:00</p>
-		<p>Péntek: 18:30</p>
-		<p>Péntek: 20:00</p>
+	<div class="popup" id="a">
+		<p onclick="popupDisable()">Kedd: 14:30</p>
+		<p onclick="popupDisable()">Szerda: 18:30</p>
+		<p onclick="popupDisable()">Péntek: 12:00</p>
+		<p onclick="popupDisable()">Péntek: 18:30</p>
+		<p onclick="popupDisable()">Szombat: 20:00</p>
 	</div>
 </div>
 
-<div class="kartyak">
+<div class="kartyak" id="pokember">
 	<div class="column1">
 		<img src="filmkepek/Pokember-Idegenben.jpg">
 	</div>
@@ -175,15 +284,22 @@
 		<p>felirat</p>
 		<p>tipusa</p>
 		<p>terem</p>
-		<table>
+		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
 				calendar()
 			</script>
 		</table>
 	</div>
+	<div class="popup" id="b">
+		<p onclick="popupDisable()">Kedd: 14:30</p>
+		<p onclick="popupDisable()">Kedd: 20:30</p>
+		<p onclick="popupDisable()">Csütörtök: 12:00</p>
+		<p onclick="popupDisable()">Péntek: 18:30</p>
+		<p onclick="popupDisable()">Péntek: 20:00</p>
+	</div>
 </div>
 
-<div class="kartyak">
+<div class="kartyak" id="aladin">
 	<div class="column1">
 		<img src="filmkepek/Aladin.jpg">
 	</div>
@@ -192,15 +308,22 @@
 		<p>felirat</p>
 		<p>tipusa</p>
 		<p>terem</p>
-		<table>
+		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
 				calendar()
 			</script>
 		</table>
 	</div>
+	<div class="popup" id="c">
+		<p onclick="popupDisable()">Hétfő: 14:30</p>
+		<p onclick="popupDisable()">Kedd: 19:30</p>
+		<p onclick="popupDisable()">Péntek: 12:00</p>
+		<p onclick="popupDisable()">Szombat: 18:30</p>
+		<p onclick="popupDisable()">Szombat: 22:00</p>
+	</div>
 </div>
 
-<div class="kartyak">
+<div class="kartyak" id="oroszlankiraly">
 	<div class="column1">
 		<img src="filmkepek/oroszlankiraly.jpg">
 	</div>
@@ -209,11 +332,18 @@
 		<p>felirat</p>
 		<p>tipusa</p>
 		<p>terem</p>
-		<table>
+		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
 				calendar()
 			</script>
 		</table>
+	</div>
+	<div class="popup" id="d">
+		<p onclick="popupDisable()">Hétfő: 14:30</p>
+		<p onclick="popupDisable()">Kedd: 18:30</p>
+		<p onclick="popupDisable()">Csütörtök: 12:00</p>
+		<p onclick="popupDisable()">Péntek: 18:30</p>
+		<p onclick="popupDisable()">Péntek: 21:00</p>
 	</div>
 </div>
 
