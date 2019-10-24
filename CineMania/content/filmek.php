@@ -345,7 +345,7 @@
 	<div class="column2">
 		<p>szinkron</p>
 		<p>felirat</p>
-		<p>tipusa</p>
+		<p>Bosszúállók: Végjáték</p>
 		<p>terem</p>
 		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
@@ -369,7 +369,7 @@
 	<div class="column2">
 		<p>szinkron</p>
 		<p>felirat</p>
-		<p>tipusa</p>
+		<p>Pókember: Idegenben</p>
 		<p>terem</p>
 		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
@@ -393,7 +393,7 @@
 	<div class="column2">
 		<p>szinkron</p>
 		<p>felirat</p>
-		<p>tipusa</p>
+		<p>Aladin</p>
 		<p>terem</p>
 		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
@@ -417,7 +417,7 @@
 	<div class="column2">
 		<p>szinkron</p>
 		<p>felirat</p>
-		<p>tipusa</p>
+		<p>Oroszlánkirály</p>
 		<p>terem</p>
 		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
