@@ -4,9 +4,15 @@
 <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 <script>
 
-	function loadContent(src){
+	function loadContent(button_id,src){
 		var folder = "content/";
 		document.getElementById("myiframe").src=folder.concat(src);
+		for(var i=0; i<=5; i++){
+			if(document.getElementById("button".concat(i)).className=="active") {
+				document.getElementById("button".concat(i)).className="nan";
+			}
+		}
+		document.getElementById(button_id).className="active";
 	}
 
 </script>
@@ -20,7 +26,7 @@ html, body {
 
 .topnav {
 	overflow: hidden;
-	background-color: #333;
+	background-color: #00a3cc;
 }
 
 #menu{
@@ -42,15 +48,27 @@ html, body {
 #button4{grid-area: B4;}
 #button5{grid-area: B5;}
 
+div.topnav > a {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%; 
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+	background-color: #33d6ff;
+	color: white;
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+	background-color: #33d6ff;
+	color: white;
 }
+
 iframe {
 	overflow: hidden;
 	width: 100%;
@@ -63,12 +81,12 @@ iframe {
 <body>
 
 	<div id="menu" class="topnav">
-	  <a id="button0" class="active" href="javascript:loadContent('home.php')">HOME/LOGO</a>
-	  <a id="button1" href="javascript:loadContent('filmek.php')">FILMEK</a>
-	  <a id="button2" href="javascript:loadContent('ertekeles.php')">ERTEKELES</a>
-	  <a id="button3" href="javascript:loadContent('araink.php')">ARAINK</a>
-	  <a id="button4" href="javascript:loadContent('cinebar.php')">CINEBAR</a>
-	  <a id="button5" href="javascript:loadContent('elerhetosegek.php')">ELERHETOSEGEK</a>
+	  <a id="button0" class="active" href="javascript:loadContent('button0','home.php')">HOME/LOGO</a>
+	  <a id="button1" href="javascript:loadContent('button1','filmek.php')">FILMEK</a>
+	  <a id="button2" href="javascript:loadContent('button2','ertekeles.php')">ÉRTEKELÉS</a>
+	  <a id="button3" href="javascript:loadContent('button3','araink.php')">ÁRAINK</a>
+	  <a id="button4" href="javascript:loadContent('button4','cinebar.php')">CINEBAR</a>
+	  <a id="button5" href="javascript:loadContent('button5','elerhetosegek.php')">ELÉRHETŐSÉGEK</a>
 	</div>
 
 	<iframe id="myiframe" src="content/home.php" frameborder="0" height="100%" width="100%"></iframe>
