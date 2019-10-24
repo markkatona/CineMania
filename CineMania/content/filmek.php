@@ -38,7 +38,7 @@
 
 		function makeCalendar(year,days,actday){
 			var text;
-			text="<table><tr>";
+			text="<table oncopy=\"return false\" oncut=\"return false\" onpaste=\"return false\"><tr>";
 			for (var i = 1; i <= days; i++) {
 				if (i == actday) {
 					text+="<td style=\"background-color:red;\" id=\"" + i + "\" onclick=\"doSomething(this)\">"+i+"</td>";
@@ -53,6 +53,7 @@
 		}
 		
 		function doSomething(e){
+			//console.log(actpopup);
 			//e.style.color = "red";
 			/*var cumulativeOffset = function(e) {
 			    var top = 0, left = 0;
@@ -89,7 +90,7 @@
 				case "aladin": 
 					a = document.getElementById("c");
 					break;
-				case "oroszlankirály": 
+				case "oroszlánkirály": 
 					a = document.getElementById("d");
 					break;
 			}
@@ -106,11 +107,15 @@
 				}
 			}*/
 
-			if (actpopup) {
-				/*console.log(actpopup.id+" disabled");*/
+
+
+			/*if (actpopup) {
+				console.log(actpopup.id+" disabled");
 				actpopup.style.display = "none";
 				actpopup = "";
-			}
+				actDate = "";
+				console.log(actpopup);
+			}*/
 			//console.log(e);
 
 			a.style.display = "block";
@@ -125,8 +130,12 @@
 				actpopup = "";
 			}
 
+
 			actpopup = a;
 			actDate = e;
+
+			//console.log(actpopup);
+
 			/*if ((actDate) && ((actDate.id!== e.id) || (actpopup.id !== a.id))) {
 				
 				console.log(actpopup.id);
@@ -184,7 +193,7 @@
 			for (var i = 0; i < filmek.length; i++) {
 				if ((value) && (sameMovies(filmek[i].id,value))) {
 					filmek[i].style.display="none";
-				}else if (!value) {
+				}else{
 					filmek[i].style.display="block";
 				}
 				
@@ -199,8 +208,29 @@
 		}
 
 		function sameMovies(first, second){
+			var bool = first !== second;
+			var tempfirst = first;
+			var tempsecond = second;
+			var haveToReplace = [":", ",", " "];
+			for (var i = 0; i < haveToReplace.length; i++) {
+				while(first !== tempfirst.replace(haveToReplace[i],"")){
+					first = tempfirst.replace(haveToReplace[i],"");
+					tempfirst = first;
+				}
+				while(second !== tempsecond.replace(haveToReplace[i],"")){
+					second = tempsecond.replace(haveToReplace[i],"");
+					tempsecond = second;
+				}
 
-			return first !== second;
+			}
+			first = first.toLowerCase();
+			second = second.toLowerCase();
+			/*console.log(first);
+			console.log(second);*/
+
+			bool = !first.includes(second);
+
+			return bool;
 		}
 		function restoreAll(){
 			/*var elements = document.getElementsByClassName("kartyak");
@@ -217,6 +247,10 @@
 	<style type="text/css">
 		* {
 		  box-sizing: border-box;
+
+		}
+		body{
+			padding-top: 2.6em;
 		}
 		.kartyak {
 		  border: 0.1em solid gray;
@@ -376,7 +410,7 @@
 	</div>
 </div>
 
-<div class="kartyak" id="oroszlankirály">
+<div class="kartyak" id="oroszlánkirály">
 	<div class="column1">
 		<img src="filmkepek/oroszlankiraly.jpg">
 	</div>
