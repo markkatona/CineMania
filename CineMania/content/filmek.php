@@ -73,23 +73,23 @@
 			/*var b = document.getElementById("avangers4");*/
 			var parent = e.parentElement.parentElement.parentElement.parentElement.parentElement.id;
 			/*console.log(parent);*/
-			/*if(parent == "avengers4"){
+			/*if(parent == "Bosszúállók: Végjáték"){
 				a = document.getElementById("a");
 			}*/
 			/*var p = document.getElementsByClassName("popup");*/
 			
 			
 			switch(parent){
-				case "avengers4": 
+				case "Bosszúállók: Végjáték": 
 					a = document.getElementById("a");
 					break;
-				case "pokember": 
+				case "Pókember: Idegenben": 
 					a = document.getElementById("b");
 					break;
 				case "aladin": 
 					a = document.getElementById("c");
 					break;
-				case "oroszlankiraly": 
+				case "oroszlankirály": 
 					a = document.getElementById("d");
 					break;
 			}
@@ -174,6 +174,45 @@
 			actpopup.style.display = "none";
 			actpopup = "";
 		}
+		function filmKeresese(e){
+			var element = document.getElementById("keresesi mezo");
+			var value = element.value;
+			/*console.log(value);
+			console.log("elindult");
+			alert("submited");*/
+			var filmek = document.getElementsByClassName("kartyak");
+			for (var i = 0; i < filmek.length; i++) {
+				if ((value) && (sameMovies(filmek[i].id,value))) {
+					filmek[i].style.display="none";
+				}else if (!value) {
+					filmek[i].style.display="block";
+				}
+				
+
+				/*console.log(value,fi);*/
+			}
+
+
+
+
+			return false;
+		}
+
+		function sameMovies(first, second){
+
+			return first !== second;
+		}
+		function restoreAll(){
+			/*var elements = document.getElementsByClassName("kartyak");
+			for (var i = 0; i < elements.length; i++) {
+				elements[i].style.display = "block";
+			}*/
+			/*
+			var popups = document.getElementsByClassName("popup");
+			for (var i = 0; i < popups.length; i++) {
+				popups[i].style.display = "none";
+			}*/
+		}
 	</script>
 	<style type="text/css">
 		* {
@@ -244,14 +283,28 @@
 		.popup > p:hover{
 			background-color: yellow;
 		}
+		.keres{
+			margin: auto;
+  			width: 50%;
+  			border: 3px solid green;
+  			padding: 10px;
+  			text-align: center;
+		}
 
 	</style>
 </head>
-<body>
+<body onclick="restoreAll()">
+
+<div class="keres">
+	<form onsubmit="return filmKeresese(this)">
+		<input type="text" name="kereses" id="keresesi mezo">
+  		<input type="submit" value="Keresés">
+  	</form>
+</div>
 
 
 
-<div class="kartyak" id="avengers4">
+<div class="kartyak" id="Bosszúállók: Végjáték">
 	<div class="column1">
 		<img src="filmkepek/Avengers-Endgame.jpg">
 	</div>
@@ -275,7 +328,7 @@
 	</div>
 </div>
 
-<div class="kartyak" id="pokember">
+<div class="kartyak" id="Pókember: Idegenben">
 	<div class="column1">
 		<img src="filmkepek/Pokember-Idegenben.jpg">
 	</div>
@@ -323,7 +376,7 @@
 	</div>
 </div>
 
-<div class="kartyak" id="oroszlankiraly">
+<div class="kartyak" id="oroszlankirály">
 	<div class="column1">
 		<img src="filmkepek/oroszlankiraly.jpg">
 	</div>
