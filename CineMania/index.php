@@ -12,26 +12,35 @@
 </script>
 <style>
  
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+html, body {
+	overflow: auto;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+	overflow: hidden;
+	background-color: #333;
 }
 
-.topnav a {
-  width: 16.6%;
-  padding-top: 14px;
-  padding-bottom: 10px;
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 17px;
+#menu{
+    height: 7vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 16% 16% 16% 16% 16%;
+    grid-template-areas: "B0 B1 B2 B3 B4 B5";
+    position: fixed;
+	z-index: 10;
+    opacity: 0.95;
 }
+
+#button0{grid-area: B0;}
+#button1{grid-area: B1;}
+#button2{grid-area: B2;}
+#button3{grid-area: B3;}    
+#button4{grid-area: B4;}
+#button5{grid-area: B5;}
 
 .topnav a:hover {
   background-color: #ddd;
@@ -43,8 +52,9 @@ body {
   color: white;
 }
 iframe {
+	overflow: hidden;
 	width: 100%;
-	height: 100%;
+	height: 150%;
 	position: absolute;
 }
 
@@ -52,18 +62,16 @@ iframe {
 </head>
 <body>
 
-<div class="topnav">
-  <a class="active" href="javascript:loadContent('home.php')">HOME/LOGO</a>
-  <a href="javascript:loadContent('filmek.php')">FILMEK</a>
-  <a href="javascript:loadContent('ertekeles.php')">ERTEKELES</a>
-  <a href="javascript:loadContent('araink.php')">ARAINK</a>
-  <a href="javascript:loadContent('cinebar.php')">CINEBAR</a>
-  <a href="javascript:loadContent('elerhetosegek.php')">ELERHETOSEGEK</a>
-</div>
+	<div id="menu" class="topnav">
+	  <a id="button0" class="active" href="javascript:loadContent('home.php')">HOME/LOGO</a>
+	  <a id="button1" href="javascript:loadContent('filmek.php')">FILMEK</a>
+	  <a id="button2" href="javascript:loadContent('ertekeles.php')">ERTEKELES</a>
+	  <a id="button3" href="javascript:loadContent('araink.php')">ARAINK</a>
+	  <a id="button4" href="javascript:loadContent('cinebar.php')">CINEBAR</a>
+	  <a id="button5" href="javascript:loadContent('elerhetosegek.php')">ELERHETOSEGEK</a>
+	</div>
 
-<div id="content" class="content">
-	<iframe id="myiframe" src="content/home.php" frameborder="0" ></iframe>
-</div>
+	<iframe id="myiframe" src="content/home.php" frameborder="0" height="100%" width="100%"></iframe>
 
 </body>
 </html>
