@@ -48,6 +48,11 @@
       border-radius: 3px 0 0 3px;
     }
 
+    .prev {
+      left: 0px;
+      border-radius: 3px 0px 0px 3px;
+    }
+
     .movie{
       text-align: center;
       position: absolute;
@@ -172,14 +177,35 @@
     <script type = "text/javascript">
 
       var pageIndex = 1;
+      var elapsedTime;
 
-      showPage(pageIndex);
+      window.addEventListener("load",function() {
+          showPage(pageIndex);
+          elapsedTime = setInterval(function(){changePage(1)}, 3000);
+      })
 
       function changePage(n){
-        showPage(pageIndex += n);
+        clearInterval(elapsedTime);
+        if (n < 0){
+          showPage(pageIndex -= 1);
+        } else {
+         showPage(pageIndex += 1);
+        }
+
+        if (n === -1){
+          elapsedTime = setInterval(function(){changePage(n + 2)}, 3000);
+        } else {
+          elapsedTime = setInterval(function(){changePage(n + 1)}, 3000);
+        }
       }
 
       function currentSlide(n) {
+        clearInterval(elapsedTime);
+
+        elapsedTime = setInterval(function(){
+          changePage(n + 1);
+        }, 3000);
+
         showPage(pageIndex = n);
       }
 
