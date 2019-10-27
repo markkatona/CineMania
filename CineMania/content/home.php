@@ -1,100 +1,210 @@
 <!DOCTYPE html>
 <html>
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale-1.0">
- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
- <title>Movie slider</title>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Movie slider</title>
+  </head>
 
- <style type="text/css">
+  <body>
 
- html, body{
- width: 100%;
- height: 100%;
- padding: 0;
- margin: 0px;
-}
+    <style type="text/css">
 
-slider {
- display: block;
- width: 100%;
- height: 100%;
- background-color: #1f1f1f;
- overflow: hidden;
- position: absolute;
-}
+    body{
+      font-family: Arial;
+      width: 50%;
+      height: 50%;
+      margin: 70px auto;
+    }
 
-slider > * {
- position: absolute;
- display: block;
- width: 100%;
- height: 100%;
- background: #1f1f1f;
- animation: slide 12s infinite;
- overflow: hidden;
-}
+    .slider {
+      width: 100%;
+      position: relative;
+      margin: 0px;
+    }
 
-slide:nth-child(1){
- left: 0%;
- animation-delay: -1s;
- background-image: url(home/1.jpg);
- background-size: cover;
- background-position: center;
-}
+    .slide {
+      width: 100%;
+      position: relative;
+      margin: 0px;
+    }
 
-slide:nth-child(2){
- left: 100%;
- animation-delay: 2s;
- background-image: url(home/2.jpg);
- background-size: cover;
- background-position: center;
-}
+    .prev , .next{
+      position: absolute;
+      top: 50%;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 16px;
+      margin-top: -22px;
+      border-radius: 0 3px 3px 0;
+      color: #f2f2f2;
+      cursor: pointer;
+    }
 
-slide:nth-child(3){
- left: 100%;
- animation-delay: 5s;
- background-image: url(home/3.jpg);
- background-size: cover;
- background-position: center;
-}
+    .next{
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
 
-slide:nth-child(4){
- left: 100%;
- animation-delay: 8s;
- background-image: url(home/4.jpg);
- background-size: cover;
- background-position: center;
-}
+    .movie{
+      text-align: center;
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 5px 0px;
+    }
 
-slide p {
- font-family: Arial;
- font-size: 70px;
- text-align: center;
- display: inline-block;
- width: 100%;
- margin-top: 340px;
- color: #fff;
-}
+    /*slider > * {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+    }
 
-@keyframes slide {
- 0% { left: 100%; width: 100%; }
- 5% { left: 0%; }
- 25% { left: 0%; }
- 30% { left: -100%; width: 100%; }
- 30.0001% { left: -100%; width: 0%; }
- 100% { left: 100%; width: 0%; }
-}
- </style>
+    slide:nth-child(1){
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(home/1.jpg);
+    background-size: cover;
+    background-position: center;
+    }
 
-</head>
+    slide:nth-child(2){
+    left: 100%;
+    animation-delay: 2s;
+    background-image: url(home/2.jpg);
+    background-size: cover;
+    background-position: center;
+    }
 
-<body>
- <slider>
-  <slide><p>Film 1</p></slide>
-  <slide><p>Film 2</p></slide>
-  <slide><p>Film 3</p></slide>
-  <slide><p>Film 4</p></slide>
- </slider>
-</body>
+    slide:nth-child(3){
+    left: 100%;
+    animation-delay: 5s;
+    background-image: url(home/3.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    slide:nth-child(4){
+    left: 100%;
+    animation-delay: 8s;
+    background-image: url(home/4.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    slide p {
+    font-family: Arial;
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: #fff;
+    }
+
+    @keyframes slide {
+    0% { left: 100%; width: 100%; }
+    5% { left: 0%; }
+    25% { left: 0%; }
+    30% { left: -100%; width: 100%; }
+    30.0001% { left: -100%; width: 0%; }
+    100% { left: 100%; width: 0%; }
+    }*/
+
+    </style>
+
+    <div class = "slider">
+
+      <div class="slide">
+        <div>
+          <img src = "home/1.jpg" style = "max-width:100%; height:auto;">
+        </div>
+        <div class = "movie">
+          Film 1
+        </div>
+      </div>
+
+      <div class = "slide">
+        <div>
+          <img src = "home/2.jpg" style = "max-width:100%; height:auto;">
+        </div>
+          <div class = "movie">
+        Film 2
+        </div>
+      </div>
+
+      <div class = "slide">
+        <div>
+          <img src = "home/3.jpg" style = "max-width:100%; height:auto;">
+        </div>
+        <div class = "movie">
+          Film 3
+        </div>
+      </div>
+
+      <div class = "slide">
+        <div>
+          <img src = "home/4.jpg" style = "max-width:100%; height:auto;">
+        </div>
+        <div class = "movie">
+          Film 4
+        </div>
+      </div>
+
+    <a class = "prev" onclick = "changePage(-1)">
+      &#10094;
+    </a>
+
+    <a class = "next" onclick = "changePage(1)">
+      &#10095;
+    </a>
+
+    </div>
+
+    <script type = "text/javascript">
+
+      var pageIndex = 1;
+
+      showPage(pageIndex);
+
+      function changePage(n){
+        showPage(pageIndex += n);
+      }
+
+      function currentSlide(n) {
+        showPage(pageIndex = n);
+      }
+
+      function showPage(n){
+
+      var i;
+      var slides = document.getElementsByClassName("slide");
+
+      if (n > slides.length) {
+        pageIndex = 1;
+      };
+
+      if (n < 1) {
+        pageIndex = slides.length;
+      };
+
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      };
+
+      slides[pageIndex-1].style.display = "block";
+
+      }
+
+    </script>
+
+  </body>
 </html>
