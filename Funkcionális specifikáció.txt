@@ -9,7 +9,13 @@ Cégünk weboldalak fejlesztésére szakosodott, több éve
 fejlesztünk felhasználói felületeket. Célunk az ügyfeleinknek
 olyan terméket tervezni és megvalósítani, ami nem csupán
 formailag felel meg az elvártaknak, hanem működés szempontjából
-is minőségi. 
+is minőségi. Rengeteg tapasztalattal rendelkezünk minden olyan
+téren, ami elengedhetetlen egy ilyen oldal megvalósításához.
+Büszkék vagyunk a html és php oldalainkra és továbbra is 
+minőségi termék létrehozására törekszünk. Csapatunk a felvázolt
+webalkalmazást html, php, javascript és css nyelven valósítaná
+meg, mindezek számunkra jól ismert nyelvek, programozóink
+ezekben magas szintű tapasztalattal rendelkeznek.
 
 2. Jelenlegi helyzet
 
