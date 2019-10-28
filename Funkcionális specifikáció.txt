@@ -5,6 +5,12 @@ Funkcionális specifikáció:
 
 1. Bevezetés
 
+Cégünk weboldalak fejlesztésére szakosodott, több éve
+fejlesztünk felhasználói felületeket. Célunk az ügyfeleinknek
+olyan terméket tervezni és megvalósítani, ami nem csupán
+formailag felel meg az elvártaknak, hanem működés szempontjából
+is minőségi. 
+
 2. Jelenlegi helyzet
 
 	A CineMania nem olyan rég megnyilt, viszont még eddig nem 
