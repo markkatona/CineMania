@@ -23,6 +23,7 @@
       width: 100%;
       position: relative;
       margin: 0px;
+      overflow: hidden;
     }
 
     .slide {
