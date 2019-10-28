@@ -63,6 +63,25 @@
       padding: 5px 0px;
     }
 
+    .ImgTransition{
+    animation-name: ImgTransition;
+    animation-duration: 1.2s;
+    }
+
+    @keyframes ImgTransition{
+      from {
+        transform: scale3d(1, 1, 1);
+      }
+
+      50% {
+        transform: scale3d(1.05, 1.05, 1.05);
+      }
+
+      to {
+        transform: scale3d(1, 1, 1);
+      }
+    }
+
     /*slider > * {
     position: absolute;
     display: block;
@@ -128,7 +147,7 @@
 
     <div class = "slider">
 
-      <div class="slide">
+      <div class="slide ImgTransition">
         <div>
           <img src = "home/1.jpg" style = "max-width:100%; height:auto;">
         </div>
@@ -137,7 +156,7 @@
         </div>
       </div>
 
-      <div class = "slide">
+      <div class = "slide ImgTransition">
         <div>
           <img src = "home/2.jpg" style = "max-width:100%; height:auto;">
         </div>
@@ -146,7 +165,7 @@
         </div>
       </div>
 
-      <div class = "slide">
+      <div class = "slide ImgTransition">
         <div>
           <img src = "home/3.jpg" style = "max-width:100%; height:auto;">
         </div>
@@ -155,7 +174,7 @@
         </div>
       </div>
 
-      <div class = "slide">
+      <div class = "slide ImgTransition">
         <div>
           <img src = "home/4.jpg" style = "max-width:100%; height:auto;">
         </div>
