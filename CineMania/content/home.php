@@ -54,6 +54,16 @@
       border-radius: 3px 0px 0px 3px;
     }
 
+    .navigate {
+      cursor: pointer;
+      height: 16px;
+      width: 16px;
+      background: #585858;
+      border-radius: 50%;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
     .movie{
       text-align: center;
       position: absolute;
@@ -192,6 +202,13 @@
       &#10095;
     </a>
 
+    </div>
+
+    <div>
+      <span class = "navigate" onclick = 'currentSlide(1)'> </span>
+      <span class = "navigate" onclick = 'currentSlide(2)'> </span>
+      <span class = "navigate" onclick = 'currentSlide(3)'> </span>
+      <span class = "navigate" onclick = 'currentSlide(4)'> </span>
     </div>
 
     <script type = "text/javascript">
