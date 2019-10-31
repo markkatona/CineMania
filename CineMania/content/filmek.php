@@ -118,21 +118,29 @@
 			}*/
 			//console.log(e);
 
-			a.style.display = "block";
-			var rect = e.getBoundingClientRect();
-			/*console.log(document.body.scrollTop, window.pageYOffset);*/
-			a.style.left = rect.left + e.offsetWidth + "px";
-			a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
-			a.style.backgroundColor = "white";
 
-			if ((actDate) && (actDate.id == e.id)) {
+			if (actpopup) {
 				actpopup.style.display = "none";
 				actpopup = "";
 			}
 
+			
 
-			actpopup = a;
-			actDate = e;
+			if ((actDate) && (actDate.id == e.id)) {
+				actDate = "";
+			}else {
+				a.style.display = "block";
+				var rect = e.getBoundingClientRect();
+				/*console.log(document.body.scrollTop, window.pageYOffset);*/
+				a.style.left = rect.left + e.offsetWidth + "px";
+				a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
+				a.style.backgroundColor = "white";
+				actpopup = a;
+				actDate = e;
+			}
+
+
+			
 
 			//console.log(actpopup);
 
