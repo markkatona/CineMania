@@ -1,0 +1,79 @@
+
+* {
+	  box-sizing: border-box;
+}
+body{
+	padding-top: 2.6em;
+}
+.kartyak {
+  border: 0.1em solid gray;
+}
+.kartyak:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column1 {
+  float: left;
+  width: 10%;
+  height: 12em;
+  border: 0.1em solid green;
+}
+.column2 {
+  float: left;
+  height: 12em;
+  
+  border: 0.1em solid green;
+  width: 85%;
+
+}
+.column1, .column2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+.column1 img {
+	height: 10em;
+	width: 80%;
+	margin: 9%;
+}
+.column2 p{
+  float: left;
+  width: 15%;
+  text-align: center;
+  padding-top: 3.5em;
+}
+table {
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+  	text-align: center;
+  	padding-top: 3.5em;
+}
+td:hover{
+	background-color: green;
+}
+.popup{
+	display: none;
+	position: absolute;
+	border: 0.1em solid grey;
+
+}
+td{
+	cursor:  pointer;
+}
+.popup > p{
+	cursor:  pointer;
+}
+.popup > p:hover{
+	background-color: yellow;
+}
+.keres{
+	margin: auto;
+  	width: 50%;
+  	border: 3px solid green;
+  	padding: 10px;
+  	text-align: center;
+}
