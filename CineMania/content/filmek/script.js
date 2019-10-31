@@ -34,16 +34,16 @@ case 1:
 
 function makeCalendar(year,days,actday){
 	var text;
-	text="<table oncopy=\"return false\" oncut=\"return false\" onpaste=\"return false\"><tr>";
+	text="<table class=\"calendar\" oncopy=\"return false\" oncut=\"return false\" onpaste=\"return false\"><tr>";
 	for (var i = 1; i <= days; i++) {
-if (i == actday) {
-	text+="<td style=\"background-color:red;\" id=\"" + i + "\" onclick=\"doSomething(this)\">"+i+"</td>";
-}else{
-	text+="<td onclick=\"doSomething(this)\" id=\"" + i +"\">"+i+"</td>";
-}
-if (i%7 == 0) {
-	text+="</tr><tr>";
-}
+		if (i == actday) {
+			text+="<td style=\"color:red;\" id=\"" + i + "\" onclick=\"doSomething(this)\">"+i+"</td>";
+		}else{
+			text+="<td onclick=\"doSomething(this)\" id=\"" + i +"\">"+i+"</td>";
+		}
+		if (i%7 == 0) {
+			text+="</tr><tr>";
+		}
 	}
 	document.write(text);
 }
@@ -74,22 +74,42 @@ function doSomething(e){
 a = document.getElementById("a");
 	}*/
 	/*var p = document.getElementsByClassName("popup");*/
-	
-	
+	var movieid;
 	switch(parent){
-case "Bosszúállók: Végjáték": 
-	a = document.getElementById("a");
-	break;
-case "Pókember: Idegenben": 
-	a = document.getElementById("b");
-	break;
-case "aladin": 
-	a = document.getElementById("c");
-	break;
-case "oroszlánkirály": 
-	a = document.getElementById("d");
-	break;
+		case "Bosszúállók: Végjáték": 
+			movieid = 1;
+			break;
+		case "Pókember: Idegenben": 
+			movieid = 2;
+			break;
+		case "aladin": 
+			movieid = 3;
+			break;
+		case "oroszlánkirály": 
+			movieid = 4;
+			break;
 	}
+	
+	//var movieid = getMovie("2_23");
+	var popupid = movieid+"_"+e.id;
+	//console.log(e);
+	//console.log(popupid);
+	a = document.getElementById(popupid);
+	/*switch(parent){
+		case "Bosszúállók: Végjáték": 
+			a = document.getElementById("1_1");
+			break;
+		case "Pókember: Idegenben": 
+			a = document.getElementById("2_23");
+			break;
+		case "aladin": 
+			a = document.getElementById("3_12");
+			break;
+		case "oroszlánkirály": 
+			a = document.getElementById("4_8");
+			break;
+	}*/
+
 
 	/*if (acttime) {
 console.log(actpop.id);
@@ -116,23 +136,23 @@ console.log(actpopup);
 
 
 	if (actpopup) {
-actpopup.style.display = "none";
-actpopup = "";
+		actpopup.style.display = "none";
+		actpopup = "";
 	}
 
 	
-
-	if ((actDate) && (actDate.id == e.id)) {
-actDate = "";
-	}else {
-a.style.display = "block";
-var rect = e.getBoundingClientRect();
-/*console.log(document.body.scrollTop, window.pageYOffset);*/
-a.style.left = rect.left + e.offsetWidth + "px";
-a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
-a.style.backgroundColor = "white";
-actpopup = a;
-actDate = e;
+	
+	if ((!a) || (actDate) && (actDate.id == e.id)) {
+		actDate = "";
+	}else if (a) {
+		a.style.display = "block";
+		var rect = e.getBoundingClientRect();
+		/*console.log(document.body.scrollTop, window.pageYOffset);*/
+		a.style.left = rect.left + e.offsetWidth + "px";
+		a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
+		a.style.backgroundColor = "white";
+		actpopup = a;
+		actDate = e;
 	}
 
 
@@ -184,10 +204,10 @@ actpop = "";
 
 }
 function popupDisable(){
-	/*actpopup.style.display = "none";
+	actpopup.style.display = "none";
 	actpopup = "";
 	actDate = "";
-	console.log("popupDisable called");*/
+	console.log("popupDisable called");
 }
 function filmKeresese(e){
 	var element = document.getElementById("keresesi mezo");
@@ -248,4 +268,62 @@ function restoreAll(){
 	for (var i = 0; i < popups.length; i++) {
 	popups[i].style.display = "none";
 	}*/
+}
+function getMovieByPopupId(id){
+	var movie = id.substring(0,id.search("_"));
+	console.log(movie);
+	return movie;
+}
+function getMovieByName(name){
+	var movieid;
+	switch(name){
+		case "Bosszúállók: Végjáték": 
+			movieid = 1;
+			break;
+		case "Pókember: Idegenben": 
+			movieid = 2;
+			break;
+		case "aladin": 
+			movieid = 3;
+			break;
+		case "oroszlánkirály": 
+			movieid = 4;
+			break;
+	}
+	return movieid;
+}
+function setColors(){
+	var popups = document.getElementsByClassName("popup");
+	var calendars = document.getElementsByClassName("calendar");
+	var tr;
+	var td;
+	var element;
+	var parent;
+	
+	for (var i = 0; i < calendars.length; i++) {
+		tr = calendars[i].childNodes[0].childNodes
+		for (var j = 0; j < tr.length; j++) {
+			td = tr[j].childNodes;
+			for (var k = 0; k < td.length; k++) {
+				for (var l = 0; l < popups.length; l++) {
+					parent = calendars[i].parentElement.parentElement.id;
+					movieid = popups[l].id.substring(0,popups[l].id.search("_"));
+					day = popups[l].id.substring(popups[l].id.search("_")+1,popups[l].id.length);
+					if((getMovieByName(parent) == movieid)&&( day== td[k].id)){
+						//console.log("bingo");
+						td[k].style.backgroundColor = "lightgreen";
+						//element = td[k];
+					}
+					//console.log(parent);
+					//console.log(movieid);
+					//console.log(day);
+					//console.log(popups[l].id.substring(popups[l].id.search("_")+1,popups[l].id.length));
+				}
+				//console.log(td[k]);
+			}
+			
+		}
+		//console.log(i);
+	}
+	//console.log(calendars.length);
 }

@@ -4,7 +4,7 @@
 	<script type="text/javascript" src="filmek/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="filmek/styles.css">
 </head>
-<body onclick="popupDisable()">
+<body>
 
 <div class="keres">
 	<form onsubmit="return filmKeresese(this)">
@@ -30,13 +30,7 @@
 			</script>
 		</table>
 	</div>
-	<div class="popup" id="a">
-		<p onclick="popupDisable()">Kedd: 14:30</p>
-		<p onclick="popupDisable()">Szerda: 18:30</p>
-		<p onclick="popupDisable()">Péntek: 12:00</p>
-		<p onclick="popupDisable()">Péntek: 18:30</p>
-		<p onclick="popupDisable()">Szombat: 20:00</p>
-	</div>
+	
 </div>
 
 <div class="kartyak" id="Pókember: Idegenben">
@@ -54,7 +48,7 @@
 			</script>
 		</table>
 	</div>
-	<div class="popup" id="b">
+	<div class="popup" id="2_23">
 		<p onclick="popupDisable()">Kedd: 14:30</p>
 		<p onclick="popupDisable()">Kedd: 20:30</p>
 		<p onclick="popupDisable()">Csütörtök: 12:00</p>
@@ -78,7 +72,7 @@
 			</script>
 		</table>
 	</div>
-	<div class="popup" id="c">
+	<div class="popup" id="3_12">
 		<p onclick="popupDisable()">Hétfő: 14:30</p>
 		<p onclick="popupDisable()">Kedd: 19:30</p>
 		<p onclick="popupDisable()">Péntek: 12:00</p>
@@ -102,7 +96,7 @@
 			</script>
 		</table>
 	</div>
-	<div class="popup" id="d">
+	<div class="popup" id="4_8">
 		<p onclick="popupDisable()">Hétfő: 14:30</p>
 		<p onclick="popupDisable()">Kedd: 18:30</p>
 		<p onclick="popupDisable()">Csütörtök: 12:00</p>
@@ -111,6 +105,11 @@
 	</div>
 </div>
 
+<?php include 'filmek/beolvas.php';?>
+
+<script>
+	setColors();
+</script>
 
 </body>
 </html>
