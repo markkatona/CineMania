@@ -48,13 +48,6 @@
 			</script>
 		</table>
 	</div>
-	<div class="popup" id="2_23">
-		<p onclick="popupDisable()">Kedd: 14:30</p>
-		<p onclick="popupDisable()">Kedd: 20:30</p>
-		<p onclick="popupDisable()">Csütörtök: 12:00</p>
-		<p onclick="popupDisable()">Péntek: 18:30</p>
-		<p onclick="popupDisable()">Péntek: 20:00</p>
-	</div>
 </div>
 
 <div class="kartyak" id="aladin">
@@ -72,13 +65,6 @@
 			</script>
 		</table>
 	</div>
-	<div class="popup" id="3_12">
-		<p onclick="popupDisable()">Hétfő: 14:30</p>
-		<p onclick="popupDisable()">Kedd: 19:30</p>
-		<p onclick="popupDisable()">Péntek: 12:00</p>
-		<p onclick="popupDisable()">Szombat: 18:30</p>
-		<p onclick="popupDisable()">Szombat: 22:00</p>
-	</div>
 </div>
 
 <div class="kartyak" id="oroszlánkirály">
@@ -95,13 +81,6 @@
 				calendar()
 			</script>
 		</table>
-	</div>
-	<div class="popup" id="4_8">
-		<p onclick="popupDisable()">Hétfő: 14:30</p>
-		<p onclick="popupDisable()">Kedd: 18:30</p>
-		<p onclick="popupDisable()">Csütörtök: 12:00</p>
-		<p onclick="popupDisable()">Péntek: 18:30</p>
-		<p onclick="popupDisable()">Péntek: 21:00</p>
 	</div>
 </div>
 

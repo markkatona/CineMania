@@ -147,15 +147,30 @@ console.log(actpopup);
 	}else if (a) {
 		a.style.display = "block";
 		var rect = e.getBoundingClientRect();
-		/*console.log(document.body.scrollTop, window.pageYOffset);*/
 		a.style.left = rect.left + e.offsetWidth + "px";
-		a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
+		if (document.body.offsetHeight > window.pageYOffset + a.offsetHeight + rect.top) {
+			a.style.top = rect.top + e.offsetHeight + window.pageYOffset + "px";
+		}else{
+			a.style.top = rect.top + window.pageYOffset - a.offsetHeight + "px";
+		}
+		
+		
 		a.style.backgroundColor = "white";
 		actpopup = a;
 		actDate = e;
+
 	}
+	/*var body = document.body,
+	    html = document.documentElement;
 
-
+	var height = Math.max( body.scrollHeight, body.offsetHeight, 
+	                       html.clientHeight, html.scrollHeight, html.offsetHeight );*/
+	//console.log(window.pageYOffset + a.offsetHeight + rect.top);
+	//console.log(window.pageYOffset);
+	//console.log(a.offsetHeight);
+	//console.log(document.body.offsetHeight);
+	//console.log(height);
+	//console.log("asd");
 	
 
 	//console.log(actpopup);
@@ -323,7 +338,7 @@ function setColors(){
 			}
 			
 		}
-		//console.log(i);
+		console.log(i);
 	}
 	//console.log(calendars.length);
 }
