@@ -19,6 +19,25 @@ a megtekintett mozifilmet.
 
 ----------------------------------------------------
 
+A rendszer felépítése és működése:
+	A rendszer egy webalkalmazás formájában jelenik meg.
+Alapvetően két fő részből tevődik össze: az oldal menüjéből
+és magából az oldalból amin megjlennek a menpüpontokhoz tartozó
+aloldalak és az azon belüli információk. Az oldalra történő
+belépéskor alapértelmezetten az első menüponthoz tatoró oldal
+töltődik be, ami nem más mint a Home oldal. Ez a menüpont
+az oldal logójaként jelenik meg a menüben az oldal esztétikájának
+növelése érdekében. Összesen hat darab menüpont található 
+a menüben és ezek a következők: Home, Filmek, Értékelés, Áraink,
+CineBar, Elérhetőségeink. A menüpontok egyenként különböző
+oldalakat jelenítenek meg ha a felhasználó jobb egérgombbal
+rájuk kattint. Az esztétikus megjelenítést továbbra is figyelembe
+véve a menü és az egész oldal színösszetétele e szempont 
+alapján lett kiválaszva. A menüpontok más színre váltanak, ha
+a felhasználó az egérkurzort egy menüpont fölé viszi. Az aktív
+menüpont színe pedig különböző színü az inaktívakétól. Ennek nem
+csak kinézeti előnye van, a felhasználó ugyanis látja, hogy éppen
+melyik menüponthoz tartozó oldal van betöltve a weboldalra.
 
 ----------------------------------------------------
 
