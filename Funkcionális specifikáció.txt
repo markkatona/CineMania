@@ -78,6 +78,23 @@ időszakban a moziban vetíteni fognak
 -a Filmek oldalon egy kereső található, egy film címét beírva
 csak a beírt című filmet jeleníti meg az oldal
 
+-az Értékelés oldalon az előzőle már vetített filmek jelennek meg
+-a felhasználó ezekre a filmekre tud értékelést adni
+-a filmek esetén megjeleik az átlag értékelés valamit
+az értékelők száma
+-a felhasználó csak arra a filmre tud értékelést adni,
+aminek a jegyét megvásárolta
+
+-az Árak oldalon megjelennek a filmek árai:
+	-felnőtt jegy ár
+	-diák jegy ár
+	-2d-s jegy ár
+	-3d-s jegy ár
+	-4dx-s jegy ár
+	-hétköznap játszott filmek ára
+	-hétvégén játszott filmek ára
+	-és ezeknek a kombinációi
+
 4. Jelenlegi üzleti folyamatok modellje
 
 5. Igényelt üzleti folymatok modellje
