@@ -3,6 +3,8 @@
 Rendszerterv:
 
 ----------------------------------------------------
+Katona Márk
+
 	A rendszer egy olyan alkalmazást foglal magába, amely a
 CineMania mozi webes jegyfoglaló alkalmazását képezi, egy
 portál-alapú webalkalmazás tervezésével és megvalósításával.
@@ -16,7 +18,11 @@ rendszerünk igénybevételével, a mozifilm megtekintése után,
 a felhasználók kifejezhetik véleményüket a szolgáltatás
 minőségéről, azaz egy 1-től, 5-ig terjedő skálán értékelhetik
 a megtekintett mozifilmet.
-
+Továbbá fontosnak tartjuk, hogy a webalkalmazás esztétikusan
+nézzen ki, valamint azt, hogy a felhasználók szívesen használják
+a weboldal által nyújtott lehetőségeket, és ezáltal értékes időt
+spóroljanak meg maguknak, amelyet inkább családjaikkal, barátaikkal
+tölthetnek el, a mozifilmek megtekintése közben.
 ----------------------------------------------------
 
 A rendszer felépítése és működése:
