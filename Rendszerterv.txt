@@ -1,9 +1,21 @@
-Mozijegyfoglaló weboldal
+﻿Mozijegyfoglaló weboldal
 
 Rendszerterv:
 
 ----------------------------------------------------
-
+	A rendszer egy olyan alkalmazást foglal magába, amely a
+CineMania mozi webes jegyfoglaló alkalmazását képezi, egy
+portál-alapú webalkalmazás tervezésével és megvalósításával.
+	A rendszer célja, hogy a lehető legegyszerűbb és leggördülékenyebb
+megoldást nyújtsa, egy mozifilm megtekintésére, a film
+kiválasztási folyamatától kezdve, a mozi elhagyásáig,
+ez a folyamat pedig magába foglalja a jegy lefoglalását,
+és film megtekintését is. A webalkalmazás pedig nem veszíti
+el funkcionalitását a film megtekintése után, mivel értékelési
+rendszerünk igénybevételével, a mozifilm megtekintése után,
+a felhasználók kifejezhetik véleményüket a szolgáltatás
+minőségéről, azaz egy 1-től, 5-ig terjedő skálán értékelhetik
+a megtekintett mozifilmet.
 
 ----------------------------------------------------
 
