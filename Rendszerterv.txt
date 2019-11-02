@@ -92,7 +92,33 @@ felbontásban a lehető legjobban kell megjelenjen, valamint
 a felhasználó is tudjon váltogatni a képek között, valamint 
 a főoldalra is vissza tudjon jönni bármilyen felbontás 
 mellett.
-
+	A weboldal tetején találhatő maga a menü, mely szintén a 
+lehető legjobban kell megjelenjen bármilyen felbontásban, 
+valamint a minden körülmények között el kell lássa a 
+funkcióját. A menü különböző gombjaira kattintva jönnek be 
+a weboldal különböző oldalai, ezek egyike a Filmek oldal, 
+mely számos funkciót tartalmaz, ezáltal itt nagy is a 
+hibalehetőség, valamint az esetleges bug-ok megjelenése. 
+Ezen az oldal főleg kártyákból áll, melyek adatokat 
+tartalmaznak bizonyos filmekről, például: a film posztere, 
+szinkronhang, felirat, típus, melyik teremben vetítik, 
+valamint melyik időpontokban. Ezen adatok horizontálisan 
+helyezkednek el egymás mellett, ezért ezen megjelenítés 
+egyik legnagyobb gyengepontja az, ha a felhasználó kisebb 
+szélességü eszközön kívánja megnézni a weboldalt, vagy akár 
+a saját böngésző ablakát méretezni át. Ezen hibák elkerülése 
+érdekében a fejlesztő a reszponzív technológiákat használnak, 
+melyeik egyike, hogy az oldal méreteit százalékosan adják 
+meg, ezáltal az oldal a lehető legtöbb készüléken jól fog 
+megjelenni. Viszont ezeket a funkciókat tesztelni kell, és 
+hogy máshogy lehetne tesztelni, mint megnyitni egy böngőszőbe 
+a weboldalt, és a böngésző méreteit folyamatosan váltogatva 
+teszteljük, hogy az adott funkciók még helyesen működnek, 
+valamint minden az elvártak szerinte jelenik-e meg. Az egyik 
+leggyakoribb hiba, hogy egy bizonyos szint után az oldal 
+adott elemei elkezdenek egymás alá csúszni ezáltal a 
+kinézetet teljesen tönkretéve, és akár funkcionlis hibákat 
+is okozva.
 ----------------------------------------------------
 
 
