@@ -40,6 +40,7 @@ csak kinézeti előnye van, a felhasználó ugyanis látja, hogy éppen
 melyik menüponthoz tartozó oldal van betöltve a weboldalra.
 
 ----------------------------------------------------
+Bűcs István
 
 	Mind a program készítők mind pedig a megrendelők egyik 
 legnagyobb félelme, ha a megrendelt program tele van 
@@ -119,6 +120,39 @@ leggyakoribb hiba, hogy egy bizonyos szint után az oldal
 adott elemei elkezdenek egymás alá csúszni ezáltal a 
 kinézetet teljesen tönkretéve, és akár funkcionlis hibákat 
 is okozva.
+	A filmek oldal egyik másik összetett része az, hogy lehet 
+keresni a filmek között. Ebben is számos hiba merülhet fel, 
+például, hogy a keresés helyes eredménnyel futott e le és 
+visszaadta keresett filmet, ezzek érdekében a lehető legtöbb 
+filmmel le kell tesztelnünk a keresést. Egy másik lehetséges 
+probléma, hogy a "keresésből nincs visszaút", tehát ha 
+egyszer rákerestél valamire, akkor onnantól már csak úgy 
+nézheted meg a többi filmet, ha újratöltöd az egész oldalt. 
+Ez egy nagyon klasszikus hiba, valamint a felhasználkat 
+eléggé zavarhatja, hogy minden egyes keresés után újra kell 
+tölteniük az oldalt, ami rossz net esetén eléggé idegesítő 
+lehet, valamint nem net számla esetén drágább a kelleténél. 
+Ennek elkerülése érdekében lehetőseget kell adni a 
+felhasználónak, hogy vissza tudjon lépni a keresésből, 
+például, ha kitöröl mindent a kerespmezőből, és arra rákeres, 
+akkor visszakapja az összes filmet. Ezt a funkciót elég 
+egyszerü tesztelni, viszont nagyon hasznos tud lenni. Számos 
+hiba felmerülhet olyan keresések során, amire senki sem 
+számít, ezen hibák felderítése érdekében random stringeket 
+adunk meg, melyek akár számokat, és bármilyen speciális 
+karaktereket tartalmazhatnak. Ha ezen a teszten átment, 
+akkor leteszteljük a kereső "okosságát", vagyis, hogy 
+mennyire találja ki, hogy a felhsználó mire gondolt, hisz 
+ritka az a felhasználó, amelyik minden egyes film teljes 
+címét ismeri is, és mindig be is írja, amikor meg akarja 
+keresni. Ennek érdekében megpróbálunk olyan teszteseteket 
+létrehozni, amikor a filmek nevének csak egy részét adjuk 
+meg, vagy megadjuk az egész nevet, de csupa nagybetükkel, 
+vagy megadjuk a nevének egy részét felváltva nagy és kisbetük 
+között. Ha ezeken a teszteken átment, akkor tekinthetünk a 
+keresőre egy olyan keresőként, ami megállja a helyet a mai 
+modern weboldalak keresőmotorjai között.
+
 ----------------------------------------------------
 
 
