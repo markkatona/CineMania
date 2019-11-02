@@ -68,7 +68,7 @@ közül az egyik legjelentősebb, hogy a felhasználónak nem
 kell minden egyes foglalás esetén beírja az adatait. Ennek 
 érdekében viszont az adatait már a regisztrációkor meg kell 
 adja. A felhasználó a következő adatokat egy regisztráció 
-esetén kötelezően meg kell adja: név, email, jelszó. 
+esetén kötelezően meg kell adja: név, email, jelszó, számlaszám. 
 Valamint megadhat egyéb adatokat is, hogy a rendszer 
 könyebben tudjon neki filmeket ajánlani, például: életkor, 
 nem, és ha szeretné telefonszámot is és egy felhasználónevet 
@@ -83,9 +83,10 @@ tartalmazhat: számokat, felkíáltójelet, veszőt, kötőjelet,
 kérdőjelet, se semmilyen hasonló speciális karaktert. Az 
 email cím valódi email cím kell legyen és a telefonszám is 
 valódi telefonszám kell legyen, a jelszó viszont bármilyen 
-karaktersorozat lehet. Az életkor csak számokat tartalmazhat 
-16 és 100 közötti értékkel. A névvel ellentétben a 
-felhasználónév akár számokat is tartalmazhat viszont 
+karaktersorozat lehet. A számlaszám csak számokat tartalmazhat, 
+és egy hihető számlaszám kell legyen az életkor csak számokat 
+tartalmazhat 16 és 100 közötti értékkel. A névvel ellentétben 
+a felhasználónév akár számokat is tartalmazhat viszont 
 speciális karaktereket ez sem.
 	A főoldalon található még egy slideshow az aktuálisan 
 vetített legnépszerőbb filmekről, mely szintén bármilyen 
@@ -152,6 +153,38 @@ vagy megadjuk a nevének egy részét felváltva nagy és kisbetük
 között. Ha ezeken a teszteken átment, akkor tekinthetünk a 
 keresőre egy olyan keresőként, ami megállja a helyet a mai 
 modern weboldalak keresőmotorjai között.
+	A Filmek oldal egyik másik sarkalatos pontja maga filmekre 
+való helyfoglalás. A weboldalon úgy lehet helyet foglalni 
+egy adott filmre, hogy elősször is megkeressük azt a filmet, 
+amelyik meg szeretnénk nézni, majd a naptárba megnézzük, 
+hogy melyik nap melyik időpontban vetítik. Már itt is 
+felmerülhet néhány probléma, például, hogy a naptáron nem 
+lehet rákkatintani olyan napokra, amelyeken pedig vetítik 
+a filmet, vagy pont hogy olyan napokra tudunk foglalni, 
+amelyeken nem vetítik a filmet. Ezen hibák elkerülése 
+érdekében véletlenszerüen ki kell választanunk néhány 
+filmet, melyekre végrehajtunk néhány vizsgálatot, hogy 
+biztos, hogy jó időpontokban jelzi a rendszer, hogy 
+vetitík a filmet. Ha ezeken a teszteken a program átment, 
+akkor a probléma innentől se szűnik meg teljesen, mert 
+előfordulhat, hogy magában az adatbázisban tarténik hiba, 
+viszont ezt nem tudjuk megelőzni, de a veszélyt már jóval 
+csökkentettük. Miután a felhasználó kiválasztott az 
+időpontot, két lehetősége van: az egyik, hogy be van 
+jelentkezve, és akkor az adatait már nem kell megadni, 
+viszont a rendszernek meg kell kérdeznie a felhasználót, 
+hogy biztos le akarja e foglalni a helyet, valamit a 
+felhasználó tudtára kell adnia, hogy mennyi pénzt fog 
+levonni a számlájáról. A másik eset, hogy a felhasználó 
+nincs bejelentkezve, vagy akár egyáltalán nincs is 
+regisztrációja az oldalon. Ebben az esetben a felhasználónak 
+meg kell adni a számlaszámát, valamint egyéb adatokat. 
+Ezeket az adatokat is hitelesek kell legyenek, ennek 
+érdekébe, a rendszer csak egy hihető számlaszámot fogadhat 
+el, ennek érdekében le kell tesztelnünk valamennyi esetre, 
+és ha nem hihető számlaszámot adott meg az illető, akkor 
+azt tudtára kel adja a rendszer, valamint a foglalást nem 
+szabad véglegesítse.
 
 ----------------------------------------------------
 
