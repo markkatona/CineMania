@@ -23,6 +23,19 @@ nézzen ki, valamint azt, hogy a felhasználók szívesen használják
 a weboldal által nyújtott lehetőségeket, és ezáltal értékes időt
 spóroljanak meg maguknak, amelyet inkább családjaikkal, barátaikkal
 tölthetnek el, a mozifilmek megtekintése közben.
+	A mozijegy foglaló alkalmazás célközönségének azokat a 
+filmkedvelőket tartjuk, akik szabadidejükben szeretik böngészni
+a jelenleg moziban vetített filmeket. Erre az alkalmazás
+főoldalán van lehetősége a felhasználónak, ahol megtekinthetik
+a vetitendő filmek borítóképét, valamint azt, hogy milyen 
+kategóriájú filmről van szó és a korhatár is itt jelenik meg.
+Emelett pedig egy rövid leírást is olvashatnak a filmről,
+amely alapján el tudják dönteni, hogy számukra érdemes-e
+megtekinteni az adott filmet a CineMania egyik vetítőtermében.
+Ha megtetszik számukra valamelyik film a felhozatalból és
+szeretnék megtekinteni a CineMania moziban, akkor a weboldal
+a film kiválasztásán kívül további funkciókat is biztosít
+a felhasználók számára.
 ----------------------------------------------------
 
 A rendszer felépítése és működése (Csirak Róbert):
