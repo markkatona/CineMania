@@ -122,6 +122,33 @@ a számmal, akkor egy "értékel" gombra rákattintva már
 értékelte is a filmet. Felhasználónként minden filmre
 csak egy darab értékelés adható elkerülve ezzel az oldal
 felé irányuló támadásokat.
+	A következő három menüpont csupán információkat
+tartalmaz a az árakról, a film közben fogyasztható ételekről
+és italokról, valamit a cég elérhetőségeiről. Így tehát
+az Áraink menüpont pontos leírást és ismerteti a felhasználót
+arról, hogy milyen típusú jegynek milyen ára van. Elérhető
+diák és felnőtt ár, a diák ár diákigazolványt bemutató diákoknak
+olcsóbb, ennek hiányában felnőttárat kell fizetni. Hétvégén
+és hét közben is változnak a jegyek árai, erről is leírást
+nyújt az oldal. Ezen kívül, még megtekintheti a felhasználó, hogy
+hogyan mozognak az árak 2D-s, 3D-s vagy 4DX-es jegyek esetén.
+A CineBar menüpontban a film nézése közben fogyasztható
+értelekről és italokról szolgáltat információt az oldal.
+Így a kínálatban elérhető lesz több méretben popcorn, nacho
+chips különböző szószokkal, több méretben üdítő ital, ami lehet
+víz, narancsos üdítő vagy kóla és mindezekről árinformáció áll
+rendelkezésre.
+A utolsó, vagyis az Elérhetőségek oldalon a cég elérhetőségei
+jelennek meg, tehát a webalkalmazáshoz tartozó Facebook és Twitter
+oldal, a cég email címe, telefonszáma és címe.
+	Fontos, egy ilyen méretű rendszer esetén, hogy minden 
+gördülékenyen  működjön, ne legyen várakoztatás, ne legyek bugok
+a rendszerben, ami a felhasználók érdekeit szolgálják és
+az is fontos, hogy a weboldal ne legyen támadható ami nem csak
+a felhasználóknak hátrány, hanem az oldal üzemeltetőinek is
+fejfájást okoz. Ezért a weboldal úgy lett tervezve, 
+hogy mindezeket kiküszöbölje és maximálisan kielégítse
+a felhasználók igényeit.
 
 ----------------------------------------------------
 Bűcs István
