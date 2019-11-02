@@ -58,6 +58,26 @@ lefele görget az oldalon
 a home.php-t, a Filmek menüpontra rákattintva megjeleníti
 a Filmek.phpt és így tovább
 
+-a Home menüpont az alkalmazás logójaként jelenik meg
+-a Home oldalon megjelennek az aktuális akciók és reklámok
+(például film értékelés esetén nyeremény sorsolás)
+-megjeleníti még a Home oldal a következőket: aktuális 
+népszerű filmek, egyéb információk (például a weboldal
+létrejöttének dátuma)
+
+-a Filmek oldalon megjelennek azok a filmek, amelyeket az adott
+időszakban a moziban vetíteni fognak
+-ezen az oldalon lehet a filmekre jegyet foglalni
+-az oldal megjeleníti a terem foglalt, és szabad helyeit
+-a Filmekhez kapcsolódó információk is megjelennek:
+	-a film vetítésének időpontja
+	-a film jegyének alap ára
+	-a film elérhető-e magyar szinkronnal, vagy nem
+	-elérhető-e felirat a filmhez
+	-melyik teremben történik a film vetítése
+-a Filmek oldalon egy kereső található, egy film címét beírva
+csak a beírt című filmet jeleníti meg az oldal
+
 4. Jelenlegi üzleti folyamatok modellje
 
 5. Igényelt üzleti folymatok modellje
