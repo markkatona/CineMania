@@ -9,11 +9,21 @@ Rendszerterv:
 
 
 ----------------------------------------------------
-Mind a program készítők mind pedig a megrendelők egyik legnagyobb félelme,
-ha a megrendelt program tele van bug-okkal, ami nem csak a felhasználói
-élményt ronthatja el, hanem akár üzleti károkat is okozhat, valamint
-akár törvényi rendeleteket is megszeghet, ami bírósági pereket is vezethet
-maga után. Ezért maga a program tesztelése számos tényezőt kell figyelembe vegyen.
+
+	Mind a program készítők mind pedig a megrendelők egyik 
+legnagyobb félelme, ha a megrendelt program tele van 
+bug-okkal, ami nem csak a felhasználói élményt ronthatja 
+el, hanem akár üzleti károkat is okozhat, valamint akár 
+törvényi rendeleteket is megszeghet, ami bírósági pereket 
+is vezethet maga után. Abban viszont biztosak lehetünk, 
+hogy a szoftverben van hiba, hiszen emberek fejlesztik, és 
+az emberek hibáznak. Még abban sem lehetünk biztosak, hogy 
+a tesztelés után nem marad hiba a szoftverben, csak azokra 
+a részekre tudjuk ezt mondani, amiket leteszteltünk. Ennek 
+érdekében a szoftver azon részeit kell a lehető legjobban 
+letesztelni, amelyeket a felhasználók a lehető legtöbbet 
+fogják használni. Valamint maga a program tesztelése számos 
+tényezőt kell figyelembe vegyen.
 
 ----------------------------------------------------
 
