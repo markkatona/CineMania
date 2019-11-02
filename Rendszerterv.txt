@@ -68,7 +68,7 @@ közül az egyik legjelentősebb, hogy a felhasználónak nem
 kell minden egyes foglalás esetén beírja az adatait. Ennek 
 érdekében viszont az adatait már a regisztrációkor meg kell 
 adja. A felhasználó a következő adatokat egy regisztráció 
-esetén kötelezően meg kell adja: név, email, jelszó, számlaszám. 
+esetén kötelezően meg kell adja: név, email, jelszó. 
 Valamint megadhat egyéb adatokat is, hogy a rendszer 
 könyebben tudjon neki filmeket ajánlani, például: életkor, 
 nem, és ha szeretné telefonszámot is és egy felhasználónevet 
@@ -83,10 +83,9 @@ tartalmazhat: számokat, felkíáltójelet, veszőt, kötőjelet,
 kérdőjelet, se semmilyen hasonló speciális karaktert. Az 
 email cím valódi email cím kell legyen és a telefonszám is 
 valódi telefonszám kell legyen, a jelszó viszont bármilyen 
-karaktersorozat lehet. A számlaszám csak számokat tartalmazhat, 
-és egy hihető számlaszám kell legyen az életkor csak számokat 
-tartalmazhat 16 és 100 közötti értékkel. A névvel ellentétben 
-a felhasználónév akár számokat is tartalmazhat viszont 
+karaktersorozat lehet.Az életkor csak számokat tartalmazhat 
+16 és 100 közötti értékkel. A névvel ellentétben a 
+felhasználónév akár számokat is tartalmazhat viszont 
 speciális karaktereket ez sem.
 	A főoldalon található még egy slideshow az aktuálisan 
 vetített legnépszerőbb filmekről, mely szintén bármilyen 
