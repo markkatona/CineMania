@@ -36,6 +36,43 @@ a részekre tudjuk ezt mondani, amiket leteszteltünk. Ennek
 letesztelni, amelyeket a felhasználók a lehető legtöbbet 
 fogják használni. Valamint maga a program tesztelése számos 
 tényezőt kell figyelembe vegyen.
+	Elősször is, amikor a felhasználó felkeresi a weboldalt, 
+a főoldal fog megjelenni számára, mely minden monitoron, 
+minden felbontásban megfelelően kell megjelenjen. Nem 
+fordulhat elő az, hogy például a felhasználó az oldalt egy 
+telefonos eszközön keresi fel, és az egész oldal úgy 
+jelenik meg, hogy az használhatatlan a felhasználó számára. 
+Ha a felhasználó be akar jelentkezni azt is a főoldalon 
+teheti meg. A bejelentkezésnek több előnye is van, ezek 
+közül az egyik legjelentősebb, hogy a felhasználónak nem 
+kell minden egyes foglalás esetén beírja az adatait. Ennek 
+érdekében viszont az adatait már a regisztrációkor meg kell 
+adja. A felhasználó a következő adatokat egy regisztráció 
+esetén kötelezően meg kell adja: név, email, jelszó. 
+Valamint megadhat egyéb adatokat is, hogy a rendszer 
+könyebben tudjon neki filmeket ajánlani, például: életkor, 
+nem, és ha szeretné telefonszámot is és egy felhasználónevet 
+is megadhat. Ezen adatok esetén, főleg a kötelező adatok 
+esetén, nagyon fontos, hogy a felhasználó se véletlenü, se 
+szándékosan ne tudjon hibás adatokat megadni, mert azoknak 
+komoly következményei is lehetnek. Ennek érdekében le kell 
+tesztelni az összes mező esetén, hogy milyen adatokat fogad 
+el a rendszer, és milyeneket szür ki. Például névnek 
+bármilyen szöveget megadhat, viszont a szöveg nem 
+tartalmazhat: számokat, felkíáltójelet, veszőt, kötőjelet, 
+kérdőjelet, se semmilyen hasonló speciális karaktert. Az 
+email cím valódi email cím kell legyen és a telefonszám is 
+valódi telefonszám kell legyen, a jelszó viszont bármilyen 
+karaktersorozat lehet. Az életkor csak számokat tartalmazhat 
+16 és 100 közötti értékkel. A névvel ellentétben a 
+felhasználónév akár számokat is tartalmazhat viszont 
+speciális karaktereket ez sem.
+	A főoldalon található még egy slideshow az aktuálisan 
+vetített legnépszerőbb filmekről, mely szintén bármilyen 
+felbontásban a lehető legjobban kell megjelenjen, valamint 
+a felhasználó is tudjon váltogatni a képek között, valamint 
+a főoldalra is vissza tudjon jönni bármilyen felbontás 
+mellett.
 
 ----------------------------------------------------
 
