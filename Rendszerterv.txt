@@ -36,6 +36,43 @@ Ha megtetszik számukra valamelyik film a felhozatalból és
 szeretnék megtekinteni a CineMania moziban, akkor a weboldal
 a film kiválasztásán kívül további funkciókat is biztosít
 a felhasználók számára.
+	Az alkalmazás által nyújtott legfontosabb funkció, amiért
+elsősorban létrejött ez a webalkalmazás, hogy a felhasználók
+online, anélkül hogy hosszú sorokat kellene kiállniuk a mozi
+pénztáránál, tudjanak jegyet foglalni és vásárolni az általuk
+kiválasztott filmre. Ez egy olyan kényelmi funkciót biztosít 
+a moziba látogatni vágyóknak, ami jelentős mennyiségű időt és
+utazást spórol meg számukra.
+	A mozijegy foglalása két féle módon történhet. Az egyik az,
+hogy a felhasználók a számukra megfelelő időpontra foglalnak
+jegyet. Ez esetben nem kell előre kifizetniük a jegy árát,
+de ha nem jelennek meg időben, azaz a vetítés előtt 30 perccel
+nem jelennek meg a mozi pénztáránál a helyfoglalásuk törlődik.
+A másik lehetőség a jegy előre megvásárlása. Ebben az esetben
+meg kell adniuk a bankszámlaszámukat, hogy online ki tudják
+fizetni a szolgáltatás árat. Ebben az esetben nem szükséges
+hamarabb megérkezznek, mert a helyük attól függetlenül,
+hogy egyáltalán megérkeznek-e a vetítésre foglalt állapotban
+marad.
+	A weboldal a filmek böngészésén valamint a jegy foglalási-
+és vásárlási lehetőségeken kívül azonban még nagyon sok hasznos
+és kényelmes funkciót tartogat a felhasználók számára.
+Ilyen például az is, hogy a CineBar oldalon előre megtekinthetik
+a mozi büféjének kínálatát a mozi weboldalán. A mozi büféjében
+pedig a lehető legjobb minőségű, emellett jó ár-érték arányú
+ételek és italok közül választhatnak a moziba látogatók.
+Ez nagyon sok időt spórol meg a CineBar szolgáltatást igénybe
+vevő felhasználóknak, valamint sokkal gyorsabb kiszolgálást
+tesz lehetővé azáltal, hogy a vásárlók előre megtervezhetik,
+hogy pontosan mit szeretnének fogyasztani a film megtekintése
+közben. Ezzel a szolgáltatással kapcsolatban pedig rengeteg
+információt találhatnak a mozi weboldalára látogatók a
+kezdőoldalon is, ahol a heti akciós ajánlatok tekinthetőek meg.
+	A CineMania működésének legfontosabb tényezője pedig
+nem más mint a felhasználók véleménye. A weboldalon lehetőség
+van értékelni a felhasználóknak a megtekintett filmet, ezáltal
+jobban megállapítható, hogy milyen kategóriájú filmek iránt
+van érdeklődés.
 ----------------------------------------------------
 
 A rendszer felépítése és működése (Csirak Róbert):
