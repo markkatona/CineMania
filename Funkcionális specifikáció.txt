@@ -46,6 +46,18 @@ ezért a fentartásuk is körülményes, valamint költséges.
 
 3. Vágyálom rendszer
 
+-a CineMania egy mozifilm jegyfoglaló rendszer, ami webes 
+felületen működik
+-a weboldal felső részén a menü található, a következő menügombokkal:
+Home, Filmek, Értékelés, Áraink, CineBar, Elérhetőségek
+-az oldal betöltésekor a Home menüpont jelenik meg alapértelmezetten
+-a menü a weboldal felső részén látható marad ha a felhasználó
+lefele görget az oldalon
+-a menü gombjai külső fájlokat töltenek be az oldalba
+-tehát a home menüpontra rákattintva a weboldal megjeleníti 
+a home.php-t, a Filmek menüpontra rákattintva megjeleníti
+a Filmek.phpt és így tovább
+
 4. Jelenlegi üzleti folyamatok modellje
 
 5. Igényelt üzleti folymatok modellje
