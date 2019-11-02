@@ -73,6 +73,26 @@ nem más mint a felhasználók véleménye. A weboldalon lehetőség
 van értékelni a felhasználóknak a megtekintett filmet, ezáltal
 jobban megállapítható, hogy milyen kategóriájú filmek iránt
 van érdeklődés.
+	A felhasználók az Elérhetőségek menüpontban megtaláhatják
+a CineMania pontos címét, valamint a mozi telefonos elérhetőségeit,
+amelyen keresztül akár helyet is foglalhatnak, ha erre nincs más
+lehetőségük, valamint ha van valamilyen visszajelzésük vagy panaszuk
+azt megoszthatják a mozi alkalmazottaival telefonon keresztül.
+Továbba itt megtalálhatóak a mozi közösségi oldalai, amelyen
+további hasznos információkat olvashatnak, valamint időszakos 
+akciókról és a különböző filmes érdekességekről értesülhetnek.
+	Nem utolsó sorban pedig a mozi weboldala nagyon jó lehetőséget
+nyújt arra, hogy könnyebben terjedjen a CineMania híre és népszerűséget
+szerezzen a város közösségi életében, ezáltal pedig kiemelkedjen a
+konkurens mozikhoz képest.
+	A webalkalmazás elkészítéséért egy négy fős fejlesztő csapat
+felelős, akiknek nyolc hetük lesz megtervezni, elkészíteni, valamint
+tesztelni a CineMania mozi weboldalát. 
+A mozi weboldalának készült egy prototípusa, amely előrevetíti,
+hogy hogyan fog kinézni a végső weboldal, milyen menüpontokat,
+oldalakat fog tartalmazni és hogy milyen funkciókat fog 
+ellátni. A végső termék azonban bizonyos mértékben eltérhet majd,
+a prototípustól, főleg a design szempontjából.
 ----------------------------------------------------
 
 A rendszer felépítése és működése (Csirak Róbert):
