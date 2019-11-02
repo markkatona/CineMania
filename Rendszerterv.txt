@@ -85,7 +85,43 @@ olyan film megtalálható amit az elkövetekező időszakban
 a moziban játszani fognak. A filmek egymás alatt jelennek meg,
 minden filmet sql adatbázisból olvassa ki a rendszer és ennek
 megfelelően jeleníti meg az oldalon. Ezen az oldalon érhető
-el a jegyfoglalás. 
+el a jegyfoglalás.
+Az oldalon egy kereső található, ahova a megnézni kívánt
+film teljes nevét, vagy a teljes név egy részét kell
+beírni. A beírt névnek megfelelően a rendszer kiválasztja
+azokat a filmeket, ahol egyezést talált és csak ezeket
+a filmeket jeleníti meg. A kereső a weboldal felső részén
+foglal helyet, a menü altt annak érdekében, hogy
+jól észrevehető és könnyen elérhető legyen. Ez is a
+felhasználó érdekeit szolgálja, ugyanis sokkal gyorsabb lesz
+ez álltal a jegy foglalásának folyamata.
+A filmek tehát egymás alatt helyezkednek el, minden film esetén
+megjelenik egy kép a filmről, a film teljes nev, a terem 
+ahol a film vetítésre kerül, valamit olyan információk, 
+hogy elérhető-e szinkron a filmhez, vagy milyen nyelven van
+a film feliratozva. Ennél az oldalnál is a kényelem és az
+esztétika volt a két lefontosabb tényező, ezért minden ennek
+megfelelően lett elkészítve.
+	A harmadik menüpont az értékelés oldalt jeleníti meg,
+itt tudja a felhasználó értékelni azokat a filmeket amiket
+megtekintett a moziban. Az oldalon a filmek sorokban jelennek
+meg, az első sorban hat darab film található, a másodikban
+ugyancsak hat, és így tovább. Minden film esetén megjeneik
+a filmről egy kép, és alatta a film teljes neve.
+A felhasználó egy filmre kattintva értékelheti az adott
+filmet, egy egytől ötig terjedő skálán. A filmekre nem csak
+egész pontszámok adhatóak, hanem két egész pont közötti érték
+is megadható, így tehát az 0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 
+4.5 és az 5 számokkal értékelhető egy film. A filmre kattintva
+megjeleik öt darab csillag egymás mellett amik kezdetben fehér
+színűek. Attól függően, hogy a felhasználó melyik csillagra
+kattint, valamit a csillag jobb vagy ban oldalára a csillagok
+beszíneződnek, így láthatóvá válik, hogy milyen számra szeretné
+a felhasználó értékelni a filmet. Ha elégedett a felhasználó
+a számmal, akkor egy "értékel" gombra rákattintva már
+értékelte is a filmet. Felhasználónként minden filmre
+csak egy darab értékelés adható elkerülve ezzel az oldal
+felé irányuló támadásokat.
 
 ----------------------------------------------------
 Bűcs István
