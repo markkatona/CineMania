@@ -95,6 +95,15 @@ aminek a jegyét megvásárolta
 	-hétvégén játszott filmek ára
 	-és ezeknek a kombinációi
 
+-az Elérhetőségek oldalon megjelenik a cég Facebook és
+Twitter oldala, a cég telefonszáma, email címe és címe
+
+-a CineBar oldalon megjelennek azok az ételek és italok, 
+amelyeket film közben fogyasztani lehet valamit ezek árai,
+a vásárolt mérettől függően
+-az elérhető akciók is megjelennek (például x mennyiségű 
+ital után egy ingyen étel jár)
+
 4. Jelenlegi üzleti folyamatok modellje
 
 5. Igényelt üzleti folymatok modellje
