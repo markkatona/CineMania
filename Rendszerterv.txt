@@ -25,7 +25,7 @@ spóroljanak meg maguknak, amelyet inkább családjaikkal, barátaikkal
 tölthetnek el, a mozifilmek megtekintése közben.
 ----------------------------------------------------
 
-A rendszer felépítése és működése:
+A rendszer felépítése és működése (Csirak Róbert):
 	A rendszer egy webalkalmazás formájában jelenik meg.
 Alapvetően két fő részből tevődik össze: az oldal menüjéből
 és magából az oldalból amin megjlennek a menpüpontokhoz tartozó
@@ -44,6 +44,35 @@ a felhasználó az egérkurzort egy menüpont fölé viszi. Az aktív
 menüpont színe pedig különböző színü az inaktívakétól. Ennek nem
 csak kinézeti előnye van, a felhasználó ugyanis látja, hogy éppen
 melyik menüponthoz tartozó oldal van betöltve a weboldalra.
+A weboldal Home oldalán, ami alapértelmezetten töltődik be
+az aktuális népszerű filmek jelennek meg és az ezekhez a 
+filmekhez tartozó információk. A Home oldalon háttérképként
+történik ezeknek a filmeknek a megjenítése, ami bizonyos
+időközönként magától változik, de a felhasználó saját kezűleg
+is tudja váltani ezeket. Ehhez a Home oldal jobb és bal szélén
+középen két nyíl található, amire rákattintva megváltozik
+a háttér. A nyilak kinézete a filmekhez tartozó háttérhez
+van igazítva a jól láthatóság érdekében.
+Az oldal bal alsó sarkában továbbá a hátterek számával 
+megegyező számú telített kör található, ezekre rákattintva 
+ugyancsak a háttér változását idézheti elő a felhasználó. 
+Az oldal ezen funkciója azokra az esetekre kiváló, amikor 
+több film található a Home oldalon, ugyanis a felhasználónak
+ilyen esetekben nem kell egyesével végigkattintgatniuk a filmeken
+a nyilakat használva, vagy nem kell megvárniuk míg magától
+végiggörget a rendszer a filmeken, hanem a körökre rákattintva
+megjelenik egyből a megfelelő film értékes időt megspórolva
+ezzel a felhasználónak.
+Ezen az oldalon továbbá akciókkal kapcsolatos információk is
+megjelenhetnek ami lehet akár CineBaros akció, de akár film
+jegyárral kapcsolatos akció is. Ezen az oldalon jeleik meg
+a weboldal létrejöttének dátuma.
+	A következő menüpont a Filmek aloldal. Itt az összes
+olyan film megtalálható amit az elkövetekező időszakban
+a moziban játszani fognak. A filmek egymás alatt jelennek meg,
+minden filmet sql adatbázisból olvassa ki a rendszer és ennek
+megfelelően jeleníti meg az oldalon. Ezen az oldalon érhető
+el a jegyfoglalás. 
 
 ----------------------------------------------------
 Bűcs István
