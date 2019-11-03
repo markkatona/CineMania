@@ -4,7 +4,9 @@ Rendszerterv:
 
 ----------------------------------------------------
 Katona Márk
-
+	
+	A rendszerrol általánosan, jogosultságok, adatbázis táblaszerkezete
+és adatbáziskezelés:
 	A rendszer egy olyan alkalmazást foglal magába, amely a
 CineMania mozi webes jegyfoglaló alkalmazását képezi, egy
 portál-alapú webalkalmazás tervezésével és megvalósításával.
@@ -131,6 +133,72 @@ folyamatban is
 - PR munkatárs, szintén csak olvasási jogokkal rendelkezik,
 legfontosabb feladata a cég népszerusítése valamint, hogy
 képviselje a céget a különbözo közösségi platformokon
+- Fejlesztők, akik elkészítik a webalkalmazást. Olvasási, írási és
+végrehajtási jogokkal egyaránt rendelkeznek. Nagyon fontos
+feladatuk és szerepük van a projektben. Az a céljuk, hogy
+olyan weboldalt készítsenek el a CineMania mozinak, amellyel
+mind a megrendelő, mind pedig a végső felhasználók, azaz a
+mozi leendő látogatói elégedettek legyenek a weboldal által
+nyújtott funkciókkal és szívesen használják a hétköznapok 
+során a mozifilmek böngészésére illetve a mozijegyek foglalására
+illetve megvásárlására.
+- Tesztelők, végrehajtási joggal rendelkeznek, főbb
+feladataik közé tartozik, hogy az alkalmazást a lehető
+legtöbb módon próbálják ki, illetve, hogy minél több eszközön
+próbálják ki a weboldal által kínált összes funkciót. Nagyon
+fontos, hogy az eszközök, amelyeken zajlik a tesztelés
+egymástól különböző felbontással rendelkezzenek. Emellett az
+is fontos, hogy a tesztelés során lefedjék a legtöbb népszerű
+böngészőt, mert lehetséges, hogy az egyes megoldások más-más
+módon valósulnak meg a különböző felépítéssel rendelkező
+böngészőkben. Ha bármilyen rendellenességet fedeznek fel
+a program futásában értesítsék a fejlesztő csapatot, hogy
+minél előbb javításra kerüljön a hiba.
+- Adatbáziskezelők, akik felelnek az adatok rendeltetésszerű
+tárolásáért. Olvasási, írási és végrehajtási jogokkal egyaránt
+rendelkeznek, azért, hogy ha valami rendelleneset észlelnek az
+adatok tárolásában akkor azt tudják könnyeb kiküszöbölni.
+Fontos feladatot látnak el, mivel a mozi összes beregisztrált
+vendégének adatai el vannak mentve az adatbázisba, ezáltal
+fontos, hogy biztonságosan legyenek letárolva ezek az adatok,
+hogy egy esetleges külső támadás esetén ne forduljon elő
+az, hogy a támadók visszaélnek a felhasználók adataival.
+	Az adatbázis táblaszerkezetének megtervezése során a
+legfontosabb tényező az volt, hogy az adatok tárolása logikusan
+történjen és a lehető leghatékonyabb módon. Az általunk használt
+adatbázist egy MySQL szerver biztosítja, a táblaszerkezete pedig
+megtekinthető egy ábra formájában.
+	A felhasználóknak lehetőségük van regisztrálni a 
+weboldalra, azért, hogy ne kelljen minden foglaláskor
+begépeljék a személyes adataikat, természetesen nem kötelező
+regisztrálni a weboldalra, ezeket az adatokat foglalás során is
+meg lehet adni. A regisztrálás lehetősége csak egy kényelmi funkció,
+azoknak akik gyakran látogatnak el a CineMania moziba, és
+időt spórolhatnak meg azzal, ha beregisztrálnak, mert
+ebben az esetben bizonyos adatokat nem kell begépelniük egy
+esetleges vásárlás vagy foglalás esetén. Regisztráláskor a
+következő adatok megadása kötelező: név, email, jelszó,
+de további adatokat is lementhet a felhasználó, megadhatja a 
+telefonszámát, illetve felhasználónevet. Emellett pedig az
+életkorát és a nemét is meg tudja adni a felhasználó. 
+Ezeket az adatokat adatbázisban tároljuk, pontosabban a felhasználói
+adatok táblában, abban az esetben ha beregisztrálnak és abban is,
+ha regisztráció nélkül, közvetlenül a foglalás során adták meg ezeket
+az adatokat. 
+Az adatbázis táblaszerkezete további két táblát is tartalmaz,
+amelyben a vetítéssel illetve megtekintett filmmel kapcsolatos
+adatokat tárolunk. A vetítés adatok táblába kerül mentésre,
+hogy a felhasználó melyik filmre foglalt helyet, melyik típusú
+vetítést választotta(2D, 3D, 4DX), melyik terembe tekintheti meg
+az adott filmet és hogy mennyibe került a jegy.
+A film adatok című táblában pedig a megtekintett filmmel kapcsolatos
+adatok kerülnek mentésre, a film címe, vetítés típusa valamint
+a film megtekintése után a felhasználói értékelések is itt
+kerülnek elmentésre.
+	A weboldal elkészítése során a legfontosabb tényező az, hogy
+a végső alkalmazás mind a megrendelő, mind pedig a végső felhasználók,
+vagyis a CineMania mozi látogatói elégedettek legyenek a weboldal által
+nyújtott funkciókkal. 
 ----------------------------------------------------
 
 A rendszer felépítése és működése (Csirak Róbert):
