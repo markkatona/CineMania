@@ -93,6 +93,44 @@ hogy hogyan fog kinézni a végső weboldal, milyen menüpontokat,
 oldalakat fog tartalmazni és hogy milyen funkciókat fog 
 ellátni. A végső termék azonban bizonyos mértékben eltérhet majd,
 a prototípustól, főleg a design szempontjából.
+	A projektben a következő üzleti szerepkörök vesznek részt,
+és a következő jogosultságokkal rendelkeznek:
+- Vezető, minden jogosultsággal rendelkezik, azaz: irási,
+olvasási és végrehajtási jogokkal, továbbá az Ő elképzeléseinek
+megfelelően zajlik le a CineMania webes felületének tervezése,
+fejlesztése, illetve miután elkészült az alkalmazás a  
+felhasználási módokról is Ő hozza meg a végső döntést. 
+- Rendszergazda, szintén minden jogosultsággal rendszer felett,
+irási, olvasási és végrehajtási jogokkal is rendelkezni kell,
+mivel feladatai közé tartozik a hozzáférések kezelése és a
+rendszer biztonságos mukodese, az ilyen hatásköru feladatokat
+pedig csak akkor tudja elvégezni, ha a teljes informatikai
+hálózathoz hozzáfér és karbantartja azt a megfelelő módon.
+- Könyvelo, olvasasi jogokkal rendelkezik, feladatainak
+megfeleloen hozzáfér az adatokhoz, de változtatni és kitörölni
+nem tudja azokat, feladatai közé tartozik, hogy a cég a
+törvénynek megfeleloen muködjön és, ha szabálytalanságot
+vagy törvénytelenséget tapasztal a cég muködésében kötelessége
+figyelmeztetni a cégvezetojét, hogy a különböző dokumentációs
+problémákat a lehető leggyorsabban orvosolni tudják.
+- Jegyárusító, szintén olvasási jogokkal rendelkezik,
+legfontosabb feladata, hogy kiszolgálja a moziba érkező
+felhasználókat. Meghallgatja a mozi szolgáltatását igénybe vevő
+személyeket, és az igényeiknek megfelelően szolgálja ki őket
+a választott filmre és a választott szabad helyekre foglalja 
+a helyeket.
+- Pénztáros, olvasási jogokkal rendelkezik, hogy hozzáférjen
+melyik jegy pontosan mennyibe kerül. Nagyon fontos szerepe van
+a mozi működésében. Fontos feladata, hogy mindig pontos
+legyen ha visszajárót kell adnia a moziba érkező filmkedvelőknek.
+- HR munkatárs, olvasási jogokkal rendelkezik, fő feladatai
+közé tartozik az, hogy egyeztet a partnerekkel és hozzáférése
+van a cég belso és külso adatbázisaihoz is, meghírdeti az új
+nyitott poziciókat a cégnél és részt vesz az interjúztatási
+folyamatban is
+- PR munkatárs, szintén csak olvasási jogokkal rendelkezik,
+legfontosabb feladata a cég népszerusítése valamint, hogy
+képviselje a céget a különbözo közösségi platformokon
 ----------------------------------------------------
 
 A rendszer felépítése és működése (Csirak Róbert):
