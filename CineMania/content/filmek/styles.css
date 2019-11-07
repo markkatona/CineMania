@@ -27,7 +27,7 @@ body{
 .column2 {
   float: left;
   height: 12em;
-  
+  padding-top: 2.5em;
   border: 0.1em solid green;
   width: 20%;
 
@@ -38,7 +38,6 @@ body{
   
   border: 0.1em solid green;
   width: 60%;
-
 
 }
 .column1, .column2, .column3{
@@ -57,6 +56,7 @@ body{
   width: 25%;
   text-align: center;
   padding-top: 3.5em;
+
   /*margin: 0 auto;*/
 }
 table {
@@ -65,7 +65,7 @@ table {
 	margin-right: 5%;
 	float: left;
   	text-align: center;
-  	padding-top: 3.5em;
+  	
   	-webkit-touch-callout: none; 
     -webkit-user-select: none;   
     -khtml-user-select: none;    
@@ -117,8 +117,8 @@ td{
     width: 70%;
     overflow-x: auto;
   }
-  .column2 > table{
-    padding-top: 7%;
+  .column2{
+    padding-top: 5%;
     /*width: 100%;*/
     /*text-align: center;*/
   }
@@ -144,7 +144,7 @@ td{
     width: 90%;
     height: auto;
   }
-  .column2 >table{
+  .column2{
     padding-top: 7%;
   }
   .column3 > p{
