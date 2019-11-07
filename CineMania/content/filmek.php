@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script type="text/javascript" src="filmek/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="filmek/styles.css">
 </head>
 <body>
 
-<div class="keres">
+<div class="keres" >
 	<form onsubmit="return filmKeresese(this)">
 		<input type="text" name="kereses" id="keresesi mezo">
   		<input type="submit" value="Keresés">
@@ -20,15 +21,17 @@
 		<img src="filmek/filmkepek/Avengers-Endgame.jpg">
 	</div>
 	<div class="column2">
-		<p>szinkron</p>
-		<p>felirat</p>
-		<p>Bosszúállók: Végjáték</p>
-		<p>terem</p>
-		<table oncopy="return false" oncut="return false" onpaste="return false">
+		<table oncopy="return false" oncut="return false" onpaste="return false" >
 			<script>
 				calendar()
 			</script>
 		</table>
+	</div>
+	<div class="column3">
+		<p>szinkron</p>
+		<p>felirat</p>
+		<p>Bosszúállók: Végjáték</p>
+		<p>terem</p>
 	</div>
 	
 </div>
@@ -38,15 +41,17 @@
 		<img src="filmek/filmkepek/Pokember-Idegenben.jpg">
 	</div>
 	<div class="column2">
-		<p>szinkron</p>
-		<p>felirat</p>
-		<p>Pókember: Idegenben</p>
-		<p>terem</p>
 		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
 				calendar()
 			</script>
 		</table>
+	</div>
+	<div class="column3">
+		<p>szinkron</p>
+		<p>felirat</p>
+		<p>Bosszúállók: Végjáték</p>
+		<p>terem</p>
 	</div>
 </div>
 
@@ -55,15 +60,17 @@
 		<img src="filmek/filmkepek/Aladin.jpg">
 	</div>
 	<div class="column2">
-		<p>szinkron</p>
-		<p>felirat</p>
-		<p>Aladin</p>
-		<p>terem</p>
 		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
 				calendar()
 			</script>
 		</table>
+	</div>
+	<div class="column3">
+		<p>szinkron</p>
+		<p>felirat</p>
+		<p>Bosszúállók: Végjáték</p>
+		<p>terem</p>
 	</div>
 </div>
 
@@ -72,15 +79,17 @@
 		<img src="filmek/filmkepek/oroszlankiraly.jpg">
 	</div>
 	<div class="column2">
-		<p>szinkron</p>
-		<p>felirat</p>
-		<p>Oroszlánkirály</p>
-		<p>terem</p>
 		<table oncopy="return false" oncut="return false" onpaste="return false">
 			<script>
 				calendar()
 			</script>
 		</table>
+	</div>
+	<div class="column3">
+		<p>szinkron</p>
+		<p>felirat</p>
+		<p>Bosszúállók: Végjáték</p>
+		<p>terem</p>
 	</div>
 </div>
 

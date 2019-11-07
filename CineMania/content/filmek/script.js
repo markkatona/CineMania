@@ -34,7 +34,7 @@ case 1:
 
 function makeCalendar(year,days,actday){
 	var text;
-	text="<table class=\"calendar\" oncopy=\"return false\" oncut=\"return false\" onpaste=\"return false\"><tr>";
+	text="<table aligne=\"center\" class=\"calendar\" oncopy=\"return false\" oncut=\"return false\" onpaste=\"return false\"><tr>";
 	for (var i = 1; i <= days; i++) {
 		if (i == actday) {
 			text+="<td style=\"color:red;\" id=\"" + i + "\" onclick=\"doSomething(this)\">"+i+"</td>";

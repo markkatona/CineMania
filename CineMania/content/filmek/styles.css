@@ -4,9 +4,13 @@
 }
 body{
 	padding-top: 2.6em;
+  /*min-width:350px;        
+   width: auto !important;  
+   width:350px; */
 }
 .kartyak {
   border: 0.1em solid gray;
+
 }
 .kartyak:after {
   content: "";
@@ -18,16 +22,26 @@ body{
   width: 10%;
   height: 12em;
   border: 0.1em solid green;
+  min-width: 8em;
 }
 .column2 {
   float: left;
   height: 12em;
   
   border: 0.1em solid green;
-  width: 85%;
+  width: 20%;
 
 }
-.column1, .column2{
+.column3 {
+  float: left;
+  height: 12em;
+  
+  border: 0.1em solid green;
+  width: 60%;
+
+
+}
+.column1, .column2, .column3{
   margin-top: 1em;
   margin-bottom: 1em;
   margin-right: 1%;
@@ -38,14 +52,15 @@ body{
 	width: 80%;
 	margin: 9%;
 }
-.column2 p{
+.column3 p{
   float: left;
-  width: 15%;
+  width: 25%;
   text-align: center;
   padding-top: 3.5em;
+  /*margin: 0 auto;*/
 }
 table {
-	width: 30%;
+	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
 	float: left;
@@ -88,4 +103,58 @@ td{
   	border: 3px solid green;
   	padding: 10px;
   	text-align: center;
+}
+/*#keresesi_mezo{
+  width: 100%;
+}*/
+
+@media only screen and (max-width: 950px) {
+  .column1{
+    width: 10em;
+    min-width: 6em;
+  }
+  .column2{
+    width: 70%;
+    overflow-x: auto;
+  }
+  .column2 > table{
+    padding-top: 7%;
+    /*width: 100%;*/
+    /*text-align: center;*/
+  }
+  .column3{
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .column1, .column2, .column3{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+  .column1{
+    /*min-width: 6em;*/
+    height: auto;
+    /*margin: 0;*/
+    padding: 0;
+  }
+  .column1 img{
+    margin: 5%;
+    padding: 0;
+    width: 90%;
+    height: auto;
+  }
+  .column2 >table{
+    padding-top: 7%;
+  }
+  .column3 > p{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1em;
+  }
+
+  input[type=text]{
+    width: 100%;
+  }
 }
