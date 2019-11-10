@@ -43,6 +43,29 @@ oldalakon utánajárni ezen információknak. Valamint ezeket a
 közösségi oldalakat a mozi nem is erre a célra hozta létre,
 valamint mivel ezek az oldalak nem erre lettek kitalálva,
 ezért a fentartásuk is körülményes, valamint költséges.
+	Az emberek nagy része nem csak egy olyan filmet szeretnének 
+megnézni, ami a közeljövőben jellenek meg, hanem van aki 
+szeret előre tervezni. Ebből kifolyólag nagyon hasznos lenne 
+egy olyan oldal, amin előre akár több héttel is meg tudnák 
+nézni az elkövetkezendő filmek listáját, hogy a saját 
+naptárjuk igazítva előre ki tudják választani a nekik 
+legmegfelelőbb időpontot. Sajnos viszont erre nincs lehetőség 
+a jelen helyzetben, ezért a nézők csak egy héttel előre a 
+mozi facebook oldalán, valamint a helyszínen tudják 
+megérdeklődni az elkövetkezendő filmek listáját, ami nagyon 
+kényelmetlen a nézők számára. Sok mozinéző nem egy konkrét 
+filmet akar megnézni, hanem egy bizonyos kategóriájú 
+filmeket keresnek, viszont sajnos a mozinézők számára 
+jelenleg egyáltalán nincs lehetőség, hogy a filmek között 
+kategória alapján tudjanak böngészni, vagy akár kategória 
+alapján megkeresni egy adott filmet. Szóval jelenleg a 
+moziba vágyóknak nincs lehetőségük egy adott weboldalon 
+megtekinteni az összes információt amit meg szeretnének 
+tekinteni az általuk kiválasztott filmről, ami nagyon 
+kényelmetlenné teszi a moziba járást, és akár más mozit is 
+választhatnak a nézők, és megnézhetik ott a kedvelt 
+filmejeiket ezáltal akár jelentős pnzkiesést is előidézve 
+az adott cégnek.
 
 3. Vágyálom rendszer
 
