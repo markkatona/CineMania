@@ -154,7 +154,7 @@
     100% { left: 100%; width: 0%; }
     }*/
 
-    .bg-modal1{
+    .bg-modal1, .bg-modal2 {
     	background-color: rgba(0, 0, 0, 0.8);
     	width: 100%;
     	height: 100%;
@@ -168,6 +168,16 @@
 
     .modal-contents1 {
     	height: 250px;
+    	width: 400px;
+    	background-color: white;
+    	text-align: center;
+    	padding: 20px;
+    	position: relative;
+    	border-radius: 10px;
+    }
+
+    .modal-contents2 {
+    	height: 500px;
     	width: 400px;
     	background-color: white;
     	text-align: center;
@@ -265,12 +275,38 @@
 
     <div class="bg-modal1">
       <div class="modal-contents1">
+        <div class="close1">+</div>
         <form action="">
           <label>Email cím: </label>
           <input type="email" name="email">
           <label>Jelszó: </label>
           <input type="password" name="password">
           <a href="home.php" class="button">Bejelentkezés</a>
+        </form>
+      </div>
+    </div>
+
+    <section class="popup">
+      <div class="popup-content">
+        <a href="#" id="button2" class="button">Regisztráció</a>
+      </div>
+    </section>
+
+    <div class="bg-modal2">
+      <div class="modal-contents2">
+        <div class="close2">+</div>
+        <form action="">
+          <label>Email cím: </label>
+          <input type="email" name="email">
+          <label>Jelszó: </label>
+          <input type="password" name="password">
+          <label>Vezetéknév: </label>
+          <input type="text" name="lastname">
+          <label>Keresztnév: </label>
+          <input type="text" name="firstname">
+          <label>Telefonszám: </label>
+          <input type="text" name="phonenumber">
+          <a href="home.php" class="button">Regisztráció</a>
         </form>
       </div>
     </div>
@@ -338,6 +374,14 @@
       document.querySelector('.close1').addEventListener("click", function() {
 	       document.querySelector('.bg-modal1').style.display = "none";
        });
+
+       document.getElementById('button2').addEventListener("click", function() {
+ 	       document.querySelector('.bg-modal2').style.display = "flex";
+       });
+
+       document.querySelector('.close2').addEventListener("click", function() {
+ 	       document.querySelector('.bg-modal2').style.display = "none";
+        });
 
     </script>
 
