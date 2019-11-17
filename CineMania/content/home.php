@@ -72,11 +72,14 @@
     .movie{
       text-align: center;
       position: absolute;
-      bottom: 20px;
+      bottom: 3px;
       width: 100%;
       color: #f2f2f2;
       font-size: 15px;
-      padding: 5px 0px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      background-color: #222428;
+      opacity: 0.8;
     }
 
     .ImgTransition{
