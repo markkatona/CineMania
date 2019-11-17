@@ -18,7 +18,7 @@
 				$sql = "select film_id, cim from filmek ";
 				$result = $conn->query($sql);
 				while ($eredmeny= mysqli_fetch_row($result) ){
-					echo "<div>" . $eredmeny[0] . $eredmeny[1] ."</div>";
+					echo "<div class='box'>" . $eredmeny[0] . $eredmeny[1] ."</div>";
 				}
 				echo "</table>" ;
 			?>
