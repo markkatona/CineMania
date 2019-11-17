@@ -70,7 +70,7 @@
       transition: background-color .6s ease;
     }
 
-    .navigate:hover {
+    .active, .navigate:hover {
       background-color: #33d6ff;
     }
 
@@ -380,6 +380,7 @@
 
       var i;
       var slides = document.getElementsByClassName("slide");
+      var dots = document.getElementsByClassName("navigate");
 
       if (n > slides.length) {
         pageIndex = 1;
@@ -393,8 +394,12 @@
         slides[i].style.display = "none";
       };
 
-      slides[pageIndex-1].style.display = "block";
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
 
+      slides[pageIndex-1].style.display = "block";
+      dots[pageIndex-1].className += " active";
       }
 
       document.getElementById('button').addEventListener("click", function() {
