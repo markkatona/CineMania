@@ -63,10 +63,15 @@
       cursor: pointer;
       height: 16px;
       width: 16px;
-      background: #585858;
+      background: #00a3cc;
       border-radius: 50%;
       display: inline-block;
       margin-top: 10px;
+      transition: background-color .6s ease;
+    }
+
+    .navigate:hover {
+      background-color: #33d6ff;
     }
 
     .movie{
@@ -285,7 +290,7 @@
 
     </div>
 
-    <div>
+    <div style='text-align: center;'>
       <span class = "navigate" onclick = 'currentSlide(1)'> </span>
       <span class = "navigate" onclick = 'currentSlide(2)'> </span>
       <span class = "navigate" onclick = 'currentSlide(3)'> </span>
