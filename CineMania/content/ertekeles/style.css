@@ -41,4 +41,10 @@ body, html {
 	width: 22%;
 	height: 20%;
 }
+.box:hover{
+	border: 3px solid black;
+}
+.box:active{
+	border: 3px solid red;
+}
 		

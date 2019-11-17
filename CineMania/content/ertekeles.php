@@ -3,10 +3,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="ertekeles/style.css">
+		<script type="text/javascript" src="ertekeles/script.js"></script>
 	</head>
 	<body>
-		<script src="ertekeles/script.js"></script>
-		
 		<div class="bg-image"></div>
 		<div class="content">
 
@@ -18,7 +17,7 @@
 				$sql = "select film_id, cim from filmek ";
 				$result = $conn->query($sql);
 				while ($eredmeny= mysqli_fetch_row($result) ){
-					echo "<div class='box'>" . $eredmeny[0] . $eredmeny[1] ."</div>";
+					echo "<div onclick='clicked()' class='box'>" . $eredmeny[0] . $eredmeny[1] ."</div>";
 				}
 				echo "</table>" ;
 			?>
