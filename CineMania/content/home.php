@@ -223,6 +223,10 @@
 	     }
     }
 
+    .button:hover{
+      background-color: #33d6ff;
+    }
+
     </style>
 
     <div class = "slider">
@@ -388,13 +392,13 @@
 	       document.querySelector('.bg-modal1').style.display = "none";
        });
 
-       document.getElementById('button2').addEventListener("click", function() {
+      document.getElementById('button2').addEventListener("click", function() {
  	       document.querySelector('.bg-modal2').style.display = "flex";
-       });
+      });
 
-       document.querySelector('.close2').addEventListener("click", function() {
+      document.querySelector('.close2').addEventListener("click", function() {
  	       document.querySelector('.bg-modal2').style.display = "none";
-        });
+      });
 
     </script>
 
