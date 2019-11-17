@@ -154,6 +154,52 @@
     100% { left: 100%; width: 0%; }
     }*/
 
+    .bg-modal1{
+    	background-color: rgba(0, 0, 0, 0.8);
+    	width: 100%;
+    	height: 100%;
+      position: absolute;
+    	top: 0;
+      left: 0;
+    	display: none;
+    	justify-content: center;
+    	align-items: center;
+    }
+
+    .modal-contents1 {
+    	height: 250px;
+    	width: 400px;
+    	background-color: white;
+    	text-align: center;
+    	padding: 20px;
+    	position: relative;
+    	border-radius: 10px;
+    }
+
+    input {
+    	margin: 15px auto;
+    	display: block;
+    	width: 50%;
+    	padding: 8px;
+    	border: 1px solid gray;
+    }
+
+    .button {
+      background-color: #00a3cc;
+      border: 2px solid white;
+      border-radius: 30px;
+      text-decoration: none;
+      padding: 10px 28px;
+      color: white;
+      margin-top: 10px;
+      display: inline-block;
+      &:hover {
+      background-color: white;
+      color: $blue;
+      border: 2px solid $blue;
+	     }
+    }
+
     </style>
 
     <div class = "slider">
@@ -211,6 +257,24 @@
       <span class = "navigate" onclick = 'currentSlide(4)'> </span>
     </div>
 
+    <section class="popup">
+      <div class="popup-content">
+        <a href="#" id="button" class="button">Bejelentkezés</a>
+      </div>
+    </section>
+
+    <div class="bg-modal1">
+      <div class="modal-contents1">
+        <form action="">
+          <label>Email cím: </label>
+          <input type="email" name="email">
+          <label>Jelszó: </label>
+          <input type="password" name="password">
+          <a href="home.php" class="button">Bejelentkezés</a>
+        </form>
+      </div>
+    </div>
+
     <script type = "text/javascript">
 
       var pageIndex = 1;
@@ -266,6 +330,14 @@
       slides[pageIndex-1].style.display = "block";
 
       }
+
+      document.getElementById('button').addEventListener("click", function() {
+	       document.querySelector('.bg-modal1').style.display = "flex";
+      });
+
+      document.querySelector('.close1').addEventListener("click", function() {
+	       document.querySelector('.bg-modal1').style.display = "none";
+       });
 
     </script>
 
