@@ -194,6 +194,19 @@
     	border: 1px solid gray;
     }
 
+    .close1, .close2 {
+    	position: absolute;
+    	top: 0;
+    	right: 10px;
+    	font-size: 42px;
+    	color: #00a3cc;
+    	transform: rotate(45deg);
+    	cursor: pointer;
+    	&:hover {
+    	color: #33d6ff;
+    	}
+    }
+
     .button {
       background-color: #00a3cc;
       border: 2px solid white;
