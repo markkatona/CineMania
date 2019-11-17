@@ -35,7 +35,7 @@
     .prev , .next{
       position: absolute;
       top: 50%;
-      font-size: 18px;
+      font-size: 30px;
       font-weight: bold;
       padding: 16px;
       margin-top: -22px;
@@ -46,12 +46,17 @@
 
     .next{
       right: 0;
-      border-radius: 3px 0 0 3px;
+      border-radius: 10px 0px 0px 10px;
     }
 
     .prev {
       left: 0px;
-      border-radius: 3px 0px 0px 3px;
+      border-radius: 0px 10px 10px 0px;
+    }
+
+    .prev:hover, .next:hover {
+      background-color: #00a3cc;
+      color: #f2f2f2;
     }
 
     .navigate {
