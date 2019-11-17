@@ -57,6 +57,7 @@
     .prev:hover, .next:hover {
       background-color: #00a3cc;
       color: #f2f2f2;
+      transition: background-color .5s ease;
     }
 
     .navigate {
