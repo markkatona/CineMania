@@ -32,11 +32,13 @@ body{
 
 }
 .column3 {
-  float: left;
+  overflow:hidden;
   height: 12em;
   
   border: 0.1em solid green;
-  width: 60%;
+  /*width: 60%;*/
+
+  
 
 }
 .column1, .column2, .column3{
@@ -62,7 +64,7 @@ table {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	float: left;
+	/*float: left;*/
   	text-align: center;
   	
   	-webkit-touch-callout: none; 
@@ -110,11 +112,20 @@ td{
 @media only screen and (max-width: 950px) {
   .column1{
     width: 10em;
-    min-width: 6em;
+    /*height: 20em;*/
+    /*height: auto;*/
+    /*min-width: 6em;*/
   }
+  /*.column1 > img {
+    height: 17.5em;
+  }*/
   .column2{
-    width: 70%;
-    overflow-x: auto;
+    width: auto;
+    float: none;
+    overflow: hidden;
+    
+    /*width: 100%;*/
+    /*width: 75%;*/
   }
   .column2{
     padding-top: 5%;
