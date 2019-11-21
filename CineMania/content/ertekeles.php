@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="ertekeles/style.css?version=1">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-		<script type="text/javascript" src="ertekeles/script.js?version=1"></script>
+		<link rel="stylesheet" type="text/css" href="ertekeles/style.css?version=2">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js?version=2"></script>
+		<script type="text/javascript" src="ertekeles/script.js?version=2"></script>
 	</head>
 	<body>
 		<div class="bg-image"></div>
@@ -43,20 +43,20 @@
 		
 		</div>
 		<div id="popup" class="popup"> 
-			<a id='csillag1' href='#'>
-				<div class="popupstar">1</div>
+			<a id='star1' href='#' onmouseover="chbg('yellow',1)" onmouseout="chbg('white',1)">
+				<div id='popupstar1' class="popupstar">1</div>
 			</a>
-			<a id='csillag2' href='#'>
-				<div class="popupstar">2</div>
+			<a id='star2' href='#' onmouseover="chbg('yellow',2)" onmouseout="chbg('white',2)">
+				<div id='popupstar2' class="popupstar">2</div>
 			</a>
-			<a id='csillag3' href='#'>
-				<div class="popupstar">3</div>
+			<a id='star3' href='#' onmouseover="chbg('yellow',3)" onmouseout="chbg('white',3)">
+				<div id='popupstar3' class="popupstar">3</div>
 			</a>
-			<a id='csillag4' href='#'>
-				<div class="popupstar">4</div>
+			<a id='star4' href='#' onmouseover="chbg('yellow',4)" onmouseout="chbg('white',4)">
+				<div id='popupstar4' class="popupstar">4</div>
 			</a>
-			<a id='csillag5' href='#'>
-				<div class="popupstar">5</div>
+			<a id='star5' href='#' onmouseover="chbg('yellow',5)" onmouseout="chbg('white',5)">
+				<div id='popupstar5' class="popupstar">5</div>
 			</a>
 		</div>
 	</body>
