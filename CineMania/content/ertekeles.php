@@ -36,8 +36,14 @@
 				echo "</table>" ;
 				echo "<script> functionnn($row_count); </script>";
 			?>
-			<h2 id="myH2">This is an example h2</h2>
+		
 		</div>
-	
+		<div id="popup" class="popup"> 
+				<div id="csillag1" class="popupstar">1</div>
+				<div id="csillag2" class="popupstar">2</div>
+				<div id="csillag3" class="popupstar">3</div>
+				<div id="csillag4" class="popupstar">4</div>
+				<div id="csillag5" class="popupstar">5</div>
+			</div>
 	</body>
 </html>
