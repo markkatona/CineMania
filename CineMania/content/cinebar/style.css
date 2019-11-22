@@ -1,0 +1,36 @@
+body{
+	padding-top:3%;
+}
+.content{
+	width:100%;
+	height:100%;
+}
+
+.submitcode{
+	width:100%;
+	height:20%;
+}
+
+.products{
+	float: left;
+	width:100%;
+	height:80%;
+}
+
+.popcorns{
+	float: left;
+	width: 33%;
+	height: 100%;
+}
+
+.drinks{
+	float: left;
+	width: 34%;
+	height: 100%;
+}
+
+.nachos{
+	float: left;
+	width: 33%;
+	height: 100%;
+}
