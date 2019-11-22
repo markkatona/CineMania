@@ -1,14 +1,53 @@
-body{
-	padding-top:3%;
+body, html {
+	height: 100%;
 }
+
+.bg-image {
+	background-image: url("randommovies.jpg");
+	filter: blur(6px);
+	-webkit-filter: blur(6px);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.small_pic_row> div, .drinks_row_1>div, .drinks_row_2>div, #popcorn_bigpic, #nacho_bigpic{
+	transition: transform .2s;
+}
+
+.small_pic_row> div:hover,  .drinks_row_1>div:hover, .drinks_row_2>div:hover{
+  transform: scale(1.2); 
+}
+
+#popcorn_bigpic:hover, #nacho_bigpic:hover{
+	transform: scale(1.05); 
+}
+
 .content{
-	width:100%;
-	height:100%;
+	top: 3.5em;
+	z-index: 2;
+	position: absolute;
+	height:90%;
+	width:98%;
 }
 
 .submitcode{
+	justify-content: center;
+    align-items: center;
+	text-align: center;
 	width:100%;
 	height:20%;
+}
+
+#submittext{
+	font-weight: bold;
+	color: white;
+	font-size: 200%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#submitinput{
+	padding: 0.5em;
 }
 
 .products{
@@ -18,19 +57,160 @@ body{
 }
 
 .popcorns{
+	justify-content: center;
+    align-items: center;
+	text-align: center;
 	float: left;
 	width: 33%;
 	height: 100%;
 }
 
+#popcorn_bigpic {
+	background-image: url("popcorns.png");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+	border: 2px solid gray;
+}
+
+#popcorn_text, #nacho_text{
+	font-weight: bold;
+	color: white;
+	font-size: 150%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
 .drinks{
+	padding-top:3em;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
 	float: left;
 	width: 34%;
 	height: 100%;
 }
 
+.drinks_row_1{
+	height: 40%;
+}
+
+.drinks_row_2{
+	height: 40%;
+}
+
 .nachos{
+	justify-content: center;
+    align-items: center;
+	text-align: center;
 	float: left;
 	width: 33%;
 	height: 100%;
+}
+
+#nacho_bigpic {
+	background-image: url("nachos.png");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+	border: 2px solid gray;
+}
+
+.button {
+	font-weight: bold;
+    background-color: #00a3cc;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 28px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+.button:hover{
+    background-color: #33d6ff;
+}
+
+#drink_1{
+	background-image: url("coce.png");
+}
+#drink_2{
+	background-image: url("fanta.png");
+}
+#drink_3{
+	background-image: url("mtdew.png");
+}
+#drink_4{
+	background-image: url("sprite.jpg");
+}
+#drink_5{
+	background-image: url("coce0.jpg");
+}
+#drink_6{
+	background-image: url("fanta0.jpg");
+}
+
+#drink_1, #drink_2, #drink_3, #drink_4, #drink_5, #drink_6{
+	margin: 1em;
+	float: left;
+	height: 100%;
+	width: 25%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+	border: 2px solid gray;
+}
+
+#popcorn_smallpic_1, #popcorn_smallpic_2, #popcorn_smallpic_3, #popcorn_smallpic_4,
+ #nacho_smallpic_1, #nacho_smallpic_2, #nacho_smallpic_3, #nacho_smallpic_4{
+	margin: 1em;
+	float: left;
+	height: 100%;
+	width: 40%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10%;
+	border: 2px solid gray;
+}
+.small_pic_row{
+		height: 18%;
+}
+
+#popcorn_smallpic_1{
+	background-image: url("salt.jpg");
+}
+
+#popcorn_smallpic_2{
+	background-image: url("cheese.jpg");
+}
+
+#popcorn_smallpic_3{
+	background-image: url("butter.jpg");
+}
+
+#popcorn_smallpic_4{
+	background-image: url("caramel.jpg");
+}
+
+#nacho_smallpic_1{
+	background-image: url("avocado.jpg");
+}
+
+#nacho_smallpic_2{
+	background-image: url("spicy.png");
+}
+
+#nacho_smallpic_3{
+	background-image: url("cheese.jpg");
+}
+
+#nacho_smallpic_4{
+	background-image: url("tomato.jpg");
 }
