@@ -2,21 +2,22 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="text/javascript" src="filmek/script.js"></script>
-	<link rel="stylesheet" type="text/css" href="filmek/styles.css">
+	<script type="text/javascript" src="filmek/script.js?version=7"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js?version=7"></script>
+	<link rel="stylesheet" type="text/css" href="filmek/styles.css?version=7">
 </head>
 <body>
 
 <div class="keres" >
 	<form onsubmit="return filmKeresese(this)">
-		<input type="text" name="kereses" id="keresesi mezo">
+		<input type="text" name="kereses" id="keresesi_mezo">
   		<input type="submit" value="Keresés">
   	</form>
 </div>
 
 
 
-<div class="kartyak" id="Bosszúállók: Végjáték">
+<!--<div class="kartyak" id="Bosszúállók: Végjáték">
 	<div class="column1">
 		<img src="filmek/filmkepek/Avengers-Endgame.jpg">
 	</div>
@@ -31,11 +32,14 @@
 		<p>szinkron</p>
 		<p>felirat</p>
 		<p>Bosszúállók: Végjáték</p>
-		<p>terem</p>
+		<p class="terem">
+			<script>
+				setTerem("Bosszúállók: Végjáték","A3");
+			</script>
+		</p>
 	</div>
 	
 </div>
-
 <div class="kartyak" id="Pókember: Idegenben">
 	<div class="column1">
 		<img src="filmek/filmkepek/Pokember-Idegenben.jpg">
@@ -51,7 +55,8 @@
 		<p>szinkron</p>
 		<p>felirat</p>
 		<p>Bosszúállók: Végjáték</p>
-		<p>terem</p>
+		<p>terem
+		</p>
 	</div>
 </div>
 
@@ -91,11 +96,12 @@
 		<p>Bosszúállók: Végjáték</p>
 		<p>terem</p>
 	</div>
-</div>
+</div>-->
 
 <?php include 'filmek/beolvas.php';?>
 
 <script>
+	getData();
 	setColors();
 </script>
 
