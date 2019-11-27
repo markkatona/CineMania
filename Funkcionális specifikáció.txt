@@ -5,25 +5,39 @@ Funkcionális specifikáció:
 
 1. Bevezetés
 
+1.1. Cég munkakörének leírása
+
 Cégünk weboldalak fejlesztésére szakosodott, több éve
-fejlesztünk felhasználói felületeket. Célunk az ügyfeleinknek
-olyan terméket tervezni és megvalósítani, ami nem csupán
-formailag felel meg az elvártaknak, hanem működés szempontjából
-is minőségi. Rengeteg tapasztalattal rendelkezünk minden olyan
-téren, ami elengedhetetlen egy ilyen oldal megvalósításához.
+fejlesztünk felhasználói felületeket. 
+
+1.2. Cég általános bemutatása
+
+Célunk az ügyfeleinknek olyan terméket tervezni és megvalósítani,
+ami nem csupán formailag felel meg az elvártaknak, hanem működés
+szempontjából is minőségi. Rengeteg tapasztalattal rendelkezünk
+minden olyan téren, ami elengedhetetlen egy ilyen oldal megvalósításához.
 Büszkék vagyunk a html és php oldalainkra és továbbra is 
-minőségi termék létrehozására törekszünk. Csapatunk a felvázolt
-webalkalmazást html, php, javascript és css nyelven valósítaná
-meg, mindezek számunkra jól ismert nyelvek, programozóink
-ezekben magas szintű tapasztalattal rendelkeznek.
+minőségi termék létrehozására törekszünk. 
+
+1.3. Jól ismert és használt technológiák
+
+Csapatunk a felvázolt webalkalmazást html, php, javascript
+és css nyelven valósítaná meg, mindezek számunkra jól ismert
+nyelvek, programozóink ezekben magas szintű tapasztalattal
+rendelkeznek.
 
 2. Jelenlegi helyzet
+
+2.1. Mozi működésének általános leírása
 
 	A CineMania nem olyan rég megnyilt, viszont még eddig nem 
 rendelkezett megfelelő webes platformmal, mely kellően ki tudja
 elégíteni a vendégeik igényeit. Jelenleg a jegyek eladása csak
-személyes uton történik, mely sok gondot felvett. A számos
-gond között az egyik ilyen az, hogy a mozikedvelőknek a
+személyes uton történik, mely sok gondot felvett. 
+
+2.2. Jegyeladások típusai
+
+	A számos gond között az egyik ilyen az, hogy a mozikedvelőknek a
 jegyvásárlásra két lehetőségük van, az egyik, hogy valamikor
 eljönnek egy korábbi időpontba, és megveszik akkor a
 jegyeiket, viszont akkor ez plusz utat jelent, ami akkor
@@ -32,8 +46,12 @@ másik lehetőségük az, hogy eljönnek a film kezdete előtt, és
 megveszik akkor a jegyeiket, viszont ebben az esetben
 megtörténhet, hogy már nem maradt jegy és még ha van is jegy,
 akkor is hosszú percekig is sorba állhatnak azért, hogy
-hozzájussanak a jegyeikhez. A mozinak jelen esetben nem sok
-lehetőség van arra, hogy a nézőinek a tudtára adja, hogy
+hozzájussanak a jegyeikhez. 
+
+2.3. Mozifilmek böngészése 
+
+	A mozinak jelen esetben nem sok lehetőség
+van arra, hogy a nézőinek a tudtára adja, hogy
 melyik időpontban melyik film megy, valamint, hogy melyik
 filmre mennyibe kerül a jegy. Jelen esetben a mozizni vágyók
 csak a CineMania közösségi oldalain tudják megnézni, hogy
@@ -43,6 +61,9 @@ oldalakon utánajárni ezen információknak. Valamint ezeket a
 közösségi oldalakat a mozi nem is erre a célra hozta létre,
 valamint mivel ezek az oldalak nem erre lettek kitalálva,
 ezért a fentartásuk is körülményes, valamint költséges.
+
+2.4. Mozifilmek ajánlása
+
 	Az emberek nagy része nem csak egy olyan filmet szeretnének 
 megnézni, ami a közeljövőben jellenek meg, hanem van aki 
 szeret előre tervezni. Ebből kifolyólag nagyon hasznos lenne 
@@ -53,8 +74,11 @@ legmegfelelőbb időpontot. Sajnos viszont erre nincs lehetőség
 a jelen helyzetben, ezért a nézők csak egy héttel előre a 
 mozi facebook oldalán, valamint a helyszínen tudják 
 megérdeklődni az elkövetkezendő filmek listáját, ami nagyon 
-kényelmetlen a nézők számára. Sok mozinéző nem egy konkrét 
-filmet akar megnézni, hanem egy bizonyos kategóriájú 
+kényelmetlen a nézők számára. 
+
+2.5. Filmek kategóriájának szerepei
+
+Sok mozinéző nem egy konkrét filmet akar megnézni, hanem egy bizonyos kategóriájú 
 filmeket keresnek, viszont sajnos a mozinézők számára 
 jelenleg egyáltalán nincs lehetőség, hogy a filmek között 
 kategória alapján tudjanak böngészni, vagy akár kategória 
@@ -69,6 +93,8 @@ az adott cégnek.
 
 3. Vágyálom rendszer
 
+3.1. A webalkalmazás általános leírása
+
 -a CineMania egy mozifilm jegyfoglaló rendszer, ami webes 
 felületen működik
 -a weboldal felső részén a menü található, a következő menügombokkal:
@@ -81,12 +107,16 @@ lefele görget az oldalon
 a home.php-t, a Filmek menüpontra rákattintva megjeleníti
 a Filmek.phpt és így tovább
 
+3.2. A Home oldal funkciói
+
 -a Home menüpont az alkalmazás logójaként jelenik meg
 -a Home oldalon megjelennek az aktuális akciók és reklámok
 (például film értékelés esetén nyeremény sorsolás)
 -megjeleníti még a Home oldal a következőket: aktuális 
 népszerű filmek, egyéb információk (például a weboldal
 létrejöttének dátuma)
+
+3.3. A Filmek  oldal funkciói
 
 -a Filmek oldalon megjelennek azok a filmek, amelyeket az adott
 időszakban a moziban vetíteni fognak
@@ -101,12 +131,16 @@ időszakban a moziban vetíteni fognak
 -a Filmek oldalon egy kereső található, egy film címét beírva
 csak a beírt című filmet jeleníti meg az oldal
 
+3.4. Az Értékelés oldal funkciói
+
 -az Értékelés oldalon az előzőle már vetített filmek jelennek meg
 -a felhasználó ezekre a filmekre tud értékelést adni
 -a filmek esetén megjeleik az átlag értékelés valamit
 az értékelők száma
 -a felhasználó csak arra a filmre tud értékelést adni,
 aminek a jegyét megvásárolta
+
+3.5. Az Árak oldal funkciói
 
 -az Árak oldalon megjelennek a filmek árai:
 	-felnőtt jegy ár
@@ -118,8 +152,12 @@ aminek a jegyét megvásárolta
 	-hétvégén játszott filmek ára
 	-és ezeknek a kombinációi
 
+3.6. Az Elérhetőségek oldal funkciói
+
 -az Elérhetőségek oldalon megjelenik a cég Facebook és
 Twitter oldala, a cég telefonszáma, email címe és címe
+
+3.7. A CineBar oldal funkciói
 
 -a CineBar oldalon megjelennek azok az ételek és italok, 
 amelyeket film közben fogyasztani lehet valamit ezek árai,
@@ -131,54 +169,64 @@ ital után egy ingyen étel jár)
 
 5. Igényelt üzleti folymatok modellje
 
-A rendszer célja, hogy a lehető leggördülékenyebbé tegye a mozifilm
+5.1. A rendszer céljai
+
+	A rendszer célja, hogy a lehető leggördülékenyebbé tegye a mozifilm
 megtekintésének folyamatát. Ez a folyamat a film kíválasztásától,
 egészen addig tart, ami a felhasználó a mozifilm megtekintése
-után elhagyja a CineMania területét. Azt szeretnénk, hogy a 
-felhasználóknak ne jelentsen semmiféle gondot a webes alkalmazásunk
-használata. Ezt azzal próbáljuk elérni, hogy a lehető legegyszerűbbé
-tesszük a használatát és lépésenkénti segítséget nyújtunk a 
-felhasználóknak a mozifilm kiválasztásában és a mozijegy 
+után elhagyja a CineMania területét. 
+
+5.2. Megvalósítás leírása 
+
+Azt szeretnénk, hogy a felhasználóknak ne jelentsen semmiféle gondot
+a webes alkalmazásunk használata. Ezt azzal próbáljuk elérni, hogy a
+lehető legegyszerűbbé tesszük a használatát és lépésenkénti segítséget
+nyújtunk a felhasználóknak a mozifilm kiválasztásában és a mozijegy 
 megvásárlásában.
-->Üzleti szereplõ és munkatárs elemzés:
-	-Üzleti szereplõk elemzése:
+
+5.3. Üzleti szereplõ és munkatárs elemzés:
+	5.3.1. Üzleti szereplõk elemzése:
 		- A rendszerrel kapcsolatba kerülnek a következő szereplők:
 			- Diákok
 			- Dolgozók
 			- Gyerekek
 			- Idősek
-	-Üzleti munkatárs:
+	5.3.2. Üzleti munkatárs:
 		- Vezetõ
 		- Könyvelő
 		- Jegyárusító
 		- Pénztáros
 		- HR munkatárs
 		- PR munkatárs, aki jó kommunikációs képességekkel rendelkezik és
-népszerűsíti az alkalamazást a megfelelő platformokon
+		népszerűsíti az alkalamazást a megfelelő platformokon
 		- Fejlesztők, akik elkészítik az alkalmazást
 		- Tesztelők, akik felelnek az alkalmazás helyes működéséért
 		- Adatbáziskezelők, akik felelnek az adatok rendeltetésszerű tárolásáért
 		- Rendszergazda
-->Üzleti folyamat elemzés:
+
+5.4. Üzleti folyamat elemzés:
 	- Reklámozás, a csapat PR részlegének feladata
 	- Webes alkalmazás, a fejlesztők feladata
 	- Könyvelés, a cég könyvelőjének feladata 
 	- Adatelemzés, alkalmazás által végzett, automatizált folyamat
 	- Alkalmazás használata, a mozijegy foglaló feladata
 	- Fejlesztés, a cég megbízza a fejlesztésért felelős csapatot az alkalmazás
-elkészítésével, minden információt megoszt a fejlesztő csapattal a cég,
-hogy a végtermék a lehető legjobban megfeleljen az igényeiknek.
-->Üzleti entitás elemzés:
+	elkészítésével, minden információt megoszt a fejlesztő csapattal a cég,
+	hogy a végtermék a lehető legjobban megfeleljen az igényeiknek.
+
+5.5. Üzleti entitás elemzés:
 	- Mozitermek, ahol a vendégek megtekinthetik a filmeket
-a lehető legjobb minőségben és legkényelmesebb székekben.
+	a lehető legjobb minőségben és legkényelmesebb székekben.
 	- Kivetítő
 	- Hangtechnika
 	- Étel- és Ital Bár, ahol a legjobb minőségű pop-corn, nachos
-és üdítők kaphatók
+	és üdítők kaphatók
 	- Weboldal, ami a mozijegyek megvásárlása érdekében jött létre
 	- Reklám, hogy minél többen értesüljenek a mozi létezéséről
-->Üzleti folyamatok modellezése és használati esetek modellje(UML diagramm
-formájában is megtekinthető):
+
+
+5.6. Üzleti folyamatok modellezése és használati esetek modellje
+	(UML diagramm formájában is megtekinthető):
 	A filmkedvelő szeretne lazítani és kikapcsolódni egy kicsit
 a szürke hétköznapokból -> Ellátogat a mozi weboldalára ->
 Megnézi a jelenleg vetített filmek listáját -> Talál egy számára
@@ -189,6 +237,9 @@ mert nem kell elmennie jegyet foglalni a moziba és nem kell
 sorbaállnia a pénztárnál a film megtekintése előtt. ->
 Elmegy a moziba megnézni a filmet -> Jól érzi magát a moziban ->
 Elégedetten folytatja a napját.
+
+5.7. Az alkalmazás prototípusa
+
 	Az alkalmazásról készült egy prototípus, azok az információk
 alapján amelyek a követelményspecifikációban szerepeltek.
 Ezeken természetesen még lehet változtatni, mivel a kész alkalmazás
