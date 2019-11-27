@@ -5,29 +5,42 @@ Követelményspecifikáció:
 
 1. Bevezetés
 
+1.1. Általános leírás
+
 	A cégünk története csupán pár évvel ezelőtt, egészen
 pontosan 2016-ban kezdődött. Ekkor elhatároztuk, hogy
 megpróbáljuk valamilyen szinten megváltoztatni a szokásos
 mozizás fogalmát. Szeretnénk gördülékenyebbé tenni a megnézendő
 film kiválasztásától, a film megtekintéséig tartó hosszadalmas
-folyamatot. Legfontosabb célunknak azt tekintjük, hogy a lehető
+folyamatot. 
+
+1.2. Az alkalmazás céljai
+
+	Legfontosabb célunknak azt tekintjük, hogy a lehető
 legjobban megállapítsuk milyen kategóriájú filmekre kíváncsiak
 a filmkedvelők és ennek megfelelően kiválasztani melyik film
 vetítési jogait vásároljuk meg és a premier után mennyi ideig
 vetítsük a mozitermekben. Továbbá nagyon fontosnak tekintjük
 a vásárlóink véleményét, és minden döntés meghozatalában 
-kikérjük az Ő véleményüket is. Ennek megfelelően más moziktól
-eltérő módon, a CinaMania-ban pontrendszer alapján vetítjük a
-filmeket. Ez azt jelenti, hogy a vásárlóink a film megtekintése
-után a mozijegyen szereplő kód beírásával pontozhatják a
-megtekintett filmet. A filmeket egy 1-től 5-ig terjedő skálán
-osztályozhatják a filmkedvelők. Ha az első 2 hét vetítés után
-ez az értékelés 2.5 pont alá esik, az adott film lekerül a
-vetített filmek listájáról. A filmek értékelése számunkra kiemelkedően
-fontos, hogy tudjuk milyen művek vetítésére van igénye a filmkedvelőknek,
-ezért minden ötödik értékelés után a felhasználók, a hatodik moziba
-látogatásukkor egy ingyen popcornt + választott üdítőt kapnak.
-Szükségünk lenne egy olyan webes alkalmazásra, ahol a felhasználók
+kikérjük az Ő véleményüket is. 
+
+1.3. Sajátos értékelési rendszer
+
+	Ennek megfelelően más moziktól eltérő módon, a CinaMania-ban
+pontrendszer alapján vetítjük a filmeket. Ez azt jelenti,
+hogy a vásárlóink a film megtekintése után a mozijegyen szereplő
+kód beírásával pontozhatják a megtekintett filmet. A filmeket egy
+1-től 5-ig terjedő skálán osztályozhatják a filmkedvelők.
+Ha az első 2 hét vetítés után ez az értékelés 2.5 pont alá esik,
+az adott film lekerül a vetített filmek listájáról. 
+A filmek értékelése számunkra kiemelkedően fontos, hogy tudjuk
+milyen művek vetítésére van igénye a filmkedvelőknek, ezért minden 
+ötödik értékelés után a felhasználók, a hatodik moziba látogatásukkor
+egy ingyen popcornt + választott üdítőt kapnak.
+
+1.4. Igényelt funkciók
+
+	Szükségünk lenne egy olyan webes alkalmazásra, ahol a felhasználók
 megtekinthetik a jelenleg vetített filmeket és ezek közül kiválaszthatják
 a számukra legérdekesebb filmet valamint azt, hogy milyen vetítésen
 szeretnék ezt megtenni, illetve kiválaszthatják a számukra legmefelelőbb
@@ -37,10 +50,15 @@ a webes alkalmazásban is.
 
 2. Jelenlegi helyzet
 
+2.1. Főbb hiányosságok
+
 	A CineMania mozitermei 4 hónapja nyíltak meg a felhasználók
 számára. A mozi jelenleg nem rendelkezik webes platformmal, ennek
-véleményünk szerint pedig nagyon sok hátránya van. Az egyik
-hátrány az, hogy a filmkedvelők csak a közösségi oldalunkon
+véleményünk szerint pedig nagyon sok hátránya van. 
+
+2.2. Jelenlegi hátrányok, hiányosságok
+
+Az egyik hátrány az, hogy a filmkedvelők csak a közösségi oldalunkon
 tudják megtekinteni az aktuálisan vetített filmek listáját.
 A másik és egyben legnagyobb hátrány az, hogy webes alkalmazás
 hiányában, a felhasználók nem tudnak online mozijegyet vásárolni,
@@ -52,12 +70,17 @@ egy mindenki számára elérhető, webes alkalmazást készíttetni, az
 
 3. Vágyálom rendszer
 
+3.1. Általános elvárások
+
 -a CineMania egy mozifilm jegyfoglaló rendszer
 -a rendszer webes felületen működik
 -a weboldal tetején egy menü található, a következő menügombokkal:
 Home, Filmek, Értékelés, Áraink, CineBar, Elérhetőségek
 -a menü a weboldal tetején látható marad ha a felhasználó
 legörgeti az oldalt
+
+3.2. A Home oldal leírása
+
 -a Home oldal a menü logójaként jelenik meg
 -tehát a logóra rákattintva a weboldal megjeleníti a home.php-t
 -a menü gombjai külső fájlokat töltsenek be az oldalba
@@ -67,6 +90,9 @@ esetén nyeremény sorsolás)
 -az aktuális népszerű filmek megjelennek a Home oldalon
 -a Home oldalon egyéb információk jelennek meg (például a weboldal
 létrejöttének dátuma)
+
+3.2. A Filmek oldal leírása
+
 -a Filmek oldalon megjelennek azok a filmek, amelyeket az adott
 időszakban a moziban vetíteni fognak
 -ezen az oldalon lehet a filmekre jegyet foglalni
@@ -80,9 +106,15 @@ időszakban a moziban vetíteni fognak
 -a Filmek oldalon egy kereső található
 -a keresőbe egy film címét beírva csak a beírt című filmet
 jeleníti meg az oldal
+
+3.3. Az Értékelés oldal leírása
+
 -az Értékelés oldalon az előzőle már vetített filmek jelennek meg
 -a felhasználó csak arra a filmre tud értékelést adni,
 aminek a jegyét megvásárolta
+
+3.4. Az Árak oldal leírása
+
 -az Árak oldalon megjelennek a filmek árai:
 	-felnőtt jegy vásárlása estén a film ára az alap filmár
 	-diák jegy vásárlása esetén a film ára olcsóbb,
@@ -95,11 +127,17 @@ mint a 3d-s filmár
 	-hétköznap a filmek árai az alap filmárak
 	-hétvégén a filmek árai olcsóbbak,
 mint a hétköznapi filmek árai
+
+3.5. Az Elérhetőségek oldal leírása
+
 -az Elérhetőségek oldalon megjelenik a cég facebook oldala
 -az Elérhetőségek oldalon megjelenik a cég Twitter oldala
 -az Elérhetőségek oldalon megjelenik a cég telefonszáma
 -az Elérhetőségek oldalon megjelenik a cég email címe
 -az Elérhetőségek oldalon megjelenik a cég címe
+
+3.6. A CineBar oldal leírása
+
 -a CineBar oldalon megjelenne azok az ételek és italok, 
 amelyeket film közben fogyasztani lehet
 -az ételek és italok árai is megjelennek
@@ -115,29 +153,30 @@ ingyen étel jár)
 
 5. Igényelt üzleti folymatok modellje
 
--Üzleti szereplő, munkatárs és entitások elemzése:
-	-Üzleti szereplő:
-		- Idős filmkedvelők
-		- Fiatal filmkedvelők
-		- Diákok
-		- Dolgozók
-		- VIP személyek
-	-Üzleti munkatárs:
-		- Takarítók
-		- Jegyárusító
-		- Menedzser
-		- Pénztáros
-		- Felügyelő
-		- Parnerek
-		- Vezető
-	-üzleti entitások:
-		- Kivetítő
-		- Hangfalak
-		- Jegyek
-		- Kényelmes székek
-		- Popcorn
-		- Üditők
--Üzleti folyamat elemzés:
+5.1. Üzleti szereplők elemzése:
+	- Idős filmkedvelők
+	- Fiatal filmkedvelők
+	- Diákok
+	- Dolgozók
+	- VIP személyek
+	
+5.2. Üzleti munkatársak elemzése:
+	- Takarítók
+	- Jegyárusító
+	- Menedzser
+	- Pénztáros
+	- Felügyelő
+	- Parnerek
+	- Vezető
+5.3. Üzleti entitások elemzése:
+	- Kivetítő
+	- Hangfalak
+	- Jegyek
+	- Kényelmes székek
+	- Popcorn
+	- Üditők
+	
+5.4. Üzleti folyamat elemzés:
 	- Vásárlás
 	- Reklámozás
 	- Szolgáltatás
@@ -147,16 +186,18 @@ ingyen étel jár)
 	- Kényelmes használat
 	- Alkalmazás használata
 	- Statisztika
--Üzleti entitás elemzés:
+	
+5.5. Üzleti entitás elemzés:
 	- Jegy
 	- Pénz
 	- Popcorn
 	- Üditők
 	- Reklámok
 	- Weboldal
--Üzleti folyamatok modellezése:
-	a fáradt munkás hazamegy a munkából -> ledöl pihenni -> sok benne a stressz 
-	-> le akarja vezetni a benne lévő feszültséget -> meg akar nézni egy filmet 
-	-> megnézi az weboldalon a mozi kínálatát -> lefoglal egy jegyet a neki legmegfelelőbb időpontra 
-	-> mikor jön a moziba nem kell sorbaálljon a jegyért, hanem egyből elfoglalhatja a helyét
-	
+
+5.6. Üzleti folyamatok modellezése:
+
+a fáradt munkás hazamegy a munkából -> ledöl pihenni -> sok benne a stressz 
+-> le akarja vezetni a benne lévő feszültséget -> meg akar nézni egy filmet 
+-> megnézi az weboldalon a mozi kínálatát -> lefoglal egy jegyet a neki legmegfelelőbb időpontra 
+-> mikor jön a moziba nem kell sorbaálljon a jegyért, hanem egyből elfoglalhatja a helyét
