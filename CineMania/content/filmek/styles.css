@@ -60,7 +60,7 @@ body{
 
   /*margin: 0 auto;*/
 }
-table {
+.calendar {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -74,7 +74,7 @@ table {
     -ms-user-select: none;       
     user-select: none; 
 }
-td:hover{
+.calendar td:hover{
 	background-color: green;
 }
 .popup{
@@ -83,7 +83,7 @@ td:hover{
 	border: 0.1em solid grey;
 
 }
-td{
+.calendar td{
 	cursor:  pointer;
 }
 .popup > p{
@@ -108,6 +108,77 @@ td{
 /*#keresesi_mezo{
   width: 100%;
 }*/
+
+.grayBackground {
+      background-color: rgba(0, 0, 0, 0.8);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
+}
+.foglalgomb{
+  position: absolute;
+  margin: auto;
+    width: 10%;
+    top: 36em;
+    right: 35%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.visszagomb{
+  position: absolute;
+  margin: auto;
+    width: 10%;
+    top: 36em;
+    left: 35%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.terem{
+  position: absolute;
+  margin: auto;
+    width: 10%;
+    top: 11em;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.places {
+  background-color: white;
+  border-radius: 10px;
+  height: 15em;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /*float: left;*/
+    text-align: center;
+    
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none; 
+}
+.places td:hover{
+  background-color: green;
+}
+.places td{
+  cursor:  pointer;
+}
 
 @media only screen and (max-width: 950px) {
   .column1{
