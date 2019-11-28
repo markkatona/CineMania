@@ -244,8 +244,8 @@
     </style>
 
     <div class = "slider">
-
-      <div class="slide ImgTransition">
+      <?php include 'home/beolvas.php';?>
+      <!--<div class="slide ImgTransition">
         <div>
           <img src = "home/1.jpg" style = "max-width:100%; height:auto;">
         </div>
@@ -279,7 +279,7 @@
         <div class = "movie">
           Film 4
         </div>
-      </div>
+      </div>-->
 
     <a class = "prev" onclick = "changePage(-1)">
       &#10094;
@@ -341,6 +341,7 @@
         </form>
       </div>
     </div>
+
 
     <script type = "text/javascript">
 
