@@ -5,11 +5,14 @@ Rendszerterv:
 ----------------------------------------------------
 Katona Márk
 	
-	A rendszerrol általánosan, jogosultságok, adatbázis táblaszerkezete
-és adatbáziskezelés:
+1.1. A projekt leírása
+
 	A rendszer egy olyan alkalmazást foglal magába, amely a
 CineMania mozi webes jegyfoglaló alkalmazását képezi, egy
 portál-alapú webalkalmazás tervezésével és megvalósításával.
+
+1.2. Alkalmazás által teljesített funkciók
+
 	A rendszer célja, hogy a lehető legegyszerűbb és leggördülékenyebb
 megoldást nyújtsa, egy mozifilm megtekintésére, a film
 kiválasztási folyamatától kezdve, a mozi elhagyásáig,
@@ -20,11 +23,17 @@ rendszerünk igénybevételével, a mozifilm megtekintése után,
 a felhasználók kifejezhetik véleményüket a szolgáltatás
 minőségéről, azaz egy 1-től, 5-ig terjedő skálán értékelhetik
 a megtekintett mozifilmet.
+
+1.3. Egyéb elvárások
+
 Továbbá fontosnak tartjuk, hogy a webalkalmazás esztétikusan
 nézzen ki, valamint azt, hogy a felhasználók szívesen használják
 a weboldal által nyújtott lehetőségeket, és ezáltal értékes időt
 spóroljanak meg maguknak, amelyet inkább családjaikkal, barátaikkal
 tölthetnek el, a mozifilmek megtekintése közben.
+
+1.4. Alkalmazás célközönsége
+
 	A mozijegy foglaló alkalmazás célközönségének azokat a 
 filmkedvelőket tartjuk, akik szabadidejükben szeretik böngészni
 a jelenleg moziban vetített filmeket. Erre az alkalmazás
@@ -38,6 +47,9 @@ Ha megtetszik számukra valamelyik film a felhozatalból és
 szeretnék megtekinteni a CineMania moziban, akkor a weboldal
 a film kiválasztásán kívül további funkciókat is biztosít
 a felhasználók számára.
+
+1.5. Legfontosabb fuknciók
+
 	Az alkalmazás által nyújtott legfontosabb funkció, amiért
 elsősorban létrejött ez a webalkalmazás, hogy a felhasználók
 online, anélkül hogy hosszú sorokat kellene kiállniuk a mozi
@@ -56,6 +68,9 @@ fizetni a szolgáltatás árat. Ebben az esetben nem szükséges
 hamarabb megérkezznek, mert a helyük attól függetlenül,
 hogy egyáltalán megérkeznek-e a vetítésre foglalt állapotban
 marad.
+
+1.6. Egyéb funkciók
+
 	A weboldal a filmek böngészésén valamint a jegy foglalási-
 és vásárlási lehetőségeken kívül azonban még nagyon sok hasznos
 és kényelmes funkciót tartogat a felhasználók számára.
@@ -70,11 +85,17 @@ hogy pontosan mit szeretnének fogyasztani a film megtekintése
 közben. Ezzel a szolgáltatással kapcsolatban pedig rengeteg
 információt találhatnak a mozi weboldalára látogatók a
 kezdőoldalon is, ahol a heti akciós ajánlatok tekinthetőek meg.
+
+1.7. Értékelési rendszerről általánosan
+
 	A CineMania működésének legfontosabb tényezője pedig
 nem más mint a felhasználók véleménye. A weboldalon lehetőség
 van értékelni a felhasználóknak a megtekintett filmet, ezáltal
 jobban megállapítható, hogy milyen kategóriájú filmek iránt
 van érdeklődés.
+
+1.8. Mozi elérhetőségei
+
 	A felhasználók az Elérhetőségek menüpontban megtaláhatják
 a CineMania pontos címét, valamint a mozi telefonos elérhetőségeit,
 amelyen keresztül akár helyet is foglalhatnak, ha erre nincs más
@@ -87,6 +108,9 @@ akciókról és a különböző filmes érdekességekről értesülhetnek.
 nyújt arra, hogy könnyebben terjedjen a CineMania híre és népszerűséget
 szerezzen a város közösségi életében, ezáltal pedig kiemelkedjen a
 konkurens mozikhoz képest.
+
+1.9. Prototípus és fejlesztés
+
 	A webalkalmazás elkészítéséért egy négy fős fejlesztő csapat
 felelős, akiknek nyolc hetük lesz megtervezni, elkészíteni, valamint
 tesztelni a CineMania mozi weboldalát. 
@@ -95,44 +119,70 @@ hogy hogyan fog kinézni a végső weboldal, milyen menüpontokat,
 oldalakat fog tartalmazni és hogy milyen funkciókat fog 
 ellátni. A végső termék azonban bizonyos mértékben eltérhet majd,
 a prototípustól, főleg a design szempontjából.
+
+1.10. A szerepkörök jogosultságainak meghatározása
+
 	A projektben a következő üzleti szerepkörök vesznek részt,
 és a következő jogosultságokkal rendelkeznek:
-- Vezető, minden jogosultsággal rendelkezik, azaz: irási,
+
+1.10.1. Vezető jogosultságai:
+
+	Minden jogosultsággal rendelkezik, azaz: irási,
 olvasási és végrehajtási jogokkal, továbbá az Ő elképzeléseinek
 megfelelően zajlik le a CineMania webes felületének tervezése,
 fejlesztése, illetve miután elkészült az alkalmazás a  
-felhasználási módokról is Ő hozza meg a végső döntést. 
-- Rendszergazda, szintén minden jogosultsággal rendszer felett,
+felhasználási módokról is Ő hozza meg a végső döntést.
+
+1.10.2. Rendszergazda jogosultságai:
+ 
+	Szintén minden jogosultsággal rendszer felett,
 irási, olvasási és végrehajtási jogokkal is rendelkezni kell,
 mivel feladatai közé tartozik a hozzáférések kezelése és a
 rendszer biztonságos mukodese, az ilyen hatásköru feladatokat
 pedig csak akkor tudja elvégezni, ha a teljes informatikai
 hálózathoz hozzáfér és karbantartja azt a megfelelő módon.
-- Könyvelo, olvasasi jogokkal rendelkezik, feladatainak
+
+1.10.3. Könyvelő jogosultságai:
+
+	Olvasasi jogokkal rendelkezik, feladatainak
 megfeleloen hozzáfér az adatokhoz, de változtatni és kitörölni
 nem tudja azokat, feladatai közé tartozik, hogy a cég a
 törvénynek megfeleloen muködjön és, ha szabálytalanságot
 vagy törvénytelenséget tapasztal a cég muködésében kötelessége
 figyelmeztetni a cégvezetojét, hogy a különböző dokumentációs
 problémákat a lehető leggyorsabban orvosolni tudják.
-- Jegyárusító, szintén olvasási jogokkal rendelkezik,
-legfontosabb feladata, hogy kiszolgálja a moziba érkező
-felhasználókat. Meghallgatja a mozi szolgáltatását igénybe vevő
-személyeket, és az igényeiknek megfelelően szolgálja ki őket
-a választott filmre és a választott szabad helyekre foglalja 
-a helyeket.
-- Pénztáros, olvasási jogokkal rendelkezik, hogy hozzáférjen
+
+1.10.4. Jegyárusító jogosultságai:
+
+	Olvasási jogokkal rendelkezik, legfontosabb feladata,
+hogy kiszolgálja a moziba érkező felhasználókat. Meghallgatja
+a mozi szolgáltatását igénybe vevő személyeket, és az igényeiknek 
+megfelelően szolgálja ki őket a választott filmre és a választott
+szabad helyekre foglalja a helyeket.
+
+1.10.5. Pénztáros jogosultságai:
+
+	Olvasási jogokkal rendelkezik, hogy hozzáférjen
 melyik jegy pontosan mennyibe kerül. Nagyon fontos szerepe van
 a mozi működésében. Fontos feladata, hogy mindig pontos
 legyen ha visszajárót kell adnia a moziba érkező filmkedvelőknek.
-- HR munkatárs, olvasási jogokkal rendelkezik, fő feladatai
+
+1.10.6. HR munkatárs jogosultságai:
+
+	Olvasási jogokkal rendelkezik, fő feladatai
 közé tartozik az, hogy egyeztet a partnerekkel és hozzáférése
 van a cég belso és külso adatbázisaihoz is, meghírdeti az új
 nyitott poziciókat a cégnél és részt vesz az interjúztatási
-folyamatban is
+folyamatban is.
+
+1.10.7. PR munkatárs jogosultságai:
+
 - PR munkatárs, szintén csak olvasási jogokkal rendelkezik,
 legfontosabb feladata a cég népszerusítése valamint, hogy
-képviselje a céget a különbözo közösségi platformokon
+képviselje a céget a különbözo közösségi platformokon.
+
+1.10.8. Fejlesztők jogosultságai:
+
 - Fejlesztők, akik elkészítik a webalkalmazást. Olvasási, írási és
 végrehajtási jogokkal egyaránt rendelkeznek. Nagyon fontos
 feladatuk és szerepük van a projektben. Az a céljuk, hogy
@@ -142,7 +192,10 @@ mozi leendő látogatói elégedettek legyenek a weboldal által
 nyújtott funkciókkal és szívesen használják a hétköznapok 
 során a mozifilmek böngészésére illetve a mozijegyek foglalására
 illetve megvásárlására.
-- Tesztelők, végrehajtási joggal rendelkeznek, főbb
+
+1.10.9. Tesztelők jogosultságai:
+
+	Végrehajtási joggal rendelkeznek, főbb
 feladataik közé tartozik, hogy az alkalmazást a lehető
 legtöbb módon próbálják ki, illetve, hogy minél több eszközön
 próbálják ki a weboldal által kínált összes funkciót. Nagyon
@@ -154,7 +207,10 @@ módon valósulnak meg a különböző felépítéssel rendelkező
 böngészőkben. Ha bármilyen rendellenességet fedeznek fel
 a program futásában értesítsék a fejlesztő csapatot, hogy
 minél előbb javításra kerüljön a hiba.
-- Adatbáziskezelők, akik felelnek az adatok rendeltetésszerű
+
+1.10.10. Adatbáziskezelők jogosultságai:
+
+	Ők azok, akik felelnek az adatok rendeltetésszerű
 tárolásáért. Olvasási, írási és végrehajtási jogokkal egyaránt
 rendelkeznek, azért, hogy ha valami rendelleneset észlelnek az
 adatok tárolásában akkor azt tudják könnyeb kiküszöbölni.
@@ -163,6 +219,9 @@ vendégének adatai el vannak mentve az adatbázisba, ezáltal
 fontos, hogy biztonságosan legyenek letárolva ezek az adatok,
 hogy egy esetleges külső támadás esetén ne forduljon elő
 az, hogy a támadók visszaélnek a felhasználók adataival.
+
+1.11. Adatbázis táblaszerkezete és adatbáziskezelés
+
 	Az adatbázis táblaszerkezetének megtervezése során a
 legfontosabb tényező az volt, hogy az adatok tárolása logikusan
 történjen és a lehető leghatékonyabb módon. Az általunk használt
@@ -170,10 +229,8 @@ adatbázist egy MySQL szerver biztosítja, a táblaszerkezete pedig
 megtekinthető egy ábra formájában.
 	A felhasználóknak lehetőségük van regisztrálni a 
 weboldalra, azért, hogy ne kelljen minden foglaláskor
-begépeljék a személyes adataikat, természetesen nem kötelező
-regisztrálni a weboldalra, ezeket az adatokat foglalás során is
-meg lehet adni. A regisztrálás lehetősége csak egy kényelmi funkció,
-azoknak akik gyakran látogatnak el a CineMania moziba, és
+begépeljék a személyes adataikat. A regisztrálás lehetősége
+azoknak ajánlott, akik gyakran látogatnak el a CineMania moziba, és
 időt spórolhatnak meg azzal, ha beregisztrálnak, mert
 ebben az esetben bizonyos adatokat nem kell begépelniük egy
 esetleges vásárlás vagy foglalás esetén. Regisztráláskor a
@@ -199,9 +256,12 @@ kerülnek elmentésre.
 a végső alkalmazás mind a megrendelő, mind pedig a végső felhasználók,
 vagyis a CineMania mozi látogatói elégedettek legyenek a weboldal által
 nyújtott funkciókkal. 
-----------------------------------------------------
 
-A rendszer felépítése és működése (Csirak Róbert):
+----------------------------------------------------
+Csirák Róbert
+
+2.1. A rendszer felépítése
+
 	A rendszer egy webalkalmazás formájában jelenik meg.
 Alapvetően két fő részből tevődik össze: az oldal menüjéből
 és magából az oldalból amin megjlennek a menpüpontokhoz tartozó
@@ -213,13 +273,20 @@ növelése érdekében. Összesen hat darab menüpont található
 a menüben és ezek a következők: Home, Filmek, Értékelés, Áraink,
 CineBar, Elérhetőségeink. A menüpontok egyenként különböző
 oldalakat jelenítenek meg ha a felhasználó jobb egérgombbal
-rájuk kattint. Az esztétikus megjelenítést továbbra is figyelembe
+rájuk kattint. 
+
+2.2. Weboldal megjelenése
+
+Az esztétikus megjelenítést továbbra is figyelembe
 véve a menü és az egész oldal színösszetétele e szempont 
 alapján lett kiválaszva. A menüpontok más színre váltanak, ha
 a felhasználó az egérkurzort egy menüpont fölé viszi. Az aktív
 menüpont színe pedig különböző színü az inaktívakétól. Ennek nem
 csak kinézeti előnye van, a felhasználó ugyanis látja, hogy éppen
 melyik menüponthoz tartozó oldal van betöltve a weboldalra.
+
+2.3. Home oldal felépítése és funkciói
+
 A weboldal Home oldalán, ami alapértelmezetten töltődik be
 az aktuális népszerű filmek jelennek meg és az ezekhez a 
 filmekhez tartozó információk. A Home oldalon háttérképként
@@ -243,6 +310,9 @@ Ezen az oldalon továbbá akciókkal kapcsolatos információk is
 megjelenhetnek ami lehet akár CineBaros akció, de akár film
 jegyárral kapcsolatos akció is. Ezen az oldalon jeleik meg
 a weboldal létrejöttének dátuma.
+
+2.4. Filmek oldal felépítése és funkciói
+
 	A következő menüpont a Filmek aloldal. Itt az összes
 olyan film megtalálható amit az elkövetekező időszakban
 a moziban játszani fognak. A filmek egymás alatt jelennek meg,
@@ -265,6 +335,9 @@ hogy elérhető-e szinkron a filmhez, vagy milyen nyelven van
 a film feliratozva. Ennél az oldalnál is a kényelem és az
 esztétika volt a két lefontosabb tényező, ezért minden ennek
 megfelelően lett elkészítve.
+
+2.5. Értékelés oldal felépítése és funkciói
+
 	A harmadik menüpont az értékelés oldalt jeleníti meg,
 itt tudja a felhasználó értékelni azokat a filmeket amiket
 megtekintett a moziban. Az oldalon a filmek sorokban jelennek
@@ -285,6 +358,9 @@ a számmal, akkor egy "értékel" gombra rákattintva már
 értékelte is a filmet. Felhasználónként minden filmre
 csak egy darab értékelés adható elkerülve ezzel az oldal
 felé irányuló támadásokat.
+
+2.6. Áraink, CineBar, Elérhetőségek oldalak funkciói
+
 	A következő három menüpont csupán információkat
 tartalmaz a az árakról, a film közben fogyasztható ételekről
 és italokról, valamit a cég elérhetőségeiről. Így tehát
@@ -304,6 +380,9 @@ rendelkezésre.
 A utolsó, vagyis az Elérhetőségek oldalon a cég elérhetőségei
 jelennek meg, tehát a webalkalmazáshoz tartozó Facebook és Twitter
 oldal, a cég email címe, telefonszáma és címe.
+
+2.7. További célok a weboldal működésével kapcsolatban
+
 	Fontos, egy ilyen méretű rendszer esetén, hogy minden 
 gördülékenyen  működjön, ne legyen várakoztatás, ne legyek bugok
 a rendszerben, ami a felhasználók érdekeit szolgálják és
@@ -315,6 +394,8 @@ a felhasználók igényeit.
 
 ----------------------------------------------------
 Bűcs István
+
+3.1. Tesztelési terv rövid leírása
 
 	Mind a program készítők mind pedig a megrendelők egyik 
 legnagyobb félelme, ha a megrendelt program tele van 
@@ -330,24 +411,34 @@ a részekre tudjuk ezt mondani, amiket leteszteltünk. Ennek
 letesztelni, amelyeket a felhasználók a lehető legtöbbet 
 fogják használni. Valamint maga a program tesztelése számos 
 tényezőt kell figyelembe vegyen.
+
+3.2. Home oldal leírása
+
 	Elősször is, amikor a felhasználó felkeresi a weboldalt, 
 a főoldal fog megjelenni számára, mely minden monitoron, 
 minden felbontásban megfelelően kell megjelenjen. Nem 
 fordulhat elő az, hogy például a felhasználó az oldalt egy 
 telefonos eszközön keresi fel, és az egész oldal úgy 
 jelenik meg, hogy az használhatatlan a felhasználó számára. 
-Ha a felhasználó be akar jelentkezni azt is a főoldalon 
+
+3.3. Bejelentkezés
+
+	Ha a felhasználó be akar jelentkezni azt is a főoldalon 
 teheti meg. A bejelentkezésnek több előnye is van, ezek 
 közül az egyik legjelentősebb, hogy a felhasználónak nem 
 kell minden egyes foglalás esetén beírja az adatait. Ennek 
 érdekében viszont az adatait már a regisztrációkor meg kell 
-adja. A felhasználó a következő adatokat egy regisztráció 
+adja. 
+
+3.4. Regisztráció tesztelése
+
+	A felhasználó a következő adatokat egy regisztráció 
 esetén kötelezően meg kell adja: név, email, jelszó. 
 Valamint megadhat egyéb adatokat is, hogy a rendszer 
 könyebben tudjon neki filmeket ajánlani, például: életkor, 
 nem, és ha szeretné telefonszámot is és egy felhasználónevet 
 is megadhat. Ezen adatok esetén, főleg a kötelező adatok 
-esetén, nagyon fontos, hogy a felhasználó se véletlenü, se 
+esetén, nagyon fontos, hogy a felhasználó se véletlenül, se 
 szándékosan ne tudjon hibás adatokat megadni, mert azoknak 
 komoly következményei is lehetnek. Ennek érdekében le kell 
 tesztelni az összes mező esetén, hogy milyen adatokat fogad 
@@ -361,16 +452,26 @@ karaktersorozat lehet.Az életkor csak számokat tartalmazhat
 16 és 100 közötti értékkel. A névvel ellentétben a 
 felhasználónév akár számokat is tartalmazhat viszont 
 speciális karaktereket ez sem.
+
+3.5. Reszponziv webdesign
+
 	A főoldalon található még egy slideshow az aktuálisan 
 vetített legnépszerőbb filmekről, mely szintén bármilyen 
 felbontásban a lehető legjobban kell megjelenjen, valamint 
 a felhasználó is tudjon váltogatni a képek között, valamint 
 a főoldalra is vissza tudjon jönni bármilyen felbontás 
 mellett.
+
+3.6. Oldalak közötti navigálás
+
 	A weboldal tetején találhatő maga a menü, mely szintén a 
 lehető legjobban kell megjelenjen bármilyen felbontásban, 
 valamint a minden körülmények között el kell lássa a 
-funkcióját. A menü különböző gombjaira kattintva jönnek be 
+funkcióját. 
+
+3.7. Filmek oldal tesztelésének módja
+
+A menü különböző gombjaira kattintva jönnek be 
 a weboldal különböző oldalai, ezek egyike a Filmek oldal, 
 mely számos funkciót tartalmaz, ezáltal itt nagy is a 
 hibalehetőség, valamint az esetleges bug-ok megjelenése. 
@@ -394,6 +495,9 @@ leggyakoribb hiba, hogy egy bizonyos szint után az oldal
 adott elemei elkezdenek egymás alá csúszni ezáltal a 
 kinézetet teljesen tönkretéve, és akár funkcionlis hibákat 
 is okozva.
+
+3.8. Filmek közötti keresés tesztelése
+
 	A filmek oldal egyik másik összetett része az, hogy lehet 
 keresni a filmek között. Ebben is számos hiba merülhet fel, 
 például, hogy a keresés helyes eredménnyel futott e le és 
@@ -402,7 +506,7 @@ filmmel le kell tesztelnünk a keresést. Egy másik lehetséges
 probléma, hogy a "keresésből nincs visszaút", tehát ha 
 egyszer rákerestél valamire, akkor onnantól már csak úgy 
 nézheted meg a többi filmet, ha újratöltöd az egész oldalt. 
-Ez egy nagyon klasszikus hiba, valamint a felhasználkat 
+Ez egy nagyon klasszikus hiba, valamint a felhasználókat 
 eléggé zavarhatja, hogy minden egyes keresés után újra kell 
 tölteniük az oldalt, ami rossz net esetén eléggé idegesítő 
 lehet, valamint nem net számla esetén drágább a kelleténél. 
@@ -426,6 +530,9 @@ vagy megadjuk a nevének egy részét felváltva nagy és kisbetük
 között. Ha ezeken a teszteken átment, akkor tekinthetünk a 
 keresőre egy olyan keresőként, ami megállja a helyet a mai 
 modern weboldalak keresőmotorjai között.
+
+3.9. Helyfoglalás tesztelése
+
 	A Filmek oldal egyik másik sarkalatos pontja maga filmekre 
 való helyfoglalás. A weboldalon úgy lehet helyet foglalni 
 egy adott filmre, hogy elősször is megkeressük azt a filmet, 
