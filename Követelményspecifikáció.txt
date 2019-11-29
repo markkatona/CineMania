@@ -161,8 +161,9 @@ ingyen étel jár)
 	- Menedzser
 	- Pénztáros
 	- Felügyelő
-	- Parnerek
+	- Partnerek
 	- Vezető
+
 4.3. Üzleti entitások elemzése:
 	- Kivetítő
 	- Hangfalak
@@ -215,6 +216,7 @@ a helyszínre, hogy biztos legyen még szabad hely -> Kiállja a hosszú sort, a
 	- Felügyelő
 	- Partnerek
 	- Vezető
+
 5.3. Üzleti entitások elemzése:
 	- Kivetítő
 	- Hangfalak
@@ -248,3 +250,28 @@ a fáradt munkás hazamegy a munkából -> ledöl pihenni -> sok benne a stressz
 -> le akarja vezetni a benne lévő feszültséget -> meg akar nézni egy filmet 
 -> megnézi az weboldalon a mozi kínálatát -> lefoglal egy jegyet a neki legmegfelelőbb időpontra 
 -> mikor jön a moziba nem kell sorbaálljon a jegyért, hanem egyből elfoglalhatja a helyét
+
+6. Követelménylista
+
+6.1. Igényesen megtervezett weboldal
+	- ízléses, modern felület biztosítása a felhasználó számára
+
+6.2. Egyszerű hasznáhatóság
+	- Mindenki számára könnyen használható rendszer tervezése
+
+6.3. Intuitív felhasználói felület
+	- A felhasználó ösztönösen használja az alkalmazást,
+	ne kelljen azon gondolkodnia, hogy egy funkciót hogyan
+	kell rendeltetésszerűen használni
+
+6.4. Regisztráció és bejelentkezés támogatása
+	- Adatok egyszerű bevitele, kényelmes használat biztosítása
+
+6.5. Hasznos információk megosztása
+	- Filmekkel, büfével, elérhetőséggel kapcsolatos információk
+	megosztása a weboldalon
+
+6.6. Egyszerűen módosítható felépítés
+	- Ha változik valamilyen adat, könnyen lehessen implementálni
+	az adatbázisban, például, ha megjelenik egy új film, akkor egyszerűen
+	be lehessen vinni a rendszerbe
