@@ -151,6 +151,53 @@ ingyen étel jár)
 
 4. Jelenlegi üzleti folyamatok modellje
 
+4.1. Üzleti szereplők elemzése:
+	- Diákok
+	- Dolgozók
+	
+4.2. Üzleti munkatársak elemzése:
+	- Takarítók
+	- Jegyárusító
+	- Menedzser
+	- Pénztáros
+	- Felügyelő
+	- Parnerek
+	- Vezető
+4.3. Üzleti entitások elemzése:
+	- Kivetítő
+	- Hangfalak
+	- Jegyek
+	- Kényelmes székek
+	- Popcorn
+	- Üditők
+	
+4.4. Üzleti folyamat elemzés:
+	- Vásárlás
+	- Szolgáltatás
+	- Értékesítés
+	- Könyvelés
+	- Üzemeltetés
+	
+4.5. Üzleti entitás elemzés:
+	- Jegy
+	- Pénz
+	- Popcorn
+	- Üditők
+	- Reklámok
+	- Weboldal
+
+4.6. Üzleti folyamatok modellezése:
+
+A fáradt munkás/tanuló hazaér egy hosszú nap után -> Kikapcsolódásra vágyik a szürke hétköznapokból
+-> Meg akar nézni egy filmet a moziban -> Ellátogat a mozi közösségi oldalára -> Megnézi a jelenleg
+vetített filmek listáját -> A film címén és a vetítés időpontján kívül semmi plusz információt
+nem kapott a filmről a mozi közösségi oldalán -> Rákeres a filmre az interneten -> Úgy dönt, hogy 
+meg szeretné nézni a moziban -> Foglalási lehetőség hiányában elmegy fél órával a vetítés előtt
+a helyszínre, hogy biztos legyen még szabad hely -> Kiállja a hosszú sort, ami a pénztárnál van
+-> Megnézi a filmet, de a sok várakozás miatt nem teljesen elégedett a mozi szolgáltatásaival
+-> Legközelebb más mozit választ a várva várt mozifilm megtekintésére 
+
+
 5. Igényelt üzleti folymatok modellje
 
 5.1. Üzleti szereplők elemzése:
@@ -166,7 +213,7 @@ ingyen étel jár)
 	- Menedzser
 	- Pénztáros
 	- Felügyelő
-	- Parnerek
+	- Partnerek
 	- Vezető
 5.3. Üzleti entitások elemzése:
 	- Kivetítő
