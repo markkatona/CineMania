@@ -257,6 +257,43 @@ a végső alkalmazás mind a megrendelő, mind pedig a végső felhasználók,
 vagyis a CineMania mozi látogatói elégedettek legyenek a weboldal által
 nyújtott funkciókkal. 
 
+1.12. Fejlesztés 
+
+	Az alkalmazás elkészítése során használt technológiák és
+programozási nyelvek:
+- PHP
+- Javascript
+- HTML
+- CSS
+- SQL 
+- phpMyAdmin
+
+1.13. Fizikai környezet
+
+	A felhasználók bármilyen eszközön használhatják az alkalmazást.
+Operációs rendszertől és az eszköz kijelzőjének felbontásától függetlenül
+működik a weboldal. Ahhoz hogy a felhasználók használni tudják a webalkalmazást
+csupán Internet hozzáféréshez van szükségük. Valamint egy modern böngészőre,
+ami lehet: Google Chrome, Mozilla Firefox, Opera, Safari stb.
+
+1.14. Karbantartási terv
+
+	Az alkalmazás elkészulte után sem szűnik meg a kapcsolat megrendelő
+és a fejlesztők között. A cégünk két éves garanciát vállal alapból az
+alkalmazásra. Ha a két éves garanciaidő lejár a megrendelő azt meg tudja
+hosszabítani, ha szeretné. 
+	Ha a megrendelő bármilyen hibát, bug-ot vesz észre az alkalmazásban
+akkor értesíthetnek minket és a fejlesztőink minél gyorsabban megpróbálják
+majd azt kijavítani. Ezt a folyamatot megkönnyíti az, ha a hiba bejelentésekor
+képeket(screenshot-okat) is küldenek, amin pontosan látszik, hogy mikor
+és hol következett be az említett hiba vagy bug. Továbbá a tesztelőink
+is folyamatosan keresni fogják a hibákat, tehát ha a felhasználó nem is
+találja meg a hibát de a tesztelők igen, akkor az ki lesz javítva.
+	Ha a megrendelő alakítani akar a rendszeren vagy fejlesztéseket,
+új dolgokat szeretne belerakni az alkalmazásba akkor szintén szólhat nekünk
+leírva, hogy pontosan mi az elképzelése és a fejlesztők megpróbálják azt
+kivitelezni a lehető legjobb módon.
+
 ----------------------------------------------------
 Csirák Róbert
 
@@ -565,8 +602,5 @@ el, ennek érdekében le kell tesztelnünk valamennyi esetre,
 és ha nem hihető számlaszámot adott meg az illető, akkor 
 azt tudtára kel adja a rendszer, valamint a foglalást nem 
 szabad véglegesítse.
-
-----------------------------------------------------
-
 
 ----------------------------------------------------
