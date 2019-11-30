@@ -4,12 +4,17 @@
 }
 body{
 	padding-top: 2.6em;
+  background-color: #8c8c8c;
+  color: white;
+
   /*min-width:350px;        
    width: auto !important;  
    width:350px; */
 }
 .kartyak {
-  border: 0.1em solid gray;
+  border: 0.1em solid #404040;
+  background-color: #575757;
+  border-radius: 10px;
 }
 .kartyak:after {
   content: "";
@@ -20,14 +25,14 @@ body{
   float: left;
   width: 10%;
   height: 12em;
-  border: 0.1em solid green;
+  border: 0.1em solid #575757;
   min-width: 8em;
 }
 .column2 {
   float: left;
   height: 12em;
   padding-top: 2.5em;
-  border: 0.1em solid green;
+  border: 0.1em solid #575757;
   width: 20%;
 
 }
@@ -35,7 +40,7 @@ body{
   overflow:hidden;
   height: 12em;
   
-  border: 0.1em solid green;
+  border: 0.1em solid #575757;
   /*width: 60%;*/
 
   
@@ -46,6 +51,7 @@ body{
   margin-bottom: 1em;
   margin-right: 1%;
   margin-left: 1%;
+  background-color: #575757;
 }
 .column1 img {
 	height: 10em;
@@ -75,39 +81,56 @@ body{
     user-select: none; 
 }
 .calendar td:hover{
-	background-color: green;
+	background-color: #bc161b;
 }
 .popup{
 	display: none;
 	position: absolute;
-	border: 0.1em solid grey;
-
+	border: 0.1em solid black;
+  border-radius: 10px;
 }
 .calendar td{
 	cursor:  pointer;
 }
 .popup > p{
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #575757;
+  color: white;
 	padding-top: 10%;
 	padding-bottom: 10%;
 	margin-top: 0;
 	margin-bottom: 0;
 }
+.popup > p:first-child{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.popup > p:last-child{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
 .popup > p:not(:first-child){
 	cursor:  pointer;
 }
 .popup > p:not(:first-child):hover{
-	background-color: yellow;
+	background-color: #bc161b;
 }
 .keres{
 	margin: auto;
   	width: 50%;
-  	border: 3px solid green;
+  	/*border: 3px solid green;*/
   	padding: 10px;
   	text-align: center;
 }
-/*#keresesi_mezo{
-  width: 100%;
-}*/
+#keresesi_mezo{
+  background-color: #575757;
+  color: white;
+}
+#kereses_gomb{
+  background-color: #575757;
+  color: white;
+}
 
 .grayBackground {
       background-color: rgba(0, 0, 0, 0.8);
@@ -123,26 +146,30 @@ body{
 
 }
 .foglalgomb{
+  background-color: #575757;
   position: absolute;
   margin: auto;
     width: 10%;
     top: 36em;
     right: 35%;
-    /*border: 3px solid green;*/
+    border: 0.1em solid #404040;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    color: white;
 }
 .visszagomb{
+  background-color: #575757;
   position: absolute;
   margin: auto;
     width: 10%;
     top: 36em;
     left: 35%;
-    /*border: 3px solid green;*/
+    border: 0.1em solid #404040;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    color: white;
 }
 .terem{
   position: absolute;
@@ -152,12 +179,13 @@ body{
     border: 3px solid black;
     padding: 10px;
     text-align: center;
-    background-color: white;
+    background-color: #575757;
+    border: 0.1em solid #404040;
     border-radius: 10px;
 }
 
 .places {
-  background-color: white;
+  background-color: #575757;
   border-radius: 10px;
   height: 15em;
   width: 30%;
