@@ -167,6 +167,59 @@ ital után egy ingyen étel jár)
 
 4. Jelenlegi üzleti folyamatok modellje
 
+4.1. Üzleti szereplők elemzése:
+	- Idős filmkedvelők
+	- Fiatal filmkedvelők
+	- Diákok
+	- Dolgozók
+	- VIP személyek
+	
+4.2. Üzleti munkatársak elemzése:
+	- Takarítók
+	- Jegyárusító
+	- Menedzser
+	- Pénztáros
+	- Felügyelő
+	- Partnerek
+	- Vezető
+
+4.3. Üzleti entitások elemzése:
+	- Kivetítő
+	- Hangfalak
+	- Jegyek
+	- Kényelmes székek
+	- Popcorn
+	- Üditők
+	
+4.4. Üzleti folyamat elemzés:
+	- Vásárlás
+	- Reklámozás
+	- Szolgáltatás
+	- Értékesítés
+	- Könyvelés
+	- Üzemeltetés
+	- Kényelmes használat
+	- Alkalmazás használata
+	- Statisztikai adatok
+	- Filmek értékelése
+	
+4.5. Üzleti entitás elemzés:
+	- Jegy
+	- Pénz
+	- Popcorn
+	- Üditők
+	- Reklámok
+	- Weboldal
+
+4.6. Üzleti folyamatok modellezése:
+
+A fáradt munkás/tanuló hazaér egy hosszú nap után -> Kikapcsolódásra vágyik a szürke hétköznapokból
+-> Meg akar nézni egy filmet a moziban -> Ellátogat a mozi weboldalára -> Megnézi a jelenleg
+vetített filmek listáját -> Megtekintheti a film leírását és egy képet róla -> Úgy dönt, hogy 
+meg szeretné nézni a moziban -> Lefoglalja a weboldalon a helyét -> Nem kell sorbaállnia
+-> Megnézi a filmet, és teljesen elégedett a mozi szolgáltatásaival
+-> Legközelebb is a CineMania-t választja a várva várt mozifilm megtekintésére 
+
 5. Igényelt üzleti folymatok modellje
 
 5.1. A rendszer céljai
@@ -191,6 +244,7 @@ megvásárlásában.
 			- Dolgozók
 			- Gyerekek
 			- Idősek
+
 	5.3.2. Üzleti munkatárs:
 		- Vezetõ
 		- Könyvelő
@@ -249,3 +303,35 @@ közösen megtekintsük, annak érdekében, hogy elkerüljük
 az egyes funkciók hibás implementálását, amely miatt
 nem tudjuk határidőn belül befejezni a CineMania webes
 alkalmazásának elkészítését.
+
+6. Követelménylista megvalósíthatósága
+
+6.1. Igényesen megtervezett weboldal
+	- A weboldal meg fog felelni a legtöbb mai igénynek
+
+6.2. Egyszerű hasznáhatóság
+	- Számunkra fontos, hogy mindenki számára érthető és
+	hasznos funkciókkal lássuk el a felhasználókat
+
+6.3. Intuitív felhasználói felület
+	- A hagyományos weboldalakhoz hasonló megvalósítások,
+	nem szükséges kiemelkedő internetezési tapasztalat a 
+	weboldal használatához
+
+6.4. Regisztráció és bejelentkezés támogatása
+	- Adatok egyszerű bevitele, kényelmes használat biztosítása,
+	jelszavak titkosítása
+
+6.5. Hasznos információk megosztása
+	- Filmekkel, büfével, elérhetőséggel kapcsolatos információk
+	megosztása a weboldalon
+
+6.6. Egyszerűen módosítható felépítés
+	- Ha változik valamilyen adat, könnyen lehessen implementálni
+	az adatbázisban, például, ha megjelenik egy új film, akkor egyszerűen
+	be lehessen vinni a rendszerbe
+
+6.7. Értékelési rendszer bevezetése a filmekhez
+	- Előzetes igényeiknek megfelelően, kidolgoztunk
+	egy megvalósítást arra, hogy a felhasználók értékelni
+	tudjál a megtekintett filmeket
