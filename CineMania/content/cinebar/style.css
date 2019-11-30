@@ -1,16 +1,8 @@
 body, html {
 	height: 100%;
+	background-color: #8c8c8c;
 }
 
-.bg-image {
-	background-image: url("randommovies.jpg");
-	filter: blur(6px);
-	-webkit-filter: blur(6px);
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .small_pic_row> div, .drinks_row_1>div, .drinks_row_2>div, #popcorn_bigpic, #nacho_bigpic{
 	transition: transform .2s;
@@ -25,7 +17,7 @@ body, html {
 }
 
 .content{
-	top: 3.5em;
+	top: 5em;
 	z-index: 2;
 	position: absolute;
 	height:90%;
@@ -42,9 +34,8 @@ body, html {
 
 #submittext{
 	font-weight: bold;
-	color: white;
+	color: #404040;
 	font-size: 200%;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 #submitinput{
 	padding: 0.5em;
@@ -77,9 +68,8 @@ body, html {
 
 #popcorn_text, #nacho_text{
 	font-weight: bold;
-	color: white;
+	color: #404040;
 	font-size: 150%;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
@@ -122,8 +112,8 @@ body, html {
 
 .button {
 	font-weight: bold;
-    background-color: #00a3cc;
-    border: 2px solid white;
+    background-color: #bc161b;
+    border: 2px solid #404040;
     border-radius: 30px;
     text-decoration: none;
     padding: 10px 28px;
@@ -133,7 +123,7 @@ body, html {
   }
 
 .button:hover{
-    background-color: #33d6ff;
+    background-color: #8a1919;
 }
 
 #drink_1{
