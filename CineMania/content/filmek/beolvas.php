@@ -1,9 +1,4 @@
 <?php
-	$myfile = fopen("filmek/idopontok.txt", "r") or die("Unable to open file!");
-	$i = 0;
-	$j = 0;
-	$popups = array();
-	
 	$conn = new mysqli("localhost", "root", "", "cinemania");
 	if ($conn->connect_error) {
 		echo "OH NO";
