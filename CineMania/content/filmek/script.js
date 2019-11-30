@@ -75,9 +75,9 @@ function makePlaces(places){
 			
 			if(arr.includes((i*10+j).toString())){
 				//console.log(i*10+j);
-				text+="<td style=\"background-color:#ff0040;\" id=\"p" + i+j + "\" onclick=\"reserve(this)\">"+i+"</td>";
+				text+="<td style=\"background-color:#ff0040;\" id=\"p" + i+j + "\" onclick=\"reserve(this)\">"+j+"</td>";
 			}else{
-				text+="<td onclick=\"reserve(this)\" id=\"p" + i+j +"\">"+i+"</td>";
+				text+="<td onclick=\"reserve(this)\" id=\"p" + i+j +"\">"+j+"</td>";
 			}
 		}
 		text+="</tr><tr>";
