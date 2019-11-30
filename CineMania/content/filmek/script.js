@@ -47,7 +47,7 @@ function makeCalendar(year,days,actday){
 	text="<table aligne=\"center\" class=\"calendar\" oncopy=\"return false\" oncut=\"return false\" onpaste=\"return false\"><tr>";
 	for (var i = 1; i <= days; i++) {
 		if (i == actday) {
-			text+="<td style=\"color:red;\" id=\"" + i + "\" onclick=\"doSomething(this)\">"+i+"</td>";
+			text+="<td style=\"color:#0d0d0d;\" id=\"" + i + "\" onclick=\"doSomething(this)\">"+i+"</td>";
 		}else{
 			text+="<td onclick=\"doSomething(this)\" id=\"" + i +"\">"+i+"</td>";
 		}
@@ -98,14 +98,17 @@ function placesReserved(){
 	var year= d.getFullYear();
 	var month = d.getMonth();
 	month+=1;
+	console.log(actReservedRoomId);
 	//var filmid=actReservedRoomId.substring(1,actReservedRoomId.search("_"));;
-	var room = actReservedRoomId.parentElement.nextSibling.nextSibling.innerHTML.substr(7,2);
+	var room = actReservedRoomId.parentElement.nextSibling.nextSibling.nextSibling.innerHTML.substr(7,2);
 	var place = actReservedPlaces;
 	var id = actReservedRoomId.parentElement.parentElement.id;
 	var date = id.substr(id.search("_")+1,id.length);
 	var dateid = year+"-"+month+"-"+date+":00.000000";
 	//console.log();
 	console.log(dateid);
+	console.log(room);
+	console.log(place);
 	//document.getElementById(actReservedRoomId).style.display = "none";
 	actReservedRoomId.parentElement.parentElement.style.display = "none";
 	$.ajax({
@@ -468,7 +471,7 @@ function setColors(){
 					day = popups[l].id.substring(popups[l].id.search("_")+1,popups[l].id.length);
 					if((getMovieByName(parent) == movieid)&&( day== td[k].id)){
 						//console.log("bingo");
-						td[k].style.backgroundColor = "lightgreen";
+						td[k].style.backgroundColor = "#bc161b";
 						//element = td[k];
 					}
 					//console.log(parent);
