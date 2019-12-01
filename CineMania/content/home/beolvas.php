@@ -13,7 +13,7 @@ $conn = new mysqli("localhost", "root", "", "cinemania");
 	    	echo
 				"<div class=\"slide ImgTransition\">
 				<div>
-					<img src=\"filmek/filmkepek/" . $row['film_id'] . ".jpg\" style=\"max-width:100%; height:auto;\"></div>
+					<img src=\"home/" . $row['film_id'] . ".jpg\" style=\"max-width:100%; height:auto;\"></div>
 					<div class=\"movie\">" . $row['cim'] . "</div>
 				</div>";
 	    }
