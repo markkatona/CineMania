@@ -56,8 +56,8 @@
     }
 
     .prev:hover, .next:hover {
-      background-color: #00a3cc;
-      color: #f2f2f2;
+      background-color: #575757;
+      color: #bc161b;
       transition: background-color .5s ease;
     }
 
@@ -65,7 +65,7 @@
       cursor: pointer;
       height: 16px;
       width: 16px;
-      background: #00a3cc;
+      background: #575757;
       border-radius: 50%;
       display: inline-block;
       margin-top: 10px;
@@ -73,7 +73,7 @@
     }
 
     .active, .navigate:hover {
-      background-color: #33d6ff;
+      background-color: #bc161b;
     }
 
     .movie{
@@ -236,7 +236,7 @@
     }
 
     .button {
-      background-color: #00a3cc;
+      background-color: #575757;
       border: 2px solid white;
       border-radius: 30px;
       text-decoration: none;
@@ -252,7 +252,7 @@
     }
 
     .button:hover{
-      background-color: #33d6ff;
+      background-color: #bc161b;
     }
 
     </style>
