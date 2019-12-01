@@ -312,7 +312,7 @@
       <span class = "navigate" onclick = 'currentSlide(4)'> </span>
     </div>
 
-    <section class="popup">
+    <!--<section class="popup">
       <div class="popup-content">
         <a href="#" id="button" class="button">Bejelentkezés</a>
       </div>
@@ -354,7 +354,7 @@
           <a href="home.php" class="button">Regisztráció</a>
         </form>
       </div>
-    </div>
+    </div>-->
 
 
     <script type = "text/javascript">
@@ -422,7 +422,7 @@
       dots[pageIndex-1].className += " active";
       }
 
-      document.getElementById('button').addEventListener("click", function() {
+      /*document.getElementById('button').addEventListener("click", function() {
 	       document.querySelector('.bg-modal1').style.display = "flex";
       });
 
@@ -436,7 +436,7 @@
 
       document.querySelector('.close2').addEventListener("click", function() {
  	       document.querySelector('.bg-modal2').style.display = "none";
-      });
+      });*/
 
       pause = () => {
         clearInterval(elapsedTime);
