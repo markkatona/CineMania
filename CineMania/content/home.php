@@ -361,10 +361,14 @@
 
       var pageIndex = 1;
       var elapsedTime;
+      var slideshow;
 
       window.addEventListener("load",function() {
           showPage(pageIndex);
-          elapsedTime = setInterval(function(){changePage(1)}, 3000);
+          elapsedTime = setInterval(function(){changePage(1)}, 5000);
+          slideshow = document.getElementsByClassName('slider')[0];
+          slideshow.addEventListener('mouseenter', pause);
+          slideshow.addEventListener('mouseleave', resume);
       })
 
       function changePage(n){
@@ -376,9 +380,9 @@
         }
 
         if (n === -1){
-          elapsedTime = setInterval(function(){changePage(n + 2)}, 3000);
+          elapsedTime = setInterval(function(){changePage(n + 2)}, 5000);
         } else {
-          elapsedTime = setInterval(function(){changePage(n + 1)}, 3000);
+          elapsedTime = setInterval(function(){changePage(n + 1)}, 5000);
         }
       }
 
@@ -387,7 +391,7 @@
 
         elapsedTime = setInterval(function(){
           changePage(n + 1);
-        }, 3000);
+        }, 5000);
 
         showPage(pageIndex = n);
       }
@@ -433,6 +437,17 @@
       document.querySelector('.close2').addEventListener("click", function() {
  	       document.querySelector('.bg-modal2').style.display = "none";
       });
+
+      pause = () => {
+        clearInterval(elapsedTime);
+      }
+
+      resume = () =>{
+        clearInterval(elapsedTime);
+        elapsedTime = setInterval(function(){
+          changePage(pageIndex);
+        }, 2000);
+      }
 
     </script>
 
