@@ -15,22 +15,28 @@
     font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size:14px;
     padding:90px;
+    background-color: #8c8c8c;
   }
 
   article {
     width:100%;
     max-width:1000px;
     margin:0 auto;
-    height:1000px;
+    height:700px;
     position:relative;
+    background-color: #8c8c8c;
   }
 
   table {
-    border-collapse:collapse; table-layout:fixed; width:100%;
+    border-collapse:collapse;
+    table-layout:fixed;
+    width:100%;
+    height: 50%;
   }
 
   th {
-    background:#F5F5F5; display:none;
+    background-color: #8c8c8c;
+    display:none;
   }
 
   td, th {
@@ -38,7 +44,9 @@
   }
 
   td,th {
-     border:1px solid #DDD; padding:10px; empty-cells:show;
+     border:1px solid #DDD;
+     padding:10px;
+     empty-cells:show;
   }
   td,th {
     text-align:left;
@@ -72,6 +80,8 @@
   .sep {
     background:#F5F5F5;
     font-weight:bold;
+    background-color: #8c8c8c;
+    color: #ffffff;
   }
 
   @media (min-width: 640px) {
@@ -98,7 +108,7 @@
   <table>
 
     <thead>
-      <tr>
+      <tr class="sep">
         <th class="hide"></th>
         <th class="bg-purple">Junior</th>
         <th class="bg-blue">Diák</th>
@@ -113,24 +123,24 @@
         <td colspan="5" class="sep">Vetítés típusai</td>
       </tr>
 
-      <tr>
-        <td class="sep"> 2D </td>
+      <tr class="sep">
+        <td> 2D </td>
         <td><span>1000Ft</span></td>
         <td><span>1100Ft</span></td>
         <td><span>1000Ft</span></td>
         <td><span>1300Ft</span></td>
       </tr>
 
-      <tr>
-        <td class="sep"> 3D </td>
+      <tr class="sep">
+        <td> 3D </td>
         <td><span>1200Ft</span></td>
         <td><span>1300Ft</span></td>
         <td><span>1200Ft</span></td>
         <td><span>1600Ft</span></td>
       </tr>
 
-      <tr>
-        <td class="sep"> 4DX </td>
+      <tr class="sep">
+        <td> 4DX </td>
         <td><span>1600Ft</span></td>
         <td><span>1900Ft</span></td>
         <td><span>1800Ft</span></td>
