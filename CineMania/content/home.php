@@ -17,6 +17,7 @@
       width: 50%;
       height: 50%;
       margin: 70px auto;
+      background-color: #8c8c8c;
     }
 
     .slider {
@@ -84,7 +85,7 @@
       font-size: 15px;
       padding-top: 12px;
       padding-bottom: 12px;
-      background-color: #222428;
+      background-color: #404040;
       opacity: 0.8;
     }
 
