@@ -79,6 +79,19 @@
     .movie{
       text-align: center;
       position: absolute;
+      top: 0px;
+      width: 100%;
+      color: #f2f2f2;
+      font-size: 15px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      background-color: #404040;
+      opacity: 0.8;
+    }
+
+    .description{
+      text-align: center;
+      position: absolute;
       bottom: 3px;
       width: 100%;
       color: #f2f2f2;
