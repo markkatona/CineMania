@@ -24,7 +24,6 @@
     margin:0 auto;
     height:700px;
     position:relative;
-    background-color: #8c8c8c;
   }
 
   table {
@@ -32,15 +31,23 @@
     table-layout:fixed;
     width:100%;
     height: 50%;
+    background-color: #8c8c8c;
   }
 
   th {
-    background-color: #8c8c8c;
     display:none;
   }
 
   td, th {
     height:53px
+  }
+
+  table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+  }
+
+  table tr:last-child td:last-child {
+      border-bottom-right-radius: 10px;
   }
 
   td,th {
@@ -80,7 +87,7 @@
   .sep {
     background:#F5F5F5;
     font-weight:bold;
-    background-color: #8c8c8c;
+    background-color: #575757;
     color: #ffffff;
   }
 
