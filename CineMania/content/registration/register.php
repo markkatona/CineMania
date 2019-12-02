@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration system PHP and MySQL</title>
+  <title>Regisztráció</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="header">
-  	<h2>Register</h2>
+  	<h2>Regisztráció</h2>
   </div>
 	
   <form method="post" action="register.php">
@@ -29,7 +29,7 @@
   	  <input type="email" name="email" value="<?php echo $email; ?>">
   	</div>
   	<div class="input-group">
-  	  <label>Jelszo</label>
+  	  <label>Jelszó</label>
   	  <input type="password" name="password_1">
   	</div>
   	<div class="input-group">
