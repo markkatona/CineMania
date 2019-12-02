@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="ertekeles/style.css?version=2">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js?version=2"></script>
-		<script type="text/javascript" src="ertekeles/script.js?version=2"></script>
+		<link rel="stylesheet" type="text/css" href="ertekeles/style.css?version=3">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js?version=3"></script>
+		<script type="text/javascript" src="ertekeles/script.js?version=3"></script>
 	</head>
 	<body>
 		<div class="bg-image"></div>
