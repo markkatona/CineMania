@@ -97,7 +97,6 @@ function placesReserved(){
 	var d = new Date();
 	var year= d.getFullYear();
 	var month = d.getMonth();
-	month+=1;
 	console.log(actReservedRoomId);
 	//var filmid=actReservedRoomId.substring(1,actReservedRoomId.search("_"));;
 	var room = actReservedRoomId.parentElement.nextSibling.nextSibling.nextSibling.innerHTML.substr(7,2);
