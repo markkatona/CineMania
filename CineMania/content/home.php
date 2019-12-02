@@ -14,7 +14,7 @@
 
     body{
       font-family: Arial;
-      width: 50%;
+      width: 65%;
       height: 50%;
       margin: 70px auto;
       background-color: #8c8c8c;
