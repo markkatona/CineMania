@@ -44,19 +44,19 @@
 		</div>
 		<div id="popup" class="popup"> 
 			<a id='star1' href='#' onmouseover="chbg('yellow',1)" onmouseout="chbg('white',1)">
-				<div id='popupstar1' class="popupstar">1</div>
+				<div id='popupstar1' class="popupstar"></div>
 			</a>
 			<a id='star2' href='#' onmouseover="chbg('yellow',2)" onmouseout="chbg('white',2)">
-				<div id='popupstar2' class="popupstar">2</div>
+				<div id='popupstar2' class="popupstar"></div>
 			</a>
 			<a id='star3' href='#' onmouseover="chbg('yellow',3)" onmouseout="chbg('white',3)">
-				<div id='popupstar3' class="popupstar">3</div>
+				<div id='popupstar3' class="popupstar"></div>
 			</a>
 			<a id='star4' href='#' onmouseover="chbg('yellow',4)" onmouseout="chbg('white',4)">
-				<div id='popupstar4' class="popupstar">4</div>
+				<div id='popupstar4' class="popupstar"></div>
 			</a>
 			<a id='star5' href='#' onmouseover="chbg('yellow',5)" onmouseout="chbg('white',5)">
-				<div id='popupstar5' class="popupstar">5</div>
+				<div id='popupstar5' class="popupstar"></div>
 			</a>
 		</div>
 	</body>
