@@ -97,6 +97,7 @@ function placesReserved(){
 	var d = new Date();
 	var year= d.getFullYear();
 	var month = d.getMonth();
+	month+=1;
 	console.log(actReservedRoomId);
 	//var filmid=actReservedRoomId.substring(1,actReservedRoomId.search("_"));;
 	var room = actReservedRoomId.parentElement.nextSibling.nextSibling.nextSibling.innerHTML.substr(7,2);
@@ -120,7 +121,7 @@ function placesReserved(){
 		},
 		cache: false,
 		success:function(data){
-            //alert(data);
+            alert(data);
         }
 	});
 }
@@ -160,10 +161,10 @@ a = document.getElementById("a");
 		case "Pókember: Idegenben": 
 			movieid = 2;
 			break;
-		case "aladin": 
+		case "Aladin": 
 			movieid = 3;
 			break;
-		case "oroszlánkirály": 
+		case "Az oroszlánkirály": 
 			movieid = 4;
 			break;
 	}
@@ -421,10 +422,10 @@ function getMovieByName(name){
 		case "Pókember: Idegenben": 
 			movieid = 2;
 			break;
-		case "aladin": 
+		case "Aladin": 
 			movieid = 3;
 			break;
-		case "oroszlánkirály": 
+		case "Az oroszlánkirály": 
 			movieid = 4;
 			break;
 	}
