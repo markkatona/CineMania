@@ -27,7 +27,7 @@
 					$id = strval($eredmeny[0]);
 					echo 
 					"<a id='$id' href='#'>" . 
-						"<div class='box'>" 
+						"<div class='box' style=\"background-image: url(home/" . $eredmeny[0] . ".jpg)\">" 
 							. $eredmeny[1] . "<br>" 
 							. $eredmeny[2] . "<br>" 
 							. "<p class='paragraph'> Atlag ertekeles: " . $eredmeny[3] . "</p>" . "<br>" 
