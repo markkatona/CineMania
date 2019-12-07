@@ -1,0 +1,198 @@
+{
+  "id": "cf956dc6-c8a0-48bd-823f-55c82921c7d4",
+  "version": "2.0",
+  "name": "CineMania",
+  "url": "http://localhost/CineMania/",
+  "tests": [{
+    "id": "fcdb86bc-8474-4357-bb01-d1000537e194",
+    "name": "Home_page_dots",
+    "commands": [{
+      "id": "9592f514-9a65-4432-9281-c600194b4df6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CineMania/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9c6cebf-7d64-4250-8ab6-3bf9b00b3348",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67b6dfe4-4aec-4378-b69d-9d1ac5fc5631",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a8dc69f-9461-442d-8076-fb5e2852c231",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(1)",
+      "targets": [
+        ["css=.navigate:nth-child(1)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(1)']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57189f97-04be-4096-8716-851e31836ccf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(2)",
+      "targets": [
+        ["css=.navigate:nth-child(2)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(2)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c2b106-34ea-424f-adcf-0b8ea1b1a422",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(3)",
+      "targets": [
+        ["css=.navigate:nth-child(3)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(3)']", "xpath:attributes"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bf131b2-faf8-49ba-96c9-5bce05fdca37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(4)",
+      "targets": [
+        ["css=.navigate:nth-child(4)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(4)']", "xpath:attributes"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0d32854-5410-4921-a818-e2e2544117c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active",
+      "targets": [
+        ["css=.active", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(4)']", "xpath:attributes"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29ae293f-998c-42ff-9f41-b08a8656f386",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(3)",
+      "targets": [
+        ["css=.navigate:nth-child(3)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(3)']", "xpath:attributes"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71c8b9ac-3c6c-466f-bafd-9035fcde7fd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(2)",
+      "targets": [
+        ["css=.navigate:nth-child(2)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(2)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10a2a5b5-6b17-419d-994c-2606885cf055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(1)",
+      "targets": [
+        ["css=.navigate:nth-child(1)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(1)']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d16d05a-5d72-4925-87dd-e6d64fdccb55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(3)",
+      "targets": [
+        ["css=.navigate:nth-child(3)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(3)']", "xpath:attributes"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c332023-c0a0-468d-9bbf-c3f88eca499e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(2)",
+      "targets": [
+        ["css=.navigate:nth-child(2)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(2)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7f0ceff-0ad6-4e4d-91fc-45902cc93f6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(1)",
+      "targets": [
+        ["css=.navigate:nth-child(1)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(1)']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c83451f-34a2-48ab-9c2a-4273bca9a1e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(4)",
+      "targets": [
+        ["css=.navigate:nth-child(4)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(4)']", "xpath:attributes"],
+        ["xpath=//span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e9f08b-521f-436e-8ee3-d7c2259ce2e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(2)",
+      "targets": [
+        ["css=.navigate:nth-child(2)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(2)']", "xpath:attributes"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56cf4621-7134-438e-9a07-dca4a1a14008",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigate:nth-child(1)",
+      "targets": [
+        ["css=.navigate:nth-child(1)", "css:finder"],
+        ["xpath=//span[@onclick='currentSlide(1)']", "xpath:attributes"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad79fe3e-8c77-4fc7-b129-e41ac989bac0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/", "http://localhost/CineMania/content/registration/login.php?logout=%271%27", "http://localhost/CineMania/"],
+  "plugins": []
+}
