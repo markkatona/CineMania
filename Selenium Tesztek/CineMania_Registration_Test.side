@@ -1,0 +1,206 @@
+{
+  "id": "cf956dc6-c8a0-48bd-823f-55c82921c7d4",
+  "version": "2.0",
+  "name": "CineMania",
+  "url": "http://localhost/CineMania/",
+  "tests": [{
+    "id": "0f73d51b-3dbe-4021-b6f2-559c0a5f7007",
+    "name": "Registration",
+    "commands": [{
+      "id": "9bd6051d-b817-4b31-800f-03b14506fccf",
+      "comment": "",
+      "command": "open",
+      "target": "/CineMania/content/registration/login.php?logout=%271%27",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d3a87d6-253a-474b-b316-b8ff257f516d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23dfc8f9-2860-4766-978c-e6c89c83906d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Regisztrálás",
+      "targets": [
+        ["linkText=Regisztrálás", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Regisztrálás')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'register.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Regisztrálás')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70a4edf4-da6e-43f8-a2e2-bd362e69a718",
+      "comment": "",
+      "command": "click",
+      "target": "name=fname",
+      "targets": [
+        ["name=fname", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='fname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d80a8752-b1ee-4dab-8522-56d693211f8a",
+      "comment": "",
+      "command": "type",
+      "target": "name=fname",
+      "targets": [
+        ["name=fname", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='fname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test1"
+    }, {
+      "id": "996749d4-d0b1-4894-8517-67e103670720",
+      "comment": "",
+      "command": "click",
+      "target": "name=lname",
+      "targets": [
+        ["name=lname", "name"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='lname']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81e5bbde-1ec2-4374-8c2f-716a1dfbb2f5",
+      "comment": "",
+      "command": "type",
+      "target": "name=lname",
+      "targets": [
+        ["name=lname", "name"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='lname']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Test2"
+    }, {
+      "id": "990d6c2c-bc93-4f0b-b07f-6687980beb4a",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "196ffdc1-147b-454f-87c4-85fb2c3ad74f",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.input-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Test3"
+    }, {
+      "id": "704b09db-d50e-451c-aae0-01b4e853141b",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-group:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09eccd86-52d7-43db-a7a1-1eb351c78374",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.input-group:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Test111@gmail.com"
+    }, {
+      "id": "c1083fcf-72b5-4928-9170-6b026fcdf544",
+      "comment": "",
+      "command": "click",
+      "target": "name=password_1",
+      "targets": [
+        ["name=password_1", "name"],
+        ["css=.input-group:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='password_1']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd8b274d-74af-49f3-acd7-2c12ed0a2740",
+      "comment": "",
+      "command": "type",
+      "target": "name=password_1",
+      "targets": [
+        ["name=password_1", "name"],
+        ["css=.input-group:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='password_1']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "dd2e0bd7-1255-4ae0-82d8-f7b8c31c655a",
+      "comment": "",
+      "command": "click",
+      "target": "name=telephone",
+      "targets": [
+        ["name=telephone", "name"],
+        ["css=.input-group:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='telephone']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "808eff62-e23f-4bb6-a877-708ebcb6e621",
+      "comment": "",
+      "command": "type",
+      "target": "name=telephone",
+      "targets": [
+        ["name=telephone", "name"],
+        ["css=.input-group:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='telephone']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "0123456789"
+    }, {
+      "id": "64d133ae-71f9-4176-a71e-5bf632dcec61",
+      "comment": "",
+      "command": "click",
+      "target": "name=reg_user",
+      "targets": [
+        ["name=reg_user", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='reg_user']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Regisztráció')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad79fe3e-8c77-4fc7-b129-e41ac989bac0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/", "http://localhost/CineMania/content/registration/login.php?logout=%271%27", "http://localhost/CineMania/"],
+  "plugins": []
+}
