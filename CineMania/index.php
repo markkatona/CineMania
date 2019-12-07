@@ -107,7 +107,7 @@ iframe {
 <body>
 
 	<div id="menu" class="topnav">
-	  <a id="button0" class="active" href="javascript:loadContent('button0','home.php')">HOME/LOGO</a>
+	  <a id="button0" class="active" href="javascript:loadContent('button0','home.php')"><img src="content/kepek/logo.png"></a>
 	  <a id="button1" href="javascript:loadContent('button1','filmek.php')">FILMEK</a>
 	  <a id="button2" href="javascript:loadContent('button2','ertekeles.php')">ÉRTEKELÉS</a>
 	  <a id="button3" href="javascript:loadContent('button3','araink.php')">ÁRAINK</a>
