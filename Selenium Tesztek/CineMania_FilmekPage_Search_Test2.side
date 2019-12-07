@@ -1,0 +1,357 @@
+{
+  "id": "c9f45006-e6e8-465b-94d6-fb9d3038c1dc",
+  "version": "2.0",
+  "name": "CineManiaFilmekTest",
+  "url": "http://localhost/CineMania/index.php",
+  "tests": [{
+    "id": "ba5f783f-6e11-4c83-b1c1-91a5cc720d49",
+    "name": "Search1",
+    "commands": [{
+      "id": "17770ca1-a90f-4234-b9a2-d68dadd3e899",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CineMania/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c4ac205-a80d-42d7-a711-87b3e0fd4403",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "783x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2d886ba-5596-431d-8749-f08e65b11f77",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["linkText=FILMEK", "linkText"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//a[contains(text(),'FILMEK')]", "xpath:link"],
+        ["xpath=//a[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:loadContent('button1','filmek.php')\")]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'FILMEK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f1756b-bc5d-4d29-8f71-cb3f64edc469",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b0e5959-9d38-48fe-9adf-5179598f8372",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67f69d13-2bf6-4e57-acea-0b0ee1de2793",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bossz"
+    }, {
+      "id": "a3aa45bb-8a42-4885-b8b2-e213221ce6d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19595d6e-e513-4a1d-b63a-5294e3b3737e",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e354797-2582-4bb6-a606-56c3bd30b3ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b05bf77-ee49-4871-bb3a-91a5b735702c",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "942a4fe6-d34e-421a-a125-912fce49683e",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c57df712-6ee8-478c-ac0c-c7deeddcb79d",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ember"
+    }, {
+      "id": "50e00d63-8236-405a-9f0e-940d8aba08fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb763886-809a-4632-b28b-148f4946ccbd",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50a412c1-e9c9-46f4-bedb-4b67c3b2247e",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ALA"
+    }, {
+      "id": "81754d0c-7468-4c38-8db9-7124ff1988d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ee890a8-df5a-4c09-af14-7006bbd934d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a0b26c5-74c0-402e-8ba3-60a5c390d227",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af4a3e7d-cf21-4678-9764-14503561b9d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34abc458-5022-48b2-8844-f81d3963c4ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0b41ba0-0a1d-414a-a143-453afd557829",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "király"
+    }, {
+      "id": "08de2d87-b78d-47c8-b875-2e3c081c3e9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9abe662b-a3a3-4a4f-b589-5884017ce5f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d759d78d-dac8-435b-8066-5ec2779fc690",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "teszt"
+    }, {
+      "id": "eb3bc583-3117-4a84-9a90-39e41c81b79d",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db07ab8c-b88c-4ff5-be8a-cb3d2d03b111",
+      "comment": "",
+      "command": "click",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a581258-2681-407a-8223-fc20d4ba9509",
+      "comment": "",
+      "command": "type",
+      "target": "id=keresesi_mezo",
+      "targets": [
+        ["id=keresesi_mezo", "id"],
+        ["name=kereses", "name"],
+        ["css=#keresesi_mezo", "css:finder"],
+        ["xpath=//input[@id='keresesi_mezo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb5cc1bf-85de-4f67-9886-c54c83a15496",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(2)",
+      "targets": [
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@value='Keresés']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0bb7decd-79de-4b08-9166-fa4d473e0a97",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ba5f783f-6e11-4c83-b1c1-91a5cc720d49"]
+  }],
+  "urls": ["http://localhost/CineMania/index.php"],
+  "plugins": []
+}
