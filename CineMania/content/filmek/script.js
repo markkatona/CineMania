@@ -121,7 +121,7 @@ function placesReserved(){
 		},
 		cache: false,
 		success:function(data){
-            alert(data);
+            //alert(data);
         }
 	});
 }
