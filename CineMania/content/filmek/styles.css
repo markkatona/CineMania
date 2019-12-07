@@ -129,7 +129,15 @@ body{
 }
 #kereses_gomb{
   background-color: #575757;
+  border: 0.1em solid #404040;
+  border-radius: 10px;
   color: white;
+}
+
+#kereses_gomb:hover{
+  background-color: #bc161b;
+  color: white;
+  cursor:  pointer;
 }
 
 .grayBackground {
