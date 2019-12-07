@@ -186,6 +186,17 @@ body{
     border-radius: 10px;
 }
 
+.visszagomb:hover{
+  background-color: #bc161b;
+  color: white;
+  cursor:  pointer;
+}
+.foglalgomb:hover{
+  background-color: #bc161b;
+  color: white;
+  cursor:  pointer;
+}
+
 .places {
   background-color: #575757;
   border-radius: 10px;
