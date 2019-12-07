@@ -1,0 +1,89 @@
+{
+  "id": "cf956dc6-c8a0-48bd-823f-55c82921c7d4",
+  "version": "2.0",
+  "name": "CineMania",
+  "url": "http://localhost/CineMania/",
+  "tests": [{
+    "id": "6d9acb07-53fe-4e0e-b670-61f2f5e61849",
+    "name": "Login",
+    "commands": [{
+      "id": "cb5b1089-459c-4dda-875b-30910c35eed7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CineMania/content/registration/login.php?logout=%271%27",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "364022c7-33e2-4730-8cb0-a167593db000",
+      "comment": "",
+      "command": "click",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e5057c-2629-43dc-81b5-9f57e6b8a9bf",
+      "comment": "",
+      "command": "type",
+      "target": "name=uname",
+      "targets": [
+        ["name=uname", "name"],
+        ["css=.input-group:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='uname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test1"
+    }, {
+      "id": "bffb65ac-244c-4fd5-a73b-422e4add3615",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f24a899-5c8b-4215-9c22-8fc643578311",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-group:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Test1"
+    }, {
+      "id": "6fe72bcd-462b-4314-809f-b6c8664c3e98",
+      "comment": "",
+      "command": "click",
+      "target": "name=login_user",
+      "targets": [
+        ["name=login_user", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@name='login_user']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Bejelentkezés')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad79fe3e-8c77-4fc7-b129-e41ac989bac0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/", "http://localhost/CineMania/content/registration/login.php?logout=%271%27", "http://localhost/CineMania/"],
+  "plugins": []
+}
