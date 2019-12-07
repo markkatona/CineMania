@@ -85,12 +85,12 @@ div.content > p{
 	margin-left: 2em;
 }
 
-.topnav a:hover {
+.topnav a:not(:first-child):hover {
 	background-color: #bc161b;
 	color: white;
 }
 
-.topnav a.active {
+.topnav a:not(:first-child).active {
 	background-color: #bc161b;
 	color: white;
 }
@@ -100,6 +100,12 @@ iframe {
 	width: 100%;
 	height: 100%;
 	position: absolute;
+}
+.topnap > a :first-child{
+	background-color: #575757;
+}
+img{
+	max-width: 60%;
 }
 
 </style>
