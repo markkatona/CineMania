@@ -1,0 +1,182 @@
+{
+  "id": "cf956dc6-c8a0-48bd-823f-55c82921c7d4",
+  "version": "2.0",
+  "name": "CineMania",
+  "url": "http://localhost/CineMania/",
+  "tests": [{
+    "id": "0db503c0-c2f2-4a42-9f2b-fb82a8db4b01",
+    "name": "Foglal",
+    "commands": [{
+      "id": "1fbff29d-fd14-4a8c-b1de-e1d27be25990",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CineMania/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbb4cb00-5005-477d-b161-30168e08c276",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44570898-428e-4168-813e-6afb5533f677",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["linkText=FILMEK", "linkText"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//a[contains(text(),'FILMEK')]", "xpath:link"],
+        ["xpath=//a[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:loadContent('button1','filmek.php')\")]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'FILMEK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "796effa5-aa5e-4a63-9fbe-2cb0bb53c3bf",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "29df6469-db6d-45de-9693-7ff14e30f0e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#P\\F3kember\\3A\\ Idegenben #\\31 3",
+      "targets": [
+        ["css=#P\\F3kember\\3A\\ Idegenben #\\31 3", "css:finder"],
+        ["xpath=(//td[@id='13'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='Pókember: Idegenben']/div[2]/table[2]/tbody/tr[2]/td[6]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/table[2]/tbody/tr[2]/td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f185d1-fc33-49e3-9b06-41893ab71c70",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\32_13 > p:nth-child(2)",
+      "targets": [
+        ["css=#\\32_13 > p:nth-child(2)", "css:finder"],
+        ["xpath=(//p[@onclick='popupDisable(this)'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='2_13']/p[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'18:30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ccc19d2-ff3b-490a-8f6a-b49da844bef0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#v2_13\\ 18\\3A 30 #p66",
+      "targets": [
+        ["css=#v2_13\\ 18\\3A 30 #p63", "css:finder"],
+        ["xpath=(//td[@id='p63'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='v2_13 18:30']/table/tbody/tr[6]/td[3]", "xpath:idRelative"],
+        ["xpath=//div[12]/table/tbody/tr[6]/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b479c2-cabe-4b8a-9561-b3eb35ceaa38",
+      "comment": "",
+      "command": "click",
+      "target": "css=#v2_13\\ 18\\3A 30 > .foglalgomb",
+      "targets": [
+        ["css=#v2_13\\ 18\\3A 30 > .foglalgomb", "css:finder"],
+        ["xpath=(//button[@onclick='placesReserved()'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='v2_13 18:30']/button", "xpath:idRelative"],
+        ["xpath=//div[12]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02af9c0-cb02-4289-8ee3-4c949913c989",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bab395a-bea7-4f98-a778-c18efd5c2605",
+      "comment": "",
+      "command": "click",
+      "target": "id=button1",
+      "targets": [
+        ["id=button1", "id"],
+        ["linkText=FILMEK", "linkText"],
+        ["css=#button1", "css:finder"],
+        ["xpath=//a[contains(text(),'FILMEK')]", "xpath:link"],
+        ["xpath=//a[@id='button1']", "xpath:attributes"],
+        ["xpath=//div[@id='menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:loadContent('button1','filmek.php')\")]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'FILMEK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2678ac3-68dc-486a-81fa-985d78ba9a00",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b6f7deb-ce85-4f48-8fbb-bae321a345f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#P\\F3kember\\3A\\ Idegenben #\\31 3",
+      "targets": [
+        ["css=#P\\F3kember\\3A\\ Idegenben #\\31 3", "css:finder"],
+        ["xpath=(//td[@id='13'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='Pókember: Idegenben']/div[2]/table[2]/tbody/tr[2]/td[6]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/table[2]/tbody/tr[2]/td[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dde0f1b-0381-4d97-87f3-2265198f14af",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\32_13 > p:nth-child(2)",
+      "targets": [
+        ["css=#\\32_13 > p:nth-child(2)", "css:finder"],
+        ["xpath=(//p[@onclick='popupDisable(this)'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='2_13']/p[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'18:30')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc7199e8-6816-4e97-89b2-d924a5e7caa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#v2_13\\ 18\\3A 30 > .visszagomb",
+      "targets": [
+        ["css=#v2_13\\ 18\\3A 30 > .visszagomb", "css:finder"],
+        ["xpath=(//button[@onclick='back()'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='v2_13 18:30']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[12]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad79fe3e-8c77-4fc7-b129-e41ac989bac0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/", "http://localhost/CineMania/content/registration/login.php?logout=%271%27", "http://localhost/CineMania/"],
+  "plugins": []
+}
