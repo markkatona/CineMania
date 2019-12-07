@@ -11,7 +11,7 @@
 <div class="keres" >
 	<form onsubmit="return filmKeresese(this)">
 		<input type="text" name="kereses" id="keresesi_mezo">
-  		<input type="submit" value="Keresés">
+  		<input type="submit" value="Keresés" id="kereses_gomb">
   	</form>
 </div>
 
