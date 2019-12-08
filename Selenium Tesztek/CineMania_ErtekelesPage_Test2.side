@@ -1,0 +1,157 @@
+{
+  "id": "cf956dc6-c8a0-48bd-823f-55c82921c7d4",
+  "version": "2.0",
+  "name": "CineMania",
+  "url": "http://localhost/CineMania/",
+  "tests": [{
+    "id": "fcdb86bc-8474-4357-bb01-d1000537e194",
+    "name": "Ertekeles",
+    "commands": [{
+      "id": "238c4d55-b4f7-425e-99a2-a096048b0104",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/CineMania/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "482431f0-3f6e-4173-9649-29495ced26f0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a668cd1a-cd16-4ea6-a458-f5d9c4c2adcb",
+      "comment": "",
+      "command": "click",
+      "target": "id=button2",
+      "targets": [
+        ["id=button2", "id"],
+        ["linkText=ÉRTEKELÉS", "linkText"],
+        ["css=#button2", "css:finder"],
+        ["xpath=//a[contains(text(),'ÉRTEKELÉS')]", "xpath:link"],
+        ["xpath=//a[@id='button2']", "xpath:attributes"],
+        ["xpath=//div[@id='menu']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:loadContent('button2','ertekeles.php')\")]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'ÉRTEKELÉS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a78f212-7da8-4add-8758-af68d4001b15",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e33e03-f274-4540-89c6-740149b950d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 > .box",
+      "targets": [
+        ["css=#\\31 > .box", "css:finder"],
+        ["xpath=//a[@id='1']/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49c6fbb7-17dd-45e0-9ea9-ee8bdd325d45",
+      "comment": "",
+      "command": "click",
+      "target": "id=popupstar5",
+      "targets": [
+        ["id=popupstar5", "id"],
+        ["css=#popupstar5", "css:finder"],
+        ["xpath=//div[@id='popupstar5']", "xpath:attributes"],
+        ["xpath=//a[@id='star5']/div", "xpath:idRelative"],
+        ["xpath=//a[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b512ebfa-2653-4928-86f0-e2952bd8f16b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\32 > .box",
+      "targets": [
+        ["css=#\\32 > .box", "css:finder"],
+        ["xpath=//a[@id='2']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb3f6a01-a14c-4866-ad00-9dd6e563403d",
+      "comment": "",
+      "command": "click",
+      "target": "id=popupstar4",
+      "targets": [
+        ["id=popupstar4", "id"],
+        ["css=#popupstar4", "css:finder"],
+        ["xpath=//div[@id='popupstar4']", "xpath:attributes"],
+        ["xpath=//a[@id='star4']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fce35f5-6a81-4ca4-a456-5339ef355447",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@id='3']/div/p[2]",
+      "targets": [
+        ["xpath=//a[@id='3']/div/p[2]", "xpath:idRelative"],
+        ["xpath=//a[3]/div/p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Ertekelok szama: 6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7e9a0c-b40c-463b-9bed-7c6bb02f1a8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=popupstar5",
+      "targets": [
+        ["id=popupstar5", "id"],
+        ["css=#popupstar5", "css:finder"],
+        ["xpath=//div[@id='popupstar5']", "xpath:attributes"],
+        ["xpath=//a[@id='star5']/div", "xpath:idRelative"],
+        ["xpath=//a[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e3a015c-08ea-479e-bc55-dd05e0c91131",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\34 > .box",
+      "targets": [
+        ["css=#\\34 > .box", "css:finder"],
+        ["xpath=//a[@id='4']/div", "xpath:idRelative"],
+        ["xpath=//a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c02a282-9e27-4f26-bd28-6c8d6237c7aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=popupstar4",
+      "targets": [
+        ["id=popupstar4", "id"],
+        ["css=#popupstar4", "css:finder"],
+        ["xpath=//div[@id='popupstar4']", "xpath:attributes"],
+        ["xpath=//a[@id='star4']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/a[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ad79fe3e-8c77-4fc7-b129-e41ac989bac0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/", "http://localhost/CineMania/content/registration/login.php?logout=%271%27", "http://localhost/CineMania/"],
+  "plugins": []
+}
