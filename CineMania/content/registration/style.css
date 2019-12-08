@@ -50,6 +50,14 @@ form, .content {
   border: none;
   border-radius: 5px;
 }
+.guest_btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #575757;
+  border: none;
+  border-radius: 5px;
+}
 .error {
   width: 92%; 
   margin: 0px auto; 

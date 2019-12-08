@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css?version=1">
 </head>
 <body>
   <div class="header">
@@ -26,8 +26,8 @@
   	<p>
   		Még nem regisztrált? <a href="register.php">Regisztrálás</a>
   	</p>
-	  	<div class="guest">
-  		<button type="submit" class="guest_btn" name="login_guest">Belépés Vendégként</button>
+	  <div class="input-group">
+  		<button type="submit" class="btn" name="login_guest">Belépés Vendégként</button>
   	</div>
   </form>
 </body>
