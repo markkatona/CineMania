@@ -26,6 +26,9 @@
   	<p>
   		Még nem regisztrált? <a href="register.php">Regisztrálás</a>
   	</p>
+	  	<div class="guest">
+  		<button type="submit" class="guest_btn" name="login_guest">Belépés Vendégként</button>
+  	</div>
   </form>
 </body>
 </html>

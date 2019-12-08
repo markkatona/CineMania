@@ -91,4 +91,33 @@ if (isset($_POST['login_user'])) {
   }
 }
 
+// LOGIN GUEST
+if (isset($_POST['login_guest'])) {
+  $uname = "guest";
+  $password = "guest";
+
+  if (empty($uname)) {
+    array_push($errors, "Felhasználónevet kötelező megadni");
+  }
+  if (empty($password)) {
+    array_push($errors, "Jelszót kötelező megadni");
+  }
+
+  if (count($errors) == 0) {
+    $password = md5($password);
+    echo $password;
+    $query = "SELECT * FROM felhasznalo WHERE felhasznalonev='$uname' AND jelszo='$password'";
+    $results = mysqli_query($db, $query);
+    /*$user = mysqli_fetch_assoc($results);*/
+    if (mysqli_num_rows($results) == 1) {
+      
+      $_SESSION['username'] = $uname;
+      $_SESSION['success'] = "You are now logged in";
+      header('location: ../../index.php');
+    }else {
+      array_push($errors, "Wrong username/password combination");
+    }
+  }
+}
+
 ?>
